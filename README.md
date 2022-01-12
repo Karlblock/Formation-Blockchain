@@ -2,12 +2,13 @@
 
 ### Présentation :
 
-    Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
+Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
 
 
 ### Prérequis : 
 
-   Une formation dans un langage de type javascripts avec des base algorthymique. vous trouverez formation gratuite ou à prix abordable en francais et anglais sur : 
+Une formation dans un langage de type javascripts avec des base algorthymique. vous trouverez formation gratuite ou à prix abordable en francais et anglais sur : 
+
 -   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
 -   [udemy](https://www.udemy.com/)
 
