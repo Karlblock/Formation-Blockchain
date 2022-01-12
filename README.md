@@ -7,7 +7,8 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 
 ### La Formation 
 
-- [Learning Solidity : Chapitre 1 les bases](https://www.youtube.com/watch?v=v_hU0jPtLto)- [Learning Solidity : Chapitre 1 les bases](https://www.youtube.com/watch?v=v_hU0jPtLto)
+- [Learning Solidity : Chapitre 1 les bases](https://www.youtube.com/watch?v=v_hU0jPtLto)
+
 
 
 ### Les outils
