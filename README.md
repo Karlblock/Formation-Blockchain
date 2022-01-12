@@ -1,15 +1,24 @@
 # Formation Blockchain
 
-    ###Présentation :
+    Présentation :
 
     Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
+
+    Prérequis : 
+
+    Avoir fait une formation dans un langage de type - [javascript](https://scrimba.com/learn/learnjavascript/) et avec de bonne base algorthymique. vous pouvez trouver de tres bonne formation gratuite ou à prix abordable en francais et anglais sur : 
+
+-   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
+-   [udemy](https://www.udemy.com/)
+
 
 
 Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm) 
 
 ## La Formation 
 
-- [ La Blockchain : Chapitre 1 les bases](https://github.com/willitscale/learning-solidity/blob/master/tutorial-01/myfirstcontract.sol)
+- [ La Blockchain :](https://fr.wikipedia.org/wiki/Blockchain)
+
 
 ## Les outils
 
