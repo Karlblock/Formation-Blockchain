@@ -7,7 +7,7 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 
 ### La Formation 
 
--- [Learning Solidity : Chapitre 1 les bases ](https://www.youtube.com/watch?v=v_hU0jPtLto)
+- [Learning Solidity : Chapitre 1 les bases](https://www.youtube.com/watch?v=v_hU0jPtLto)
 
 
 ### Les outils
@@ -17,8 +17,8 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 ** geth
 ### Mes sources 
 
-- [willitscale] (https://github.com/willitscale)
+- [willitscale](https://github.com/willitscale)
 
 ### les Tutos : 
 
-Comprendre la blockchain -[Maths Adultes] (https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
+Comprendre la blockchain - [Maths Adultes](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
