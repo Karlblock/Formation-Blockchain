@@ -32,6 +32,6 @@ Comprendre la blockchain - [Maths Adultes (FR)](https://www.youtube.com/watch?v=
 
 - [Le mystere Satoishi (Fr)](https://www.youtube.com/watch?v=0ETcLj5jBy4)
 
-**🙏🙏 Address eth de donation : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
+**🙏🙏 Tips : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
 
 
