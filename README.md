@@ -1,6 +1,6 @@
 # OpenKarl
 
-je construis ma formation pour travailler sur cette nouvelle technologie 
+je construis ma formation pour travailler sur cette nouvelle technologie " La blockchain " 
 
 Vous pouvez me retrouver sur mon discord 
 
