@@ -1,7 +1,7 @@
 
 Les prérequis :
 
-    vérifier les versions de votre env :
+vérifier les versions de votre env :
 
     PS D:\DEV\FORMATION\Openkarl> node -v
     v16.13.1
