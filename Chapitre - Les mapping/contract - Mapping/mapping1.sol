@@ -12,6 +12,6 @@ contract testMapping {
 
       receive() external payable {
           //msg.value
-          //msg.value
+
         Balances[msg.sender] = msg.value;
 }
