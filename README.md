@@ -7,7 +7,7 @@
 
 ### Prérequis : 
 
-    Avoir fait une formation dans un langage de type javascripts et avec de bonne base algorthymique. vous pouvez trouver de tres bonne formation gratuite ou à prix abordable en francais et anglais sur : 
+   Une formation dans un langage de type javascripts avec des base algorthymique. vous trouverez formation gratuite ou à prix abordable en francais et anglais sur : 
 -   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
 -   [udemy](https://www.udemy.com/)
 
