@@ -11,7 +11,7 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 
 
 
-### Les outils
+## Les outils
 
  - [**web3.js - La librairie du Web3](https://web3js.readthedocs.io/en/v1.5.2/getting-started.html)
  - [**Geth - nodeEth en Go](https://geth.ethereum.org/docs/getting-started)
@@ -19,14 +19,14 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
  - [**Truffle La suite - local network eth ](https://trufflesuite.com/)
 
 
-### Mes sources 
+## Mes sources 
 
 - [Ben-BK (FR)](https://www.youtube.com/watch?v=xtEQGtaT9MY&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
 - [willitscale (EN)](https://github.com/willitscale)
 
 
 
-### les Tutos : 
+## les Tutos : 
 
 Comprendre la blockchain - [Maths Adultes (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
 
