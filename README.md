@@ -33,8 +33,8 @@ Comprendre la blockchain - [Maths Adultes (FR)](https://www.youtube.com/watch?v=
 
 ## Documentation 
 
-[Solidity FR latest :](https://solidity-fr.readthedocs.io/fr/latest/) 
-[latest EN](https://docs.soliditylang.org/en/v0.8.11/)
+- [Solidity FR latest :](https://solidity-fr.readthedocs.io/fr/latest/) 
+- [latest EN](https://docs.soliditylang.org/en/v0.8.11/)
 
 
 ## Les vidéos / Documentaires :
