@@ -19,12 +19,18 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
  - [**HardHat - env de test Smart contract](https://hardhat.org/getting-started/#overview)
  - [**Truffle La suite - local network eth ](https://trufflesuite.com/)
 ### Mes sources 
+
 - [Ben-BK (FR)](https://www.youtube.com/watch?v=xtEQGtaT9MY&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
 - [willitscale (EN)](https://github.com/willitscale)
 
 ### les Tutos : 
 
 Comprendre la blockchain - [Maths Adultes (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
+
+
+## Les vidéos / Documentaires :
+
+- [Le mystere Satoishi (Fr)](https://www.youtube.com/watch?v=0ETcLj5jBy4)
 
 **🙏🙏 Address eth de donation : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
 
