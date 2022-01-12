@@ -7,7 +7,7 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 
 ### La Formation 
 
-- [Learning Solidity : Chapitre 1 les bases](https://www.youtube.com/watch?v=v_hU0jPtLto)
+- [ La Blockchain : Chapitre 1 les bases](https://github.com/willitscale/learning-solidity/blob/master/tutorial-01/myfirstcontract.sol)
 
 
 
