@@ -19,7 +19,7 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 ## La Formation 
 
 - [La Blockchain :](https://fr.wikipedia.org/wiki/Blockchain)
-- [ Ethereum Solidity :](https://fr.wikipedia.org/wiki/Ethereum)
+- [Ethereum Solidity :](https://fr.wikipedia.org/wiki/Ethereum)
 
 
 ## Les outils
