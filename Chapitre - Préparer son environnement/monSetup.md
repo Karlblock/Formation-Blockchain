@@ -6,15 +6,15 @@ Les prérequis :
 
 Crée ton repertoire  et initié ton environement  : 
 
-    ```mkdir tonDossier 
+    mkdir tonDossier 
     cd tonDossier :
     npm init -y
     npm install --save-dev hardhat
     npx hardhat
-    npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers ```
+    npm install --save-dev @nomiclabs/hardhat-waffle ethereum-waffle chai @nomiclabs/hardhat-ethers ethers
 
 Faire son premier test : 
 
-   ``` npx hardhat accounts
+    npx hardhat accounts
     npx hardhat compile  
-    npx hardhat test ```
+    npx hardhat test
