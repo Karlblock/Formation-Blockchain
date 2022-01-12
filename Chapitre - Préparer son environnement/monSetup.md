@@ -3,7 +3,9 @@ Les prérequis :
 
     npm install nodejs
     
-    vscode => En anglais avant que je m'occupe de ma vidéo [configurer son vsCode pour solidity (en)](https://www.youtube.com/watch?v=4bzPE9ydGlo)
+
+vscode => En anglais avant que je m'occupe de ma vidéo 
+[configurer son vsCode pour solidity(en)](https://www.youtube.com/watch?v=4bzPE9ydGlo)
 
 Crée ton repertoire  et initié ton environement  : 
 
