@@ -10,7 +10,7 @@ Une variable est essentiellement un espace réservé pour les données qui peuve
 
 3. Le nom des variables est sensible à la casse, c'est-à-dire
 
-```uint toto; ``` 
+```uint toto;``` 
 
 est une variable Dif de 
 
@@ -22,8 +22,8 @@ Déclaration de variables Dans Solidity, la déclaration de variables est un peu
 
 
 Syntax:
-```<type> <access modifier> <variable name> ; ```
+```<type> <access modifier> <variable name> ;```
 
 Example:
 
-```int public int_var; ```
+```int public int_var;```
