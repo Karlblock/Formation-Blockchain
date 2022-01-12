@@ -20,6 +20,7 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
 ## les Tutos : 
 
 Comprendre la blockchain - [Maths Adultes (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
+
 Apprendre en pratiquant : 
         -   [CryptoZombie (FR)](https://cryptozombies.io/fr)
         -   [BuildSpace (EN)](https://app.buildspace.so/)
