@@ -11,7 +11,7 @@ vérifier les versions de votre env :
     npm install nodejs
     
 
-vscode => En anglais avant que je m'occupe de ma vidéo 
+Vscode => En anglais avant que je m'occupe de ma vidéo :
 [configurer son vsCode pour solidity(en)](https://www.youtube.com/watch?v=4bzPE9ydGlo)
 
 Créer ton repertoire et initier ton environement local : 
