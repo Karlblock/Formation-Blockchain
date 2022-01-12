@@ -1,11 +1,13 @@
 # Formation Blockchain
 
- **Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
+    ###Présentation :
+    
+    Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
 
 
 Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm) 
 
-### La Formation 
+## La Formation 
 
 - [ La Blockchain : Chapitre 1 les bases](https://github.com/willitscale/learning-solidity/blob/master/tutorial-01/myfirstcontract.sol)
 
