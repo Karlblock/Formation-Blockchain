@@ -7,11 +7,13 @@ contract testMapping {
      
      
     function getBalance(address _monAddress) public view returns(uint) {
-        return Balances[_monAddeess]; // key > valeur
+        return Balances[_monAddress]; // key > valeur
     }
 
+      // Low level instruction : Global Variable : 
       receive() external payable {
           //msg.value
 
         Balances[msg.sender] = msg.value;
+      }
 }

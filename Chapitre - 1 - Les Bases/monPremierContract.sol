@@ -7,10 +7,11 @@ contract MyFirstContract {
     uint private age;
 
 
+   // on confirgure un setter string qui aura une entrée en mémoire temporaire le temps de l'excution 
    function setName(string memory _newName) public {
         name = _newName;
     }
-    
+    // ici on n'a trois parametre  public (la function est public), view, returns
     function getName() public view returns (string memory) {
         return name;
     }
