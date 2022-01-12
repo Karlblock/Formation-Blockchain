@@ -6,7 +6,7 @@
 
     Prérequis : 
 
-    Avoir fait une formation dans un langage de type - [javascript](https://scrimba.com/learn/learnjavascript/) et avec de bonne base algorthymique. vous pouvez trouver de tres bonne formation gratuite ou à prix abordable en francais et anglais sur : 
+    Avoir fait une formation dans un langage de type javascripts et avec de bonne base algorthymique. vous pouvez trouver de tres bonne formation gratuite ou à prix abordable en francais et anglais sur : 
 
 -   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
 -   [udemy](https://www.udemy.com/)
