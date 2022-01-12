@@ -12,7 +12,7 @@ Une formation dans un langage de type javascripts avec des base algorthymique. v
 -   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
 -   [udemy](https://www.udemy.com/)
 
-
+ ok
 
 Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm) 
 
