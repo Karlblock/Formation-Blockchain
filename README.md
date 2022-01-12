@@ -1,9 +1,9 @@
 # Formation Blockchain
 
- 
-Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm) 
+ **Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
 
-``` bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation```
+
+Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm) 
 
 ### La Formation 
 
