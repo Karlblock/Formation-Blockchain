@@ -27,6 +27,7 @@ Vous pouvez me retrouver sur le : [Discord ](https://discord.gg/VGhMvUmBhm)
  - [**Geth - nodeEth en Go](https://geth.ethereum.org/docs/getting-started)
  - [**HardHat - env de test Smart contract](https://hardhat.org/getting-started/#overview)
  - [**Truffle La suite - local network eth ](https://trufflesuite.com/)
+ - [**Monter Son Node Testnet](https://gist.github.com/cryptogoth/10a98e8078cfd69f7ca892ddbdcf26bc)
 ## les Tutos : 
 
 Comprendre la blockchain - [Maths Adultes (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
