@@ -2,7 +2,7 @@
 
 ### Présentation :
 
-Bienvenu sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
+Bienvenue sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
 
 
 ### Prérequis : 
