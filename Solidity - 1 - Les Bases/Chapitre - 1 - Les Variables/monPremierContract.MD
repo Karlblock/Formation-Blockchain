@@ -27,3 +27,16 @@ Syntax:
 Example:
 
 ```int public int_var;```
+
+
+Les variables d’état sont des variables dont les valeurs sont stockées en permanence dans le storage du contrat.
+
+```
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity >=0.4.0 <0.7.0;
+
+contract SimpleStorage {
+    uint storedData; // State variable
+    // ...
+}
+```

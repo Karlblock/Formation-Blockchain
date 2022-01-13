@@ -7,14 +7,3 @@ Le prix du gaz est une valeur fixée par le créateur de la transaction, qui doi
 Si le gaz est épuisé à un moment quelconque (c'est-à-dire qu'il serait négatif), une exception de manque de gaz est déclenchée, qui rétablit toutes les modifications apportées à l'état dans la trame d'appel en cours.
 
 
-Les variables d’état sont des variables dont les valeurs sont stockées en permanence dans le storage du contrat.
-
-```
-// SPDX-License-Identifier: GPL-3.0
-pragma solidity >=0.4.0 <0.7.0;
-
-contract SimpleStorage {
-    uint storedData; // State variable
-    // ...
-}
-```
