@@ -2,7 +2,9 @@
 
 ### Présentation :
 
-Bienvenue sur mon contenu Francais, je vous propose de suivre ma propore autoformation.
+Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé dans l'idée d'apprendre tout ce qui était possible à mon niveau pour me former en tant que développeur blockchain. je commence avec Solidity... 
+
+n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
 
 
 ### Prérequis : 
