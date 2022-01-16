@@ -43,11 +43,13 @@ Vous remarquerez que mul et add ont chacune besoin de 2 arguments, mais quand on
 
 Regardons le code de add pour voir ce que fait SafeMath :
 
-```function add(uint256 a, uint256 b) internal pure returns (uint256) {
+```
+function add(uint256 a, uint256 b) internal pure returns (uint256) {
   uint256 c = a + b;
   assert(c >= a);
   return c;
-}```
+}
+```
 
 add ajoute simplement 2 uint comme +, mais elle contient aussi une déclaration assert (affirme) pour vérifier que la somme est plus grande que a. Cela nous protège d'un débordement.
 
@@ -60,7 +62,11 @@ Pour prévenir les débordements, nous pouvons voir les endroits dans notre code
 
 Ex. A lieu d'écrire :
 
- ```myUint++;```
+```
+myUint++;
+```
 On va écrire :
 
-```myUint = myUint.add(1);```
+```
+myUint = myUint.add(1);
+```
