@@ -29,9 +29,11 @@ library SafeMath {
   }
 }
 ```
+
+Tout d'abord, nous avons le mot-clé library (bibliothèque) - les bibliothèques sont similaires aux contrats avec quelques différences. Dans ce cas là, les bibliothèques nous permettent d'utiliser le mot-clé using (utiliser), qui va automatiquement rajouter toutes les méthodes de cette bibliothèque à un autre type de donnée :
 ```
-// Tout d'abord, nous avons le mot-clé library (bibliothèque) - les bibliothèques sont similaires aux contrats avec quelques différences. Dans ce cas là, les bibliothèques nous permettent d'utiliser le mot-clé using (utiliser), qui va automatiquement rajouter toutes les méthodes de cette bibliothèque à un autre type de donnée :
 using SafeMath for uint;
+
 // Nous pouvons maintenant utiliser ces méthodes pour n'importe quel uint
 uint test = 2;
 test = test.mul(3); // test est maintenant égal à 6
