@@ -50,5 +50,6 @@ Apprendre en pratiquant :
 - [cosmwasm(Fr)(EN)](https://docs.cosmwasm.com/fr/dev-academy/intro)
 - [Ben-BK (FR)](https://www.youtube.com/watch?v=xtEQGtaT9MY&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
 - [willitscale (EN)](https://github.com/willitscale)
+- & more more more !
 
 🙏🙏 Tips : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
