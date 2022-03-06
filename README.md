@@ -47,6 +47,11 @@ Apprendre en pratiquant :
 
 - [Le mystere Satoishi (Fr)](https://www.youtube.com/watch?v=0ETcLj5jBy4)
 
+## les Livres :
+
+- [Mastering Blockchain](https://www.amazon.fr/Mastering-Blockchain-distributed-consensus-cryptocurrencies/dp/1839213191/ref=sr_1_2_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=22NO9FJPWMRRT&keywords=blockchain&qid=1646584849&sprefix=blockchain%2Caps%2C68&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMTJIQkhUSVRYQVRRJmVuY3J5cHRlZElkPUEwMjAzNDgxMkFOT05CMTkzVVlTUSZlbmNyeXB0ZWRBZElkPUEwNDU3MzY3MU82RU80QkcwWVRQUCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+
 ## Mes sources :
 - [cosmwasm(Fr)(EN)](https://docs.cosmwasm.com/fr/dev-academy/intro)
 - [Ben-BK (FR)](https://www.youtube.com/watch?v=xtEQGtaT9MY&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
