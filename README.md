@@ -19,8 +19,8 @@ Vous pouvez me retrouver sur le : [Discord](https://discord.gg/VGhMvUmBhm)
 
 - [La Blockchain :](https://fr.wikipedia.org/wiki/Blockchain)
 - [Ethereum Solidity :](https://fr.wikipedia.org/wiki/Ethereum)
-- [Rust :]() Polkadot / parity & near protocol 
-- [go :]() Cosmos Atom 
+- [Rust :](https://www.udemy.com/course/programmer-en-rust) Polkadot / parity & near protocol 
+- [go :](https://www.udemy.com/course/le-langage-go-formation-complete/) Cosmos Atom 
 ## Les outils :
 
  - [HardHat - env de test Smart contract](https://hardhat.org/getting-started/#overview)
