@@ -1,1 +1,0 @@
-[La Blockchain :](https://fr.wikipedia.org/wiki/Blockchain)

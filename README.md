@@ -6,6 +6,8 @@ Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé 
 
 n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
 
+Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.
+
 ### Prérequis : 
 
 Une formation dans un langage de type javascripts avec des base algorthymique. vous trouverez formation gratuite ou à prix abordable en francais et anglais sur : 
