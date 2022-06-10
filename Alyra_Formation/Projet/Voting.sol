@@ -1,37 +1,66 @@
-pragma solidity 0.8.13;
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.14;
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
 
 contract Voting is Ownable {
 
-        struct Voter {
-            bool isRegistered;
-            bool hasVoted;
-            uint votedProposalId;
-        }
+    // all propositions : 
+    Proposal[] private proposals;
+    
+    //winners :
+    uint[] private winners;
 
-        struct Proposal {
-            string description;
-            uint voteCount;
-        }
+    struct Voter {
+        bool isRegistered;
+        bool hasVoted;
+        uint votedProposalId;
+    }
 
-        enum WorkflowStatus {
-            RegisteringVoters,
-            ProposalsRegistrationStarted,
-            ProposalsRegistrationEnded,
-            VotingSessionStarted,
-            VotingSessionEnded,
-            VotesTallied
-        }
+    struct Proposal {
+        string description;
+        uint voteCount;
+    }
 
- function addWhiteListVoter (address _voter) external onlyOwner{
-        require(workflowStatus == WorkflowStatus.RegisteringVoters, 'cannot add new voters');
-        require(!Voters[_voter].isRegistered, "The voter is already registered");
-        require(_voter != owner(),"The Owner don't participate");
+    enum WorkflowStatus {
+        RegisteringVoters,
+        ProposalsRegistrationStarted,
+        ProposalsRegistrationEnded,
+        VotingSessionStarted,
+        VotingSessionEnded,
+        VotesTallied
+    }
 
-        Voters[_voter].isRegistered = true;
-        Voters[_voter].hasVoted = 0;
-        emit registerVote(Voters[_voter]);
+
+    mapping(address => Voter) public voters;
+    mapping (address => uint) CountVotes;
+
+    uint public bnVoters;
+
+    event WorkflowStatusChange(WorkflowStatus _previousStatus, WorkflowStatus _newStatus);    
+    event VoterRegistered(address _voterAddress); 
+    event ProposalRegistered(uint _proposalId);
+    event Voted(address _voter, uint _proposalId);
+
+    // workflow initialisation :
+    WorkflowStatus private voteStatus;
+
+    constructor() {
+        owner(msg.sender);
+    }
+
+    modifier wlVoter() {
+        require(voters[msg.sender].isRegistered, "Your are not is the WL");
+        _;
+    }
+
+    function addWhiteListVoter (address _voter) external onlyOwner{
+        require(voteStatus == WorkflowStatus.RegisteringVoters, unicode"waiting on the register WL ended");
+        require(!voters[_voter].isRegistered, "you are already registered");   
+        voters[_voters] = Voter(true, false, 0);
+        bnVoters++;
+        emit VoterRegistered(_voter);
     }
 
     function startProposals() external onlyOwner{
@@ -57,12 +86,12 @@ contract Voting is Ownable {
  
 
     function vote(uint _proposalId) external onlyVoter{
-
+        require(voteStatus == WorkflowStatus.VotingSessionStarted, "wait the vote office has started his day !");
     }
 
 
     function endVote() external onlyOwner{
-
+        require(status ==WorkflowStatus.VotingSessionStarted, "voting is not started");
     }
 
 
