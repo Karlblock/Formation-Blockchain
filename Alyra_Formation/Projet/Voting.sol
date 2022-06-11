@@ -57,11 +57,24 @@ contract Voting is Ownable {
 
     function addWhiteListVoter (address _voter) external onlyOwner{
         require(voteStatus == WorkflowStatus.RegisteringVoters, unicode"waiting on the register WL ended");
-        require(!voters[_voter].isRegistered, "you are already registered");   
+        // require(!voters[_voter].isRegistered, "you are already registered"); 
+        // or   
+        require(voters[_voter].isRegistered != true, "you are already registered");
         voters[_voters] = Voter(true, false, 0);
         bnVoters++;
         emit VoterRegistered(_voter);
     }
+
+    function getWorkflowStatus() external view returns (WorkflowStatus status) {
+        return workflowStatus;
+    }
+
+    function getProposals() external view returns(Proposal[] memory) {
+        return proposals;
+
+    }
+
+
 
     function startProposals() external onlyOwner{
 
