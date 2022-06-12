@@ -1,13 +1,11 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.14;
+pragma solidity 0.8.13;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
 contract Voting is Ownable {
 
-    // all propositions : 
-    Proposal[] private proposals;
     
     //winners :
     uint[] private winners;
@@ -34,13 +32,15 @@ contract Voting is Ownable {
 
 
     mapping(address => Voter) public voters;
-    mapping (address => uint) CountVotes;
+     // all propositions : 
+    Proposal[] public proposals;
 
 
     event WorkflowStatusChange(WorkflowStatus _previousStatus, WorkflowStatus _newStatus);    
     event VoterRegistered(address _voterAddress); 
     event ProposalRegistered(uint _proposalId);
     event Voted(address _voter, uint _proposalId);
+    event VoterUnregistered(address voterAddress);
 
     // workflow initialisation :
     WorkflowStatus private voteStatus;
@@ -59,18 +59,19 @@ contract Voting is Ownable {
         // require(!voters[_voter].isRegistered, "you are already registered"); 
         // or   
         require(voters[_voter].isRegistered != true, "you are already registered");
-
-        voters[_voters].isRegistered = true;
-
-        bnVoters++;
-
+        voters[_voter].isRegistered = true;
         emit VoterRegistered(_voter);
     }
 
-    //  Quelques get pour infos
+    function delAddressFromWhitelist(address _address) external onlyOwner wlVoter(_address) {
+        Proposal[_address].isRegistered = false;
+        emit VoterUnregistered(_address);
+    }
+
+//  Quelques get pour infos
 
     function getStatus() external view returns (WorkflowStatus status) {
-        return workflowStatus;
+        return voteStatus;
     }
 
     function getProposals() external view returns(Proposal[] memory) {
@@ -78,19 +79,20 @@ contract Voting is Ownable {
 
     }
 
-    function getWinner() extenral view returns( Proposal[] memory) {
-        return proposals[_id];
+    function getWinner() external view  returns(Proposal[] memory) {
+        require(voteStatus == WorkflowStatus.VotesTallied,"the current workflow status does not allow you to get the winner");
+        return proposals;
     }
 
 // Status 
 
     function startProposals() external onlyOwner{
-    require(workflowStatus == WorkflowStatus.RegisteringVoters, "Registering proposals can't be started now");
+    require(voteStatus == WorkflowStatus.RegisteringVoters, "Registering proposals can't be started now");
     
     }
 
 
-    function voterAddProposal(string memory _description) external onlyVoter{
+    function voterAddProposal(string memory _description) external wlVoter{
       
     }
 
@@ -107,16 +109,17 @@ contract Voting is Ownable {
     }
  
 
-    function vote(uint _proposalId) external onlyVoter{
+    function vote(uint _proposalId) external wlVoter{
         require(voteStatus == WorkflowStatus.VotingSessionStarted, "wait the vote office has started his day !");
+    
+    
     }
 
 
     function endVote() external onlyOwner{
-        require(status ==WorkflowStatus.VotingSessionStarted, "voting is not started");
+        require(votestatus ==WorkflowStatus.VotingSessionStarted, "voting is not started");
     }
 
 
 
 }
-
