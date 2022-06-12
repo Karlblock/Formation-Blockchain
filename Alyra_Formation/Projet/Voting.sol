@@ -36,7 +36,6 @@ contract Voting is Ownable {
     mapping(address => Voter) public voters;
     mapping (address => uint) CountVotes;
 
-    uint public bnVoters;
 
     event WorkflowStatusChange(WorkflowStatus _previousStatus, WorkflowStatus _newStatus);    
     event VoterRegistered(address _voterAddress); 
@@ -46,26 +45,31 @@ contract Voting is Ownable {
     // workflow initialisation :
     WorkflowStatus private voteStatus;
 
-    constructor() {
-        owner(msg.sender);
-    }
+    
 
     modifier wlVoter() {
         require(voters[msg.sender].isRegistered, "Your are not is the WL");
         _;
     }
 
+    // add voters to wl
+
     function addWhiteListVoter (address _voter) external onlyOwner{
         require(voteStatus == WorkflowStatus.RegisteringVoters, unicode"waiting on the register WL ended");
         // require(!voters[_voter].isRegistered, "you are already registered"); 
         // or   
         require(voters[_voter].isRegistered != true, "you are already registered");
-        voters[_voters] = Voter(true, false, 0);
+
+        voters[_voters].isRegistered = true;
+
         bnVoters++;
+
         emit VoterRegistered(_voter);
     }
 
-    function getWorkflowStatus() external view returns (WorkflowStatus status) {
+    //  Quelques get pour infos
+
+    function getStatus() external view returns (WorkflowStatus status) {
         return workflowStatus;
     }
 
@@ -74,15 +78,20 @@ contract Voting is Ownable {
 
     }
 
+    function getWinner() extenral view returns( Proposal[] memory) {
+        return proposals[_id];
+    }
 
+// Status 
 
     function startProposals() external onlyOwner{
-
+    require(workflowStatus == WorkflowStatus.RegisteringVoters, "Registering proposals can't be started now");
+    
     }
 
 
     function voterAddProposal(string memory _description) external onlyVoter{
-
+      
     }
 
 
