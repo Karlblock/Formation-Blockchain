@@ -32,11 +32,12 @@ contract Voting is Ownable {
     Proposal[] public proposals;
     uint public winningProposalID;
 
-    event WorkflowStatusChange(WorkflowStatus _previousStatus, WorkflowStatus _newStatus);    
-    event VoterRegistered(address _voterAddress); 
-    event ProposalRegistered(uint _proposalId);
-    event Voted(address _voter, uint _proposalId);
-    event VoterUnregistered(address voterAddress);
+    event WorkflowStatusChange(WorkflowStatus previousStatus, WorkflowStatus newStatus);    
+    event VoterRegistered(address voterAddress); 
+    event unregistered(address voterAddress);
+    event ProposalRegistered(uint proposalId);
+    event Voted(address voter, uint proposalId);
+    
 
     // workflow initialisation :
     
@@ -44,7 +45,7 @@ contract Voting is Ownable {
 
 
     modifier wlVoter(address _addr) {
-        require(voters[msg.sender].isRegistered == true, "Your are not is the WL");
+        require(voters[msg.sender].isRegistered == true, "not on the wl");
         _;
     }
 
@@ -67,12 +68,13 @@ contract Voting is Ownable {
 
     function delAddressFromWhitelist(address _addr) external  wlVoter(_addr) {
         voters[_addr].isRegistered = false;
-        emit VoterUnregistered(_addr);
+        emit unregistered(_addr);
     }
 
 //  Quelques get pour infos
 
     function getProposals() external view  returns(Proposal[] memory) {
+        
         return proposals;
 
     }
@@ -88,7 +90,8 @@ contract Voting is Ownable {
 
 //add vote :
 
-    function registerVote(uint proposalId) external  onlyOwner {
+    function registerVote(uint proposalId) external   {
+        require(voters[msg.sender].isRegistered,"Your address is not on the WL");
         require(voters[msg.sender].hasVoted == false, "Address has already voted");
         voters[msg.sender].hasVoted = true;
         voters[msg.sender].votedProposalId = proposalId;
@@ -113,7 +116,6 @@ contract Voting is Ownable {
 // décompte des votes 
 
     function tallyVotes() external onlyOwner {
-        
         require(voteStatus == WorkflowStatus.VotingSessionEnded, "please make the status ended");
         uint _winningProposalId;
         for (uint i = 0; i < proposals.length; i++) {
