@@ -49,11 +49,11 @@ contract Voting is Ownable {
         _;
     }
 
-    constructor() {
+    // constructor() {
 
-       address owner = msg.sender;
-       voters[owner].isRegistered = true;
-    }
+    //    address owner = msg.sender;
+    //    voters[owner].isRegistered = true;
+    // }
 
     // add voters to wl
 
