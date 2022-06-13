@@ -42,11 +42,17 @@ contract Voting is Ownable {
     
     WorkflowStatus public voteStatus = WorkflowStatus.RegisteringVoters;
 
-    
+   
 
     modifier wlVoter(address _addr) {
         require(voters[msg.sender].isRegistered == true, "Your are not is the WL");
         _;
+    }
+
+    constructor() {
+
+       address owner = msg.sender;
+       voters[owner].isRegistered = true;
     }
 
     // add voters to wl
@@ -67,28 +73,20 @@ contract Voting is Ownable {
 
 //  Quelques get pour infos
 
-    function getStatus() external view returns (WorkflowStatus status) {
-        require(voters[msg.sender].isRegistered == true, "this address is not whitelisted");
-        return voteStatus;
-    }
-
-    function getProposals() external view returns(Proposal[] memory) {
-        require(voters[msg.sender].isRegistered == true, "this address is not whitelisted");
+    function getProposals() external view  returns(Proposal[] memory) {
         return proposals;
 
     }
-
-    function getWinner() external view  returns(Proposal[] memory) {
-        require(voters[msg.sender].isRegistered == true, "this address is not whitelisted");
-        require(voteStatus == WorkflowStatus.VotesTallied,"the current workflow status does not allow you to get the winner");
-        return proposals;
-    }
-
+   
 // Status 
 
-    function changeStatusWorkFlow(uint _status) external onlyOwner {
-       voteStatus = _status; 
+    // function changeStatusWorkFlow(uint _status) external onlyOwner {
+    //    voteStatus = _status; 
         
+    // }
+
+    function changeWorkflowStatus(WorkflowStatus _status) external onlyOwner {
+        voteStatus = _status;
     }
 
 
@@ -126,6 +124,7 @@ contract Voting is Ownable {
         voteStatus = WorkflowStatus.ProposalsRegistrationEnded;
         emit WorkflowStatusChange(WorkflowStatus.ProposalsRegistrationStarted, WorkflowStatus.ProposalsRegistrationEnded);
     }
+
 
 
 // décompte des votes 
