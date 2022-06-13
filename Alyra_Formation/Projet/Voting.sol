@@ -42,7 +42,6 @@ contract Voting is Ownable {
     
     WorkflowStatus public voteStatus = WorkflowStatus.RegisteringVoters;
 
-   
 
     modifier wlVoter(address _addr) {
         require(voters[msg.sender].isRegistered == true, "Your are not is the WL");
@@ -80,11 +79,6 @@ contract Voting is Ownable {
    
 // Status 
 
-    // function changeStatusWorkFlow(uint _status) external onlyOwner {
-    //    voteStatus = _status; 
-        
-    // }
-
     function changeWorkflowStatus(WorkflowStatus _status) external onlyOwner {
         voteStatus = _status;
     }
@@ -93,6 +87,7 @@ contract Voting is Ownable {
 // action 
 
 //add vote :
+
     function registerVote(uint proposalId) external  onlyOwner {
         require(voters[msg.sender].hasVoted == false, "Address has already voted");
         voters[msg.sender].hasVoted = true;
@@ -105,6 +100,7 @@ contract Voting is Ownable {
 
     function addProposal(string memory _desc) external {
         require(voters[msg.sender].isRegistered == true, "this address is not whitelisted");
+        voteStatus = WorkflowStatus.ProposalsRegistrationStarted;
         require(voteStatus == WorkflowStatus.ProposalsRegistrationStarted, 'Proposals are not allowed yet');
         Proposal memory proposal;
         proposal.description = _desc;
@@ -113,34 +109,27 @@ contract Voting is Ownable {
         emit ProposalRegistered(proposals.length-1);
     }
 
-    function startProposalRegistration() external onlyOwner {
-        require(voteStatus == WorkflowStatus.RegisteringVoters,"the current workflow status does not allow you to start registering proposals");
-        voteStatus = WorkflowStatus.ProposalsRegistrationStarted;
-        emit WorkflowStatusChange(WorkflowStatus.RegisteringVoters, WorkflowStatus.ProposalsRegistrationStarted);
-    }
-
-    function endProposalRegistration() external onlyOwner {
-        require(voteStatus == WorkflowStatus.ProposalsRegistrationStarted,"the current workflow status does not allow you to started");
-        voteStatus = WorkflowStatus.ProposalsRegistrationEnded;
-        emit WorkflowStatusChange(WorkflowStatus.ProposalsRegistrationStarted, WorkflowStatus.ProposalsRegistrationEnded);
-    }
-
-
 
 // décompte des votes 
 
-function tallyVotes() external onlyOwner {
-       require(voteStatus == WorkflowStatus.VotingSessionEnded, "Current status is not voting session ended");
-       uint _winningProposalId;
-      for (uint i = 0; i < proposals.length; i++) {
-           if (proposals[i].voteCount > proposals[_winningProposalId].voteCount) {
-               _winningProposalId = i;
-          }
-       }
-       winningProposalID = _winningProposalId;
-       
-       voteStatus = WorkflowStatus.VotesTallied;
-       emit WorkflowStatusChange(WorkflowStatus.VotingSessionEnded, WorkflowStatus.VotesTallied);
+    function tallyVotes() external onlyOwner {
+        
+        require(voteStatus == WorkflowStatus.VotingSessionEnded, "Current status is not voting session ended");
+        uint _winningProposalId;
+        for (uint i = 0; i < proposals.length; i++) {
+            if (proposals[i].voteCount > proposals[_winningProposalId].voteCount) {
+                _winningProposalId = i;
+            }
+        }
+
+        winningProposalID = _winningProposalId;
+        
+        voteStatus = WorkflowStatus.VotesTallied;
+        emit WorkflowStatusChange(WorkflowStatus.VotingSessionEnded, WorkflowStatus.VotesTallied);
+    }
+
+    function getWinner() public view  returns(string memory) {
+        return string(proposals[winningProposalID].description);
     }
     
 }
