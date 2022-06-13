@@ -57,7 +57,7 @@ contract Voting is Ownable {
 
     // add voters to wl
 
-    function addWhiteListVoter (address _voter) external onlyOwner{
+    function addWL(address _voter) external onlyOwner{
         require(voteStatus == WorkflowStatus.RegisteringVoters, "waiting on the register WL ended");
         // require(!voters[_voter].isRegistered, "you are already registered"); 
         // or   
@@ -66,7 +66,7 @@ contract Voting is Ownable {
         emit VoterRegistered(_voter);
     }
 
-    function delAddressFromWhitelist(address _addr) external  wlVoter(_addr) {
+    function delWL(address _addr) external  wlVoter(_addr) {
         voters[_addr].isRegistered = false;
         emit unregistered(_addr);
     }
