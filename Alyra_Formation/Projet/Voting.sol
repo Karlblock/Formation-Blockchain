@@ -57,7 +57,7 @@ contract Voting is Ownable {
     // add voters to wl
 
     function addWhiteListVoter (address _voter) external onlyOwner{
-        require(voteStatus == WorkflowStatus.RegisteringVoters, unicode"waiting on the register WL ended");
+        require(voteStatus == WorkflowStatus.RegisteringVoters, "waiting on the register WL ended");
         // require(!voters[_voter].isRegistered, "you are already registered"); 
         // or   
         require(voters[_voter].isRegistered != true, "you are already registered");
@@ -99,7 +99,7 @@ contract Voting is Ownable {
 // add proposal : 
 
     function addProposal(string memory _desc) external {
-        require(voters[msg.sender].isRegistered == true, "this address is not whitelisted");
+        require(voters[msg.sender].isRegistered == true, "address not whitelisted");
         voteStatus = WorkflowStatus.ProposalsRegistrationStarted;
         require(voteStatus == WorkflowStatus.ProposalsRegistrationStarted, 'Proposals are not allowed yet');
         Proposal memory proposal;
@@ -114,7 +114,7 @@ contract Voting is Ownable {
 
     function tallyVotes() external onlyOwner {
         
-        require(voteStatus == WorkflowStatus.VotingSessionEnded, "Current status is not voting session ended");
+        require(voteStatus == WorkflowStatus.VotingSessionEnded, "please make the status ended");
         uint _winningProposalId;
         for (uint i = 0; i < proposals.length; i++) {
             if (proposals[i].voteCount > proposals[_winningProposalId].voteCount) {
