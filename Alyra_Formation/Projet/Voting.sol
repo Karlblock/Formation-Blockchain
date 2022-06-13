@@ -103,7 +103,7 @@ contract Voting is Ownable {
 
     function addProposal(string memory _desc) external {
         require(voters[msg.sender].isRegistered == true, "address not whitelisted");
-        voteStatus = WorkflowStatus.ProposalsRegistrationStarted;
+        // voteStatus = WorkflowStatus.ProposalsRegistrationStarted;
         require(voteStatus == WorkflowStatus.ProposalsRegistrationStarted, 'Proposals are not allowed yet');
         Proposal memory proposal;
         proposal.description = _desc;
