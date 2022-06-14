@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.13;
+pragma solidity 0.8.14;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
 
@@ -63,7 +63,7 @@ contract Voting is Ownable {
         require(voters[_voter].isRegistered != true, "you are already registered");
 
         voters[_voter].isRegistered = true;
-        
+
         emit VoterRegistered(_voter);
     }
 
