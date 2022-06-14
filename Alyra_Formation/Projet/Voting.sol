@@ -130,9 +130,5 @@ contract Voting is Ownable {
         emit WorkflowStatusChange(WorkflowStatus.VotingSessionEnded, WorkflowStatus.VotesTallied);
     }
 
-    function getWinner() public view  returns(string memory) {
-        return string(proposals[winningProposalID].description);
-        return winningProposalID;
-    }
     
 }
