@@ -51,10 +51,31 @@ HI ! = 01001000 01001001 00100001
 ### Image video sounds
 
 - [WIKI RGB](https://fr.wikipedia.org/wiki/Codage_informatique_des_couleurs)
+- [WIKI MIDI](https://en.wikipedia.org/wiki/MIDI)
 
 ---
 
 ### Algorithms
+
+- [Udemy Algo](https://www.udemy.com/courses/search/?q=algorithms&src=sac&kw=algo)
+
+Ce sont les instructions pour résoudre des problemes 
+
+```
+ 1  Pick up phone book
+2  Open to middle of phone book
+3  Look at page
+4  If person is on page
+5      Call person
+6  Else if person is earlier in book
+7      Open to middle of left half of book
+8      Go back to line 3
+9  Else if person is later in book
+10     Open to middle of right half of book
+11     Go back to line 3
+12 Else
+13     Quit
+```
 
 ---
 
