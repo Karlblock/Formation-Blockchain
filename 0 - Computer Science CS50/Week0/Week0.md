@@ -8,23 +8,27 @@
 
 ### What is computer science ?
 
+[Wiki](https://en.wikipedia.org/wiki/Computer_science)
+
 ---
 
 ### Rerpresenting numbers
 
+[Wiki](https://en.wikipedia.org/wiki/Binary_number)
 
-
-0 = 00000000 
-1 = 00000001 
-2 = 00000010 
-3 = 00000011 
-4 = 00000100 
-5 = 00000101 
-6 = 00000110 
-7 = 00000111 
-8 = 00001000 
+0 = 0 
+1 = 1 
+2 = 10 
+3 = 11 
+4 = 100 
+5 = 101 
+6 = 110 
+7 = 111 
+8 = 1000 
 
 #### Bits :
+
+8bits 
 
 | Decimal | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | 
 | :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
