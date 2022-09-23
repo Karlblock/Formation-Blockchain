@@ -4,7 +4,7 @@
 
 Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé dans l'idée d'apprendre tout ce qui était possible à mon niveau pour me former en tant que développeur blockchain. je commence avec Solidity... 
 
-n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
+N'hésitez pas à me rejoindre sur [discord](https://discord.gg/VGhMvUmBhm) ou sur la chaine [twitch](https://www.twitch.tv/karlbl0ck).
 
 _Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem._
 
