@@ -16,19 +16,24 @@ Des bases algorthymiques et en anglais sont un plus :
 -   [udemy](https://www.udemy.com/)
 
 
-## La Formation :
+### La Formation :
 
-Step 1 : 
+#### Step 1 : 
+
 - [Computer Science](https://cs50.harvard.edu/x/2022/notes/0/)
-Step 2 : 
+
+#### Step 2 : 
+
 - [Cryptographie]()
-Step 3 : 
+
+#### Step 3 : 
+
 - [Blockchain et les Maths (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
 
 ---
 
 - [Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
-- [bitcoin](https://www.youtube.com/watch?v=0ETcLj5jBy4&t=1210s)
+- [Bitcoin](https://www.youtube.com/watch?v=0ETcLj5jBy4&t=1210s)
   - [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum ](https://fr.wikipedia.org/wiki/Ethereum)
 - [Rust ](https://www.udemy.com/course/programmer-en-rust)
