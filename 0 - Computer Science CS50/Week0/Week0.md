@@ -50,6 +50,8 @@ HI ! = 01001000 01001001 00100001
 
 ### Image video sounds
 
+- [WIKI RGB](https://fr.wikipedia.org/wiki/Codage_informatique_des_couleurs)
+
 ---
 
 ### Algorithms
