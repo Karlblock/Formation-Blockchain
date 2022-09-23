@@ -1,4 +1,4 @@
-# Road to Blockchain Dev (EN CONSTRUCTION ) :
+# Road to Blockchain Dev :
 
 ### Présentation :
 
@@ -6,7 +6,7 @@ Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé 
 
 n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
 
-Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.
+_Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem._
 
 ---
 
