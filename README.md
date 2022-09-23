@@ -18,11 +18,11 @@ Une formation dans un langage de type javascripts avec des base algorthymique. v
 
 ## La Formation :
 
-- [La Blockchain :](https://fr.wikipedia.org/wiki/Blockchain)
-- [Ethereum Solidity :](https://fr.wikipedia.org/wiki/Ethereum)
-- [Rust :](https://www.udemy.com/course/programmer-en-rust) Polkadot / parity & near protocol 
-- [go :](https://www.udemy.com/course/le-langage-go-formation-complete/) Cosmos Atom 
-## Les outils :
+- [La Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
+- [Ethereum ](https://fr.wikipedia.org/wiki/Ethereum)
+- [Rust ](https://www.udemy.com/course/programmer-en-rust) Polkadot / parity & near protocol 
+- [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) Cosmos Atom 
+## Les outils EVM :
 
  - [HardHat - env de test Smart contract](https://hardhat.org/getting-started/#overview)
  - [web3.js - La librairie du Web3](https://web3js.readthedocs.io/en/v1.5.2/getting-started.html)

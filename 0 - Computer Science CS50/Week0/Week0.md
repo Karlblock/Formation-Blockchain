@@ -4,7 +4,6 @@
 ## Table of Content
 
 
-
 ### Bits
 
 8bit : 28
