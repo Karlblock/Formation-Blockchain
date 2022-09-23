@@ -6,7 +6,7 @@ Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé 
 
 n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
 
-`Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.`
+Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.
 
 ---
 
@@ -92,10 +92,11 @@ Apprendre en pratiquant smart contract world :
 - [CS50 (EN)](https://cs50.harvard.edu/x/2022/notes/0/)
 - & more more more !
 
-Vous pouvez me retrouver sur le : [Discord](https://discord.gg/VGhMvUmBhm) 
+Vous pouvez me retrouver sur le : 
 
-				  [Telegram](https://t.me/blockchainspotOfficial)
+[Discord](https://discord.gg/VGhMvUmBhm) 
+[Telegram](https://t.me/blockchainspotOfficial)
 
 🙏🙏 ERC20 : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
 
-                 🐈‍⬛🐈‍⬛ catwoman.near 🐈‍⬛🐈‍⬛
+                   🐈‍⬛🐈‍⬛ catwoman.near 🐈‍⬛🐈‍⬛
