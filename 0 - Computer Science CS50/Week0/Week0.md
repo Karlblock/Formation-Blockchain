@@ -5,7 +5,16 @@
 
 - [WeekO](https://cs50.harvard.edu/x/2022/notes/0/)
 
-### Bits
+
+### What is computer science ?
+
+---
+
+### Rerpresenting numbers
+
+---
+
+#### Bits
 
 8bit : 28
 
@@ -16,3 +25,29 @@
  exemple 
  "A" = 65 = 01000001
  "B" = 66 = 01000010
+
+
+### Test
+
+---
+
+### Image video sounds
+
+---
+
+### Algorithms
+
+---
+
+### Scratch basics
+
+---
+
+### Abstraction
+
+---
+
+### Conditionals ans more 
+
+---
+
