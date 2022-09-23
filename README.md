@@ -6,8 +6,10 @@ Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé 
 
 n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
 
-Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.
+```Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.```
+
 ---
+
 ### Prérequis : 
 
 Des bases algorthymiques et en anglais sont un plus : 
