@@ -23,7 +23,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 #### Step 1 : 
 
-- [Computer Science](https://cs50.harvard.edu/x/2022/notes/0/)
+- [Computer Science](https://cs50.harvard.edu/x/2022/notes/0/) : Comment fonctionne l'IT
   - [Week0](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Computer%20Science%20CS50/Week0)
   - [Week1](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Computer%20Science%20CS50/Week1)
 
