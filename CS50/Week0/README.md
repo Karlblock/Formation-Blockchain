@@ -1,9 +1,15 @@
 
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/BlockchainSpot/standard-readme)
+
 # Base computer Science  
 
-## Table of Contents
+## Table of Weeks
 
-- [Bits](#Bits)
+- Week 0 : [Week0](https://cs50.harvard.edu/x/2022/notes/0/)
+
+
+
+
 
 ## Bits
 
