@@ -1,7 +1,9 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/BlockchainSpot/standard-readme)
 
-# Base computer Science  
+# Base computer Science 
+
+Retrouvez l'introduction de CS50 :
 
 [Welcome](https://cs50.harvard.edu/x/2022/)
 
