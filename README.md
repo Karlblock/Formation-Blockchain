@@ -7,7 +7,7 @@ Bienvenue, je vous propose de suivre ma propre autoformation. Je me suis lancé 
 n'hésitez pas à me rejoindre sur discord pour distuder ensemble.
 
 Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem.
-
+---
 ### Prérequis : 
 
 Des bases algorthymiques et en anglais sont un plus : 
@@ -15,6 +15,7 @@ Des bases algorthymiques et en anglais sont un plus :
 -   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
 -   [udemy](https://www.udemy.com/)
 
+---
 
 ### La Formation :
 
@@ -30,10 +31,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 #### Step 3 : 
 
-- [Blockchain et les Maths (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784s)
-
----
-
+- [Blockchain et les Maths (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784)
 - [Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
 - [Bitcoin](https://www.youtube.com/watch?v=0ETcLj5jBy4&t=1210s)
   - [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
@@ -41,6 +39,7 @@ Des bases algorthymiques et en anglais sont un plus :
 - [Rust ](https://www.udemy.com/course/programmer-en-rust)
 - [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) 
 
+---
 
 ## Formation Avancé
 
@@ -50,11 +49,12 @@ Des bases algorthymiques et en anglais sont un plus :
 
 ---
 
-### Smart Contract EVM : 
+## Smart Contract EVM : 
 
 #### Pratique :
 
 Apprendre en pratiquant smart contract world : 
+
   - [CryptoZombie (FR)](https://cryptozombies.io/fr)
   - [BuildSpace (EN)](https://app.buildspace.so/)
   - [Ethernaut (EN)](https://ethernaut.openzeppelin.com/) 
@@ -83,6 +83,7 @@ Apprendre en pratiquant smart contract world :
 
 
 ## Mes sources :
+
 - [cosmwasm(Fr)(EN)](https://docs.cosmwasm.com/fr/dev-academy/intro)
 - [Ben-BK (FR)](https://www.youtube.com/watch?v=xtEQGtaT9MY&list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
 - [willitscale (EN)](https://github.com/willitscale)
