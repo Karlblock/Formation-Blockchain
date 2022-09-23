@@ -3,6 +3,8 @@
 
 # Base computer Science  
 
+
+
 ## Table of Weeks
 
 - Week 0 : [Week0](https://cs50.harvard.edu/x/2022/notes/0/)
@@ -10,7 +12,7 @@
 ---
 
 
-## Bits
+### Bits
 
 8bit : 28
 
