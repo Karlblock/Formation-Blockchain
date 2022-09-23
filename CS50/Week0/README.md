@@ -8,15 +8,11 @@
 - Week 0 : [Week0](https://cs50.harvard.edu/x/2022/notes/0/)
 
 
-
-
-
 ## Bits
 
 8bit : 28
 
 128 64 32 16 8 4 2 1
-
  0  0  0  0  0 0 0 0 
 
  exemple 
@@ -26,7 +22,14 @@
  Week 0 : [Week0](https://cs50.harvard.edu/x/2022/notes/0/)
 
 
+
+## Contributing
+
 This project exists thanks to all the people who contribute.
+
+## Maintainers
+
+[@BlockchainSpot](https://github.com/BlockchainSpot).
 
 ## License
 
