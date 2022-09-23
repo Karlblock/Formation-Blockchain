@@ -7,7 +7,7 @@
 
 ## Table of Weeks
 
-- Week 0 : [Week0](https://cs50.harvard.edu/x/2022/notes/0/)
+- Mes notes[Week0](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week0.md)
 
 ---
 
