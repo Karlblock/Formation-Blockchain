@@ -9,7 +9,9 @@ Retrouvez l'introduction de CS50 :
 
 ## les semaines CS50 : 
 
-- Mes notes de la  [Semaine1](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week0.md)
+- Notes [Semaine1](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week0.md)
+
+- Notes [Semaine2](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week1.md)
 
 ---
 
