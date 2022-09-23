@@ -2,6 +2,8 @@
 
 ## Table of Content
 
-- [WeekO](https://cs50.harvard.edu/x/2022/notes/1/)
+- [Week 1](https://cs50.harvard.edu/x/2022/notes/1/)
 
 ---
+
+
