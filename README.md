@@ -27,10 +27,12 @@ Step 3 :
 
 ---
 
-- [La Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
+- [Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
+- [bitcoin](https://www.youtube.com/watch?v=0ETcLj5jBy4&t=1210s)
+  - [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum ](https://fr.wikipedia.org/wiki/Ethereum)
-- [Rust ](https://www.udemy.com/course/programmer-en-rust) Polkadot / parity & near protocol 
-- [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) Cosmos Atom 
+- [Rust ](https://www.udemy.com/course/programmer-en-rust)
+- [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) 
 
 
 ## Formation Avancé
