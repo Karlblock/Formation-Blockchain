@@ -3,6 +3,8 @@
 
 ## Table of Content
 
+- [WeekO](https://cs50.harvard.edu/x/2022/notes/0/)
+
 
 ### Bits
 
