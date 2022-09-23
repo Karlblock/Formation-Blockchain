@@ -5,7 +5,6 @@
 
 - [WeekO](https://cs50.harvard.edu/x/2022/notes/0/)
 
-
 ### What is computer science ?
 
 [Wiki](https://en.wikipedia.org/wiki/Computer_science)
@@ -34,13 +33,18 @@
 | :--: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Bit | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 
 
- exemple 
+
+---
+
+### Text
+
+- [Wiki ASCII](https://en.wikipedia.org/wiki/ASCII)
+
+Exemple 
  "A" = 65 = 01000001
  "B" = 66 = 01000010
 
- ---
-
-### Test
+HI ! = 01001000 01001001 00100001
 
 ---
 
