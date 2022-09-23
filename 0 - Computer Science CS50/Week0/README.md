@@ -7,7 +7,7 @@
 
 ## Table of Weeks
 
-- Mes notes[Week0](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week0.md)
+- Mes notes de la  [Semaine1](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week0.md)
 
 ---
 
