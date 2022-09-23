@@ -5,13 +5,9 @@
 
 [Welcome](https://cs50.harvard.edu/x/2022/)
 
-## Table of Weeks
+## les semaines CS50 : 
 
 - Mes notes de la  [Semaine1](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week0.md)
-
----
-
-
 
 ---
 
