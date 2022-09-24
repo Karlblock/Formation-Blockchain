@@ -5,7 +5,7 @@
 
 ## Table of Content
 
-- [Semaine 3](https://cs50.harvard.edu/x/2022/notes/3/)
+- [Notes 3](https://cs50.harvard.edu/x/2022/notes/3/)
 
 ---
 
