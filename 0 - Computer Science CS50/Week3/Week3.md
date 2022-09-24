@@ -27,7 +27,7 @@ https://cs50.harvard.edu/x/2022/notes/3/#searching
 
  ```
 
- ^2
+phonebooc.c
 
 ``` c
 #include <cs50.h>
