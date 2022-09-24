@@ -13,6 +13,9 @@ Retrouvez l'introduction de CS50 :
 
 - Notes [Semaine2](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week1.md)
 
+- Notes [Semaine2](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week0/Week2.md)
+
+
 ---
 
 ## Contributing
