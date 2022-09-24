@@ -11,6 +11,8 @@
 https://cs50.harvard.edu/x/2022/notes/3/#searching
 
 
+ ##### Structure : 
+
 ```
 #include <cs50.h>
 #include <stdio.h>
