@@ -1,5 +1,8 @@
 # Semaine 3
 
+[Video Lecture 3](https://www.youtube.com/watch?v=4oqjcKenCH8)
+
+
 ## Table of Content
 
 - [Semaine 3](https://cs50.harvard.edu/x/2022/notes/3/)
