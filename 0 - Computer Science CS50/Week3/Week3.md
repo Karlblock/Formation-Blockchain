@@ -13,7 +13,7 @@ https://cs50.harvard.edu/x/2022/notes/3/#searching
 
  ##### Structure : 
 
-```
+``` c
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
