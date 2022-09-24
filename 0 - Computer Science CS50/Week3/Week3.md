@@ -16,6 +16,17 @@ https://cs50.harvard.edu/x/2022/notes/3/#searching
 
  ##### Structure : 
 
+
+ ```c
+ typedef struct
+ {
+    string name;
+    string number;
+ }
+ person;
+
+ ```
+
  ^2
 
 ``` c
