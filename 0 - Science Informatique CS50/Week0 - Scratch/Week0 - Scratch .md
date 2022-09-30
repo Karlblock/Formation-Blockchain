@@ -43,6 +43,18 @@
 
 ## Ce qui nous attend
 
+*   Vous découvrirez cette semaine Scratch, un langage de programmation visuel.
+
+*   Ensuite, dans les semaines à venir, vous en apprendrez plus sur C. Cela ressemblera à ceci :
+
+```c
+  #include <stdio.h>
+
+  int main(void)
+  {
+      printf("hello, world\n");
+  }```
+
 ---
 
 ## La communautée
