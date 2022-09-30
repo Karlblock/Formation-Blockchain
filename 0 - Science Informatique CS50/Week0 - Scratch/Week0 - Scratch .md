@@ -196,6 +196,14 @@ print("hello, world")
 
 ## Emojis 
 
+*   Au fil du temps, il existe de plus en plus de moyens de communiquer par SMS.
+
+*   Puisqu'il n'y avait pas assez de chiffres en binaire pour représenter tous les différents caractères pouvant être représentés par les humains, la norme Unicode a élargi le nombre de bits pouvant être transmis et compris par les ordinateurs.
+
+*   Il y a des emojis que vous utilisez probablement tous les jours. Les éléments suivants peuvent vous sembler familiers :
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide103.png)
+
 ----
 
 ## Les images, vidéos et le son
