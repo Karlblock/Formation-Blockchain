@@ -25,14 +25,14 @@
 * Plus d'esprit [^1]
 * Résumé[^1]
 
-##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-
+--- 
 
 
 <a name="Bienvenue"/>
 ## Bienvenue
+
+---
+
 
 
 
