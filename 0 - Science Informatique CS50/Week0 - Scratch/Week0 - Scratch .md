@@ -92,6 +92,18 @@ print("hello, world")
 
 *   Essentiellement, la programmation informatique consiste à prendre des entrées et à créer des sorties - résolvant ainsi un problème. Ce qui se passe entre l'entrée et la sortie, ce que nous pourrions appeler une boîte noire, est au centre de ce cours.
 
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide38.png)
+
+*   Par exemple, nous pouvons avoir besoin de prendre des présences pour un cours. Nous pourrions utiliser un système appelé unaire pour compter, un doigt à la fois. Les ordinateurs d'aujourd'hui comptent en utilisant un système appelé binaire . C'est à partir du terme chiffre binaire que nous obtenons un terme familier appelé bit . Un bit est un zéro ou un.
+
+*   Les ordinateurs ne parlent qu'en termes de zéros et de uns. Les zéros représentent off. Les uns représentent sur. Les ordinateurs sont des millions, voire des milliards, de transistors qui s'allument et s'éteignent.
+
+*   Si vous imaginez utiliser une ampoule, une seule ampoule ne peut compter que de zéro à un.
+
+*   Cependant, si vous deviez avoir trois ampoules, il y a plus d'options qui s'offrent à vous !
+
+*   En utilisant trois ampoules, ce qui suit pourrait représenter zéro :
+
 ---
 
 ## Texte 
