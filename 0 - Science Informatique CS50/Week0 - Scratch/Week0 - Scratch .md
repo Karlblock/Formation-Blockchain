@@ -11,19 +11,19 @@
 * [Bienvenue](#Bienvenue)
 * [Ce qui nous attend](#Ce-qui-nous-attend)
 * [La Communautée ](#La-communautée)
-* Pensée computationnelle[^1]
-* Texte[^1]
-* Emojis[^1]
-* Les images, Video & son[^1]
-* Les algorithms[^1]
-* Le pseudocode et les éléments de base de la programmation[^1]
-* le logiciel Scratch [^1]
-* les abstractions [^1]
-* Si ( if )[^1]
-* Développez votre imagination[^1]
-* L'esprit en mouvement [^1]
-* Plus d'esprit [^1]
-* Résumé[^1]
+* [Pensée computationnelle](#Pensée-computationnelle)
+* [Texte](#Texte)
+* [Emojis](#Emojis)
+* [ Les images, vidéos et le son](#Les-images,-vidéos-et-le-son)
+* [les algorithmes](#les-algorithmes)
+* [Le speudocode et les éléments de base de la programmation](#Le-speudocode-et-les-éléments-de-base-de-la-programmation)
+* [logiciel Scratch ](#logiciel-Scratch)
+* [Les abstactions](#Les-abstactions)
+* [Si (if)](#Si-(if))
+* [Développez votre imagination](#Développez-votre-imagination)
+* [L'esprit en mouvement](#L'esprit-en-mouvement)
+* [plus d'esprit](#plus-d'esprit)
+* [Résumé de la premier semaine ](#Résumé-de-la-premier-semaine )
 
 --- 
 
@@ -38,6 +38,60 @@
 ## La communautée
 
 --- 
+
+
+## Pensée computationnelle
+
+---
+
+## Texte 
+
+---
+
+## Emojis 
+
+----
+
+## Les images, vidéos et le son
+
+---
+
+## les algorithmes
+
+---
+
+## Le speudocode et les éléments de base de la programmation
+
+---
+
+## logiciel Scratch 
+
+---
+
+## Les abstactions
+
+---
+
+## Si (if)
+
+---
+
+## Développez votre imagination
+
+---
+
+## L'esprit en mouvement
+
+---
+
+## plus d'esprit
+
+---
+
+## Résumé de la premier semaine 
+
+---
+
 
 
 
