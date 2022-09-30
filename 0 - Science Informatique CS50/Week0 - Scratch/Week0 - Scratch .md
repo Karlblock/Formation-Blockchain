@@ -104,6 +104,63 @@ print("hello, world")
 
 *   En utilisant trois ampoules, ce qui suit pourrait représenter zéro :
 
+    ``` 
+    0 0 0 
+
+    ```
+
+*   De même, ce qui suit en représenterait un :
+
+    ``` 
+    0 0 1 
+
+    ```
+
+*   Selon cette logique, nous pourrions proposer que ce qui suit est égal à deux :
+
+    ``` 
+    0 1 0 
+
+    ```
+
+*   En étendant cette logique plus loin, ce qui suit en représente trois :
+
+    ```
+    0 1 1
+    ```
+
+*   Quatre apparaîtrait comme:
+
+    ```
+    1 0 0
+    ```
+
+*   Nous pourrions, en fait, en utilisant seulement trois ampoules compter jusqu'à sept !
+
+    ```
+     1 1 1
+    ```
+
+*   Comme heuristique, nous pourrions imaginer que les valeurs suivantes représentent chaque place possible dans notre chiffre binaire :
+
+    ```
+    4 2 1
+    ```
+
+*   Les ordinateurs utilisent 'base-2' pour compter. Cela peut être illustré comme suit :
+
+    ```
+    2^2  2^1  2^0
+    4    2    1
+    ```
+
+*   Par conséquent, vous pourriez dire qu'il faudrait trois bits (la place des quatre, la place des deux et la place de l'un) pour représenter un nombre aussi élevé que sept.
+
+
+*   Les ordinateurs utilisent généralement huit bits pour représenter un nombre. Par exemple, 00000101est le nombre 5 en binaire .
+
+
+
 ---
 
 ## Texte 
