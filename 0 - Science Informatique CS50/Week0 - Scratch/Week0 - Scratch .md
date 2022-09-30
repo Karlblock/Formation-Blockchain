@@ -8,8 +8,8 @@
 ## table des matieres 
 
 
-* [Bienvenue](#Bienvenue)
-* [Ce qui nous attend](#Ce-qui-nous-attend)
+* [Bienvenue](#Bienvenue-:)
+* [Ce qui nous attend](#Ce-qui-nous-attend-:)
 * la communauté[^1]
 * Pensée computationnelle[^1]
 * Texte[^1]
@@ -27,12 +27,12 @@
 
 --- 
 
-## Bienvenue
+## Bienvenue :
 
 ---
 
 
-## Ce qui nous attend
+## Ce qui nous attend :
 
 
 
