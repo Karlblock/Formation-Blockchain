@@ -88,8 +88,9 @@ print("hello, world")
 
 --- 
 
-
 ## Pensée computationnelle
+
+*   Essentiellement, la programmation informatique consiste à prendre des entrées et à créer des sorties - résolvant ainsi un problème. Ce qui se passe entre l'entrée et la sortie, ce que nous pourrions appeler une boîte noire, est au centre de ce cours.
 
 ---
 
