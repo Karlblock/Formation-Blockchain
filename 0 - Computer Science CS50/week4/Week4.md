@@ -13,6 +13,11 @@
  ##### Addresses, pointers :
 
 
+ Hexa location :
+
+ ![alt-test](https://cs50.harvard.edu/x/2022/notes/4/addresses.png)
+
+
 ``` c
 #include <stdio.h>
 
