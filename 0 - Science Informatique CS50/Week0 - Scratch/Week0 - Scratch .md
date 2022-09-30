@@ -17,7 +17,7 @@
 * [Emojis](#Emojis)
 * [Les images, vidéos et le son](#Les-images,-vidéos-et-le-son)
 * [Les algorithmes](#les-algorithmes)
-* [Le speudocode et les éléments de base de la programmation](#Le-speudocode-et-les-éléments-de-base-de-la-programmation)
+* [Le pseudocode et les éléments de base de la programmation](#Le-pseudocode-et-les-éléments-de-base-de-la-programmation)
 * [Logiciel Scratch ](#logiciel-Scratch)
 * [Les abstactions](#Les-abstactions)
 * [Si (if)](#Si-(if))
@@ -253,7 +253,7 @@ print("hello, world")
 
 ---
 
-## Le speudocode et les éléments de base de la programmation
+## Le pseudocode et les éléments de base de la programmation
 
 ---
 
