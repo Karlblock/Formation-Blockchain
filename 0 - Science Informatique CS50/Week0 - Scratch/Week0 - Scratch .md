@@ -96,7 +96,7 @@ print("hello, world")
 
 *   Par exemple, nous devrons peut-être assister à un cours. Nous pourrions utiliser un système appelé [**unaire**](https://fr.wikipedia.org/wiki/Syst%C3%A8me_unaire) pour compter, un doigt à la fois. Les ordinateurs d'aujourd'hui comptent en utilisant un système appelé [**binaire**](https://fr.wikipedia.org/wiki/Syst%C3%A8me_binaire) . C'est à partir du terme chiffre binaire que nous obtenons un terme familier appelé [bit](https://fr.wikipedia.org/wiki/Bit) . Un bit est un **0** ou **1** .
 
-*   Les ordinateurs ne parlent qu'en termes de **°** et de **1**. Les **0** représentent **OFF**. Les **1** représentent **ON**. Les ordinateurs sont des millions, voire des milliards, de [transistors](https://fr.wikipedia.org/wiki/Transistor) qui s'allument et s'éteignent.
+*   Les ordinateurs ne parlent qu'en termes de **0** et de **1**. Les **0** représentent **OFF**. Les **1** représentent **ON**. Les ordinateurs sont des millions, voire des milliards, de [transistors](https://fr.wikipedia.org/wiki/Transistor) qui s'allument et s'éteignent.
 
 *   Si vous imaginez utiliser une ampoule, une seule ampoule ne peut compter que de zéro à un.
 
