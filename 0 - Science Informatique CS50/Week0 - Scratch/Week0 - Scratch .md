@@ -318,6 +318,35 @@ Notez que le centre de la scène est à la coordonnée (0,0). En ce moment, la p
 
 Nous pouvons rendre votre programme plus interactif en demandant au chat de dire hello à quelqu'un en particulier. Modifiez votre programme comme ci-dessous :
 
+    ```
+        when
+        clicked
+        ask
+        What's your name?
+        and
+        wait
+        say
+        join
+        hello,
+        answer
+    ```
+
+Notez que lorsque le drapeau vert est cliqué, la fonction askest exécutée. Le programme vous invite, l'utilisateur, What's your name?Il stocke ensuite ce nom dans la variable appelée answer. Le programme passe ensuite answerà une fonction spéciale appelée join, qui combine deux chaînes de texte hello, et quel que soit le nom fourni. Ceux-ci sont passés collectivement à la sayfonction. Le chat dit, Hello,et un nom. Votre programme est maintenant interactif.
+
+De manière assez similaire, nous pouvons modifier notre programme comme suit :
+
+when
+clicked
+ask
+What's your name?
+and
+wait
+speak
+join
+hello,
+answer
+Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même variable, jointe à hello, à une fonction appelée speak.
+
 ---
 
 ## Les abstactions
