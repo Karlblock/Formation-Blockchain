@@ -11,9 +11,10 @@
 ---
 
  ##### Structure :
- 
 
-```#include <stdio.h>
+
+``` c
+#include <stdio.h>
 
 
 int main(void)
