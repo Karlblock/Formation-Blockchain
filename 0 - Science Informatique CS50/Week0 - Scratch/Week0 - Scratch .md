@@ -159,6 +159,15 @@ print("hello, world")
 
 *   Les ordinateurs utilisent généralement huit bits pour représenter un nombre. Par exemple, 00000101est le nombre 5 en binaire .
 
+```
+8bit : 
+
+  0  0  0  0 0 0 0 0
+
+128 64 32 16 8 4 2 1 
+
+```
+
 
 
 ---
