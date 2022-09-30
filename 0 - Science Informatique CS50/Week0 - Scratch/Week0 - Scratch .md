@@ -147,7 +147,7 @@ print("hello, world")
     4 2 1
     ```
 
-*   Les ordinateurs utilisent 'base-2' pour compter. Cela peut être illustré comme suit :
+*   Les ordinateurs utilisent **'base-2'** pour compter. Cela peut être illustré comme suit :
 
     ```
     2^2  2^1  2^0
