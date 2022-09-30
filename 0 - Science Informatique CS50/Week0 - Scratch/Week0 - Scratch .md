@@ -82,6 +82,10 @@ print("hello, world")
 
 ## La communautée
 
+*   Vous faites partie d'une communauté de ceux qui suivent ce cours au Harvard College, à la Harvard Extension School et via edX.org.
+
+*   Puzzle Day et salon CS50
+
 --- 
 
 
