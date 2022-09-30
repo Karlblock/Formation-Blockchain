@@ -178,18 +178,18 @@ print("hello, world")
 
 *   Si vous avez reçu un message texte, le binaire sous ce message pourrait représenter les nombres 72, 73 et 33. En les mappant en ASCII, votre message ressemblerait à ceci :
 
-```
+        ```
 
-  H   I   !
-  72  73  33
+        H   I   !
+        72  73  33
 
-```
+        ```
 
 *   Dieu merci, des normes comme ASCII nous permettent de nous mettre d'accord sur ces valeurs !
 
 *   Voici une carte étendue des valeurs ASCII :
 
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide93.png)
+    ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide93.png)
 
 
 ---
@@ -202,7 +202,7 @@ print("hello, world")
 
 *   Il y a des emojis que vous utilisez probablement tous les jours. Les éléments suivants peuvent vous sembler familiers :
 
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide103.png)
+    ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide103.png)
 
 *   Les informaticiens ont été confrontés à un défi lorsqu'ils ont voulu attribuer différents tons de peau à chaque emoji pour permettre à la communication d'être davantage personnalisée. Dans ce cas, les créateurs et contributeurs d'emojis ont décidé que les éléments initiaux seraient la structure de l'emoji lui-même, suivi du teint de la peau.
 
@@ -212,16 +212,16 @@ print("hello, world")
 
 *   Si vous le souhaitez, vous pouvez en savoir plus sur les [emojis](https://fr.wikipedia.org/wiki/%C3%89moji).
 
-### RVB
+    ### RVB
 
 
 *   Rouge, vert et bleu (appelé RGB) est une combinaison de trois nombres.
 
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide118.png)
+    ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide118.png)
 
 *   Prendre nos 72, 73 et 33 précédemment utilisés, qui se disaient HI!via du texte, serait interprété par les lecteurs d'images comme une légère nuance de jaune. La valeur rouge serait 72, la valeur verte serait 73 et la bleue serait 33.
 
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide120.png)
+    ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide120.png)
 
 ----
 
