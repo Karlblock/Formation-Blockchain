@@ -57,6 +57,21 @@
   
 ```
 
+*  De plus, au fil des semaines, vous en apprendrez davantage sur les algorithmes.
+Vous apprendrez la mémoire.
+
+*  Vous en apprendrez davantage sur le code bogué et sur les causes des pannes informatiques.
+
+*  Vous découvrirez les structures de données telles qu'une table de hachage.
+
+*  Ensuite, nous passerons à un nouveau langage de niveau supérieur appelé Python . Votre code ressemblera à ceci :
+
+```c
+
+print("hello, world")
+
+```
+
 ---
 
 ## La communautée
