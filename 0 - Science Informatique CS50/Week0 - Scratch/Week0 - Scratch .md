@@ -5,7 +5,7 @@
 - [Les notes 2022 en anglais ](https://cs50.harvard.edu/extension/2022/fall/notes/0/#welcome)
 
 
-## table des matieres 
+## Table des matières 
 
 
 * [Bienvenue](#Bienvenue)
