@@ -4,18 +4,35 @@
 [Video Lecture 4](https://www.youtube.com/watch?v=4oqjcKenCH8)
 
 
+
 ## Table of Content
 
-- [Notes 4](https://cs50.harvard.edu/x/2022/notes/3/)
+- [Notes 4 english](https://cs50.harvard.edu/extension/2022/fall/notes/4/)
 
----
+#### Bienvenue
+#### Memoire
+#### Hexadecimal
+#### Addresses
+#### Les pointers
+#### les Strings
+#### Pointer Arithmetic
+#### Comparing Strings
+#### Copying
+#### Valgrind
+#### Garbage Values
+#### Pointer Fun with Binky
+#### Swap
+#### Overflow
+#### scanf
+#### Files
+#### Summing Up
 
- ##### Addresses, pointers :
 
 
- Hexa location :
+##### Addresses, pointers :
 
- ![alt-test](https://cs50.harvard.edu/x/2022/notes/4/addresses.png)
+
+![alt-test](https://cs50.harvard.edu/x/2022/notes/4/addresses.png)
 
 
 ``` c
