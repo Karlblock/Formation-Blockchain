@@ -17,7 +17,7 @@
 * [Emojis](#Emojis)
 * [Les images, vidéos et le son](#Les-images,-vidéos-et-le-son)
 * [Les algorithmes](#les-algorithmes)
-* [Le pseudocode et les éléments de base de la programmation](#Le-pseudocode-et-les-éléments-de-base-de-la-programmation)
+* [Le pseudocode et les éléments de base de la programmation(#Le-pseudocode-et-les-éléments-de-base-de-la-programmation)
 * [Logiciel Scratch ](#logiciel-Scratch)
 * [Les abstactions](#Les-abstactions)
 * [Si (if)](#Si-(if))
@@ -255,9 +255,41 @@ print("hello, world")
 
 ## Le pseudocode et les éléments de base de la programmation
 
+*   La capacité de créer un pseudocode est essentielle à la réussite à la fois dans cette classe et dans la programmation informatique.
+
+*   Le pseudocode est une version lisible par l'homme de votre code. Par exemple, en considérant le troisième algorithme ci-dessus, nous pourrions composer le pseudocode comme suit :
+
+```
+  1  Pick up phone book
+  2  Open to middle of phone book
+  3  Look at page
+  4  If person is on page
+  5      Call person
+  6  Else if person is earlier in book
+  7      Open to middle of left half of book
+  8      Go back to line 3
+  9  Else if person is later in book
+  10     Open to middle of right half of book
+  11     Go back to line 3
+  12 Else
+  13     Quit
+```
+
+*   Le pseudocodage est une compétence si importante pour au moins deux raisons. Premièrement, lorsque vous pseudocodez avant de créer du code formel, cela vous permet de réfléchir à l'avance à la logique de votre problème. Deuxièmement, lorsque vous pseudocodez, vous pouvez ensuite fournir ces informations à d'autres personnes qui cherchent à comprendre vos décisions de codage et le fonctionnement de votre code.
+
+*   Notez que le langage de notre pseudocode a des caractéristiques uniques. Premièrement, certaines de ces lignes commencent par des verbes comme ramasser, ouvrir, regarder. Plus tard, nous appellerons ces fonctions .
+
+*   Deuxièmement, notez que certaines lignes incluent des instructions telles que ifou else if.Celles-ci sont appelées conditionnelles .
+
+*   Troisièmement, remarquez qu'il existe des expressions qui peuvent être déclarées vraies ou fausses, telles que "la personne est plus tôt dans le livre". Nous appelons ces expressions booléennes .
+Enfin, remarquez comment ces déclarations comme "revenir à la ligne 3". Nous appelons ces boucles .
+Dans le contexte de Scratch , qui est discuté ci-dessous, nous utiliserons chacun des éléments de base de la programmation ci-dessus.
+
 ---
 
 ## logiciel Scratch 
+
+
 
 ---
 
