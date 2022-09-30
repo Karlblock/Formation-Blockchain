@@ -259,21 +259,21 @@ print("hello, world")
 
 *   Le pseudocode est une version lisible par l'homme de votre code. Par exemple, en considérant le troisième algorithme ci-dessus, nous pourrions composer le pseudocode comme suit :
 
-```
-  1  Pick up phone book
-  2  Open to middle of phone book
-  3  Look at page
-  4  If person is on page
-  5      Call person
-  6  Else if person is earlier in book
-  7      Open to middle of left half of book
-  8      Go back to line 3
-  9  Else if person is later in book
-  10     Open to middle of right half of book
-  11     Go back to line 3
-  12 Else
-  13     Quit
-```
+    ```
+    1  Pick up phone book
+    2  Open to middle of phone book
+    3  Look at page
+    4  If person is on page
+    5      Call person
+    6  Else if person is earlier in book
+    7      Open to middle of left half of book
+    8      Go back to line 3
+    9  Else if person is later in book
+    10     Open to middle of right half of book
+    11     Go back to line 3
+    12 Else
+    13     Quit
+    ```
 
 *   Le pseudocodage est une compétence si importante pour au moins deux raisons. Premièrement, lorsque vous pseudocodez avant de créer du code formel, cela vous permet de réfléchir à l'avance à la logique de votre problème. Deuxièmement, lorsque vous pseudocodez, vous pouvez ensuite fournir ces informations à d'autres personnes qui cherchent à comprendre vos décisions de codage et le fonctionnement de votre code.
 
