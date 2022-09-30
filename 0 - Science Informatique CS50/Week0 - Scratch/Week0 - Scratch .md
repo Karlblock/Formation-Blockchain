@@ -3,6 +3,7 @@
 
 - [Semaine O en anglais ](https://cs50.harvard.edu/x/2022/notes/0/)
 - [Les notes 2022 en anglais ](https://cs50.harvard.edu/extension/2022/fall/notes/0/#welcome)
+- [Vidéo Semaine 0](https://www.youtube.com/watch?v=IDDmrzzB14M&t=20s)
 
 
 ## Table des matières 
@@ -28,6 +29,7 @@
 --- 
 
 ## Bienvenue
+ - Vidéo [introduction](https://www.youtube.com/watch?v=IDDmrzzB14M&t=0s)
 
 * Ce cours ne se limite pas à la programmation informatique !
 
