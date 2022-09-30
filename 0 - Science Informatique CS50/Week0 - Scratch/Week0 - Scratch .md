@@ -14,7 +14,7 @@
 * [Pensée computationnelle](#Pensée-computationnelle)
 * [Texte](#Texte)
 * [Emojis](#Emojis)
-* [ Les images, vidéos et le son](#Les-images,-vidéos-et-le-son)
+* [Les images, vidéos et le son](#Les-images,-vidéos-et-le-son)
 * [les algorithmes](#les-algorithmes)
 * [Le speudocode et les éléments de base de la programmation](#Le-speudocode-et-les-éléments-de-base-de-la-programmation)
 * [logiciel Scratch ](#logiciel-Scratch)
