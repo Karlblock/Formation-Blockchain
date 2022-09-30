@@ -72,6 +72,14 @@ int main(void)
 
 https://cs50.harvard.edu/x/2022/notes/3/#linear-search-binary-search
 
+
+```c
+
+
+
+```
+
+
 ---
 
 ### Searching with code

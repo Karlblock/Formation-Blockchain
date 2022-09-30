@@ -1,9 +1,90 @@
 
-# Semaine 0
+# Lecture 0 - Scratch 
 
-## Table of Content
+- [Semaine O en anglais ](https://cs50.harvard.edu/x/2022/notes/0/)
+- [Les notes 2022 en anglais ](https://cs50.harvard.edu/extension/2022/fall/notes/0/#welcome)
 
-- [WeekO](https://cs50.harvard.edu/x/2022/notes/0/)
+
+## table des matieres 
+
+
+* Bienvenue
+* Ce qui nous attend 
+* la communauté
+* Pensée computationnelle
+* Texte
+* Emojis
+* Les images, Video & son
+* Les algorithms
+* Le pseudocode et les éléments de base de la programmation
+* le logiciel Scratch 
+* les abstractions 
+* Si ( if )
+* Développez votre imagination
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------- old notes 
+
+
 
 ### What is computer science ?
 
