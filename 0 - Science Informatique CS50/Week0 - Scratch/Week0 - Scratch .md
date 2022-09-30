@@ -289,6 +289,25 @@ Dans le contexte de Scratch , qui est discuté ci-dessous, nous utiliserons chac
 
 ## logiciel Scratch 
 
+*   Scratch est un langage de programmation visuel développé par le MIT.
+
+*   Scratch utilise les mêmes blocs de construction de codage essentiels que nous avons abordés plus tôt dans cette conférence.
+
+*   Scatch est un excellent moyen d'entrer dans la programmation informatique car il vous permet de jouer avec ces blocs de construction de manière visuelle, sans avoir à vous soucier de la syntaxe des accolades, des points-virgules, des parenthèses, etc.
+
+*   Scatch IDE(environnement de développement intégré) ressemble à ceci :
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide162.png)
+
+Notez que sur la gauche, il y a des blocs de construction que vous pouvez utiliser dans votre programmation. Immédiatement à droite des blocs de construction, il y a la zone dans laquelle vous pouvez faire glisser des blocs pour créer un programme. À droite de cela, vous voyez la scène où se tient un chat. La scène est l'endroit où votre programmation prend vie.
+
+*   Scratch fonctionne sur un système de coordonnées comme suit :
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide167.png)
+
+Notez que le centre de la scène est à la coordonnée (0,0). En ce moment, la position du chat est à cette même position.
+
+*   Pour commencer, faites glisser le bloc de construction "lorsque le drapeau vert est cliqué" dans la zone de programmation. Ensuite, faites glisser le saybloc de construction vers la zone de programmation et attachez-le au bloc précédent.
 
 
 ---
