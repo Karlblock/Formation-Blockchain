@@ -247,7 +247,7 @@ print("hello, world")
 
 *   Une approche finale et peut-être meilleure pourrait être d'aller au milieu de l'annuaire téléphonique et de demander : « Est-ce que le nom que je recherche est à gauche ou à droite ? » Ensuite, répétez ce processus en coupant le problème en deux.
 
-*   Chacune de ces approches pourrait être appelée algorithmes. La vitesse de chacun de ces algorithmes peut être représentée comme suit dans ce qu'on appelle la notation $$big-O$$ 
+*   Chacune de ces approches pourrait être appelée algorithmes. La vitesse de chacun de ces algorithmes peut être représentée comme suit dans ce qu'on appelle $$la notation big-O$$ 
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide141.png)
 
