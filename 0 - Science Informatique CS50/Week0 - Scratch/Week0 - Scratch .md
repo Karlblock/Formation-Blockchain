@@ -29,6 +29,16 @@
 
 ## Bienvenue
 
+* Ce cours ne se limite pas à la programmation informatique !
+
+* En effet, ce cours porte sur la résolution de problèmes d'une manière extrêmement stimulante ! Vous prendrez probablement la résolution de problèmes que vous apprenez ici sera probablement applicable instantanément à votre travail au-delà de ce cours et même à votre carrière dans son ensemble !
+
+* Cependant, ce ne sera pas facile ! Vous "boirez à la lance à incendie" de connaissances pendant ce cours. Vous serez étonné de ce que vous pourrez accomplir dans les semaines à venir.
+
+* Ce cours consiste bien plus à vous faire progresser "vous" par rapport à "où vous êtes aujourd'hui" qu'à atteindre une norme imaginaire.
+
+* La considération d'ouverture la plus importante dans ce cours : donnez le temps dont vous avez besoin pour apprendre tout au long de ce cours. Tout le monde apprend différemment. Si quelque chose ne fonctionne pas bien au début, sachez qu'avec le temps, vous évoluerez et développerez vos compétences.
+
 ---
 
 ## Ce qui nous attend
