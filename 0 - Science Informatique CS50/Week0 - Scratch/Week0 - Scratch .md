@@ -310,6 +310,14 @@ Notez que le centre de la scène est à la coordonnée (0,0). En ce moment, la p
 *   Pour commencer, faites glisser le bloc de construction "lorsque le drapeau vert est cliqué" dans la zone de programmation. Ensuite, faites glisser le saybloc de construction vers la zone de programmation et attachez-le au bloc précédent.
 
 
+*   Cela illustre assez bien ce dont nous parlions plus tôt concernant la programmation :
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide172.png)
+
+*   Notez que l'entrée hello worldest transmise à la fonction sayet que l' effet secondaire de cette fonction en cours d'exécution est le chat qui dit hello world.
+
+Nous pouvons rendre votre programme plus interactif en demandant au chat de dire hello à quelqu'un en particulier. Modifiez votre programme comme ci-dessous :
+
 ---
 
 ## Les abstactions
