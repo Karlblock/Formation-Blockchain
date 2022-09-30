@@ -72,6 +72,10 @@ print("hello, world")
 
 ```
 
+*  Ce cours vous permettra de bien comprendre comment les langages de programmation récents se sont développés à partir des précédents.
+
+*  Nous verrons également comment nous pouvons utiliser des bases de données et des frameworks tiers pour créer des applications Web.
+
 ---
 
 ## La communautée
