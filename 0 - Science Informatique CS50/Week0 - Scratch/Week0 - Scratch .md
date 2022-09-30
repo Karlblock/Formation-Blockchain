@@ -32,7 +32,7 @@
 ---
 
 
-## Bienvenue Ce qui nous attend
+## Ce qui nous attend
 
 
 
