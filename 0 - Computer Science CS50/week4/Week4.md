@@ -10,7 +10,7 @@
 
 ---
 
- ##### Structure :
+ ##### Addresses, pointers :
 
 
 ``` c
@@ -34,4 +34,17 @@ int main(void)
     int *p = &n;
     printf("%p\n", p);
 }
+```
+
+>> 
+
+```py
+
+$ make address 
+$ ./address 
+50
+0x7ffccad4d988
+0x7ffccad4d984
+$ 
+
 ```
