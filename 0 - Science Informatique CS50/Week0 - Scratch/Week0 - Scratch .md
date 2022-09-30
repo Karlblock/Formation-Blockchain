@@ -22,7 +22,7 @@
 * [Si (if)](#Si-(if))
 * [Développez votre imagination](#Développez-votre-imagination)
 * [L'esprit en mouvement](#L'esprit-en-mouvement)
-* [plus d'esprit](#plus-d'esprit)
+* [Plus d'esprit](#plus-d'esprit)
 * [Résumé de la premier semaine ](#Résumé-de-la-premier-semaine )
 
 --- 
