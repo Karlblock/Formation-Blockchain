@@ -169,7 +169,6 @@ print("hello, world")
 
 ## Texte 
 
-
 *   Tout comme les nombres sont des combinaisons binaires de 1 et de 0, les lettres sont également représentées par des 1 et des 0 !
 
 *   Puisqu'il y a un chevauchement entre les uns et les zéros qui représentent les nombres et les lettres, la norme [ASCII](https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange) a été créée pour mapper des lettres spécifiques à des nombres spécifiques.
@@ -190,7 +189,6 @@ print("hello, world")
 *   Voici une carte étendue des valeurs ASCII :
 
     ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide93.png)
-
 
 ---
 
@@ -214,7 +212,6 @@ print("hello, world")
 
     ### RVB
 
-
 *   Rouge, vert et bleu (appelé RGB) est une combinaison de trois nombres.
 
     ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide118.png)
@@ -227,9 +224,30 @@ print("hello, world")
 
 ## Les images, vidéos et le son
 
+
+*   Les images sont simplement des collections de valeurs RVB.
+
+*   Les vidéos sont des séquences de nombreuses images qui sont stockées ensemble, tout comme un flipbook.
+
+*   La musique peut être représentée par des données [MIDI](https://fr.wikipedia.org/wiki/Musical_Instrument_Digital_Interface).
+
 ---
 
 ## les algorithmes
+
+*   La résolution de problèmes est au cœur de l'informatique et de la programmation informatique.
+
+*   Imaginez le problème fondamental d'essayer de localiser un seul nom dans un annuaire téléphonique.
+
+*   Comment pourriez-vous vous y prendre ?
+
+*   Une approche pourrait être de simplement lire d'une page à l'autre jusqu'à atteindre la dernière page.
+
+*   Une autre approche pourrait être de rechercher deux pages à la fois.
+
+*   Une approche finale et peut-être meilleure pourrait être d'aller au milieu de l'annuaire téléphonique et de demander : « Est-ce que le nom que je recherche est à gauche ou à droite ? » Ensuite, répétez ce processus en coupant le problème en deux.
+
+*   Chacune de ces approches pourrait être appelée algorithmes. La vitesse de chacun de ces algorithmes peut être représentée comme suit dans ce qu'on appelle la notation big-O :
 
 ---
 
