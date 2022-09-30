@@ -165,12 +165,25 @@ print("hello, world")
   0  0  0  0 0 0 0 0
 128 64 32 16 8 4 2 1 
 ```
-
-
-
 ---
 
 ## Texte 
+
+
+*   Tout comme les nombres sont des combinaisons binaires de uns et de zéros, les lettres sont également représentées par des uns et des zéros !
+
+*   Puisqu'il y a un chevauchement entre les uns et les zéros qui représentent les nombres et les lettres, la norme ASCII a été créée pour mapper des lettres spécifiques à des nombres spécifiques.
+
+*   Par exemple, la lettre Aa été décidée pour correspondre au nombre 65.
+
+*   Si vous avez reçu un message texte, le binaire sous ce message pourrait représenter les nombres 72, 73 et 33. En les mappant en ASCII, votre message ressemblerait à ceci :
+
+```
+
+  H   I   !
+  72  73  33
+
+```
 
 ---
 
