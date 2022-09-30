@@ -204,6 +204,14 @@ print("hello, world")
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide103.png)
 
+*   Les informaticiens ont été confrontés à un défi lorsqu'ils ont voulu attribuer différents tons de peau à chaque emoji pour permettre à la communication d'être davantage personnalisée. Dans ce cas, les créateurs et contributeurs d'emojis ont décidé que les éléments initiaux seraient la structure de l'emoji lui-même, suivi du teint de la peau.
+
+*   De plus en plus de fonctionnalités sont ajoutées à la norme Unicode pour représenter d'autres caractères et emojis.
+
+*   Si vous le souhaitez, vous pouvez en savoir plus sur [Unicode](https://fr.wikipedia.org/wiki/Unicode).
+
+*   Si vous le souhaitez, vous pouvez en savoir plus sur les [emojis](https://fr.wikipedia.org/wiki/%C3%89moji).
+
 ----
 
 ## Les images, vidéos et le son
