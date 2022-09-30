@@ -212,6 +212,17 @@ print("hello, world")
 
 *   Si vous le souhaitez, vous pouvez en savoir plus sur les [emojis](https://fr.wikipedia.org/wiki/%C3%89moji).
 
+### RVB
+
+
+*   Rouge, vert et bleu (appelé RGB) est une combinaison de trois nombres.
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide118.png)
+
+*   Prendre nos 72, 73 et 33 précédemment utilisés, qui se disaient HI!via du texte, serait interprété par les lecteurs d'images comme une légère nuance de jaune. La valeur rouge serait 72, la valeur verte serait 73 et la bleue serait 33.
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide120.png)
+
 ----
 
 ## Les images, vidéos et le son
