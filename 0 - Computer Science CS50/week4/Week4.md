@@ -11,25 +11,15 @@
 
 ### Bienvenue
 ### Memoire
+
+
+    *   You can imagine a crime drama where an image is enhanced, enhanced, and enhanced, is not entirely real-life accurate. Indeed, if you keep zooming into an image, you will see pixels.
+
+    ![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide012.png)
+
+
 ### Hexadecimal
 ### Addresses
-### Les pointers
-### les Strings
-### Pointer Arithmetic
-### Comparing Strings
-### Copying
-### Valgrind
-### Garbage Values
-### Pointer Fun with Binky
-### Swap
-### Overflow
-### scanf
-### Files
-### Summing Up
-
-
-
-##### Addresses, pointers :
 
 
 ![alt-test](https://cs50.harvard.edu/x/2022/notes/4/addresses.png)
@@ -58,8 +48,6 @@ int main(void)
 }
 ```
 
-
-
 ```py
 
 $ make address 
@@ -70,3 +58,22 @@ $ ./address
 $ 
 
 ```
+
+### Les pointers
+### les Strings
+### Pointer Arithmetic
+### Comparing Strings
+### Copying
+### Valgrind
+### Garbage Values
+### Pointer Fun with Binky
+### Swap
+### Overflow
+### scanf
+### Files
+### Summing Up
+
+
+
+
+
