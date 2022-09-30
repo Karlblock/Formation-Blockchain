@@ -29,7 +29,7 @@
 --- 
 
 ## Bienvenue
-  --Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=IDDmrzzB14M&t=0s)--
+__Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=IDDmrzzB14M&t=0s)__
 
 * Ce cours ne se limite pas à la programmation informatique !
 
