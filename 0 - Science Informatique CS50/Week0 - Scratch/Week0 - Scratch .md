@@ -8,7 +8,7 @@
 ## table des matieres 
 
 
-* Bienvenue[^1]
+* [Bienvenue](#Bienvenue)
 * Ce qui nous attend [^1]
 * la communauté[^1]
 * Pensée computationnelle[^1]
@@ -28,9 +28,11 @@
 ##### Table of Contents  
 [Headers](#headers)  
 [Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
-## Headers
+
+
+
+<a name="Bienvenue"/>
+## Bienvenue
 
 
 
