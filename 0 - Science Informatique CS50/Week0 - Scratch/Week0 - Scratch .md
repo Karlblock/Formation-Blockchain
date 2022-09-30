@@ -170,9 +170,9 @@ print("hello, world")
 ## Texte 
 
 
-*   Tout comme les nombres sont des combinaisons binaires de uns et de zéros, les lettres sont également représentées par des uns et des zéros !
+*   Tout comme les nombres sont des combinaisons binaires de 1 et de 0, les lettres sont également représentées par des 1 et des 0 !
 
-*   Puisqu'il y a un chevauchement entre les uns et les zéros qui représentent les nombres et les lettres, la norme ASCII a été créée pour mapper des lettres spécifiques à des nombres spécifiques.
+*   Puisqu'il y a un chevauchement entre les uns et les zéros qui représentent les nombres et les lettres, la norme [ASCII](https://fr.wikipedia.org/wiki/American_Standard_Code_for_Information_Interchange) a été créée pour mapper des lettres spécifiques à des nombres spécifiques.
 
 *   Par exemple, la lettre Aa été décidée pour correspondre au nombre 65.
 
@@ -184,6 +184,13 @@ print("hello, world")
   72  73  33
 
 ```
+
+*   Dieu merci, des normes comme ASCII nous permettent de nous mettre d'accord sur ces valeurs !
+
+*   Voici une carte étendue des valeurs ASCII :
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Slide93.png)
+
 
 ---
 
