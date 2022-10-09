@@ -376,17 +376,23 @@ _Voir directement sur le site pour les image de Scratch_
 
 ## Développez votre imagination
 
+_Voir directement sur le site pour les image de Scratch_
+
 [Développez votre imagination](https://cs50.harvard.edu/extension/2022/fall/notes/0/#expanding-your-imagination)
 
 ---
 
 ## L'esprit en mouvement
 
+_Voir directement sur le site pour les image de Scratch_
+
 [ouvez votre espris](https://cs50.harvard.edu/extension/2022/fall/notes/0/#sprite-movement)
 
 ---
 
 ## plus d'esprit
+
+_Voir directement sur le site pour les image de Scratch_
 
 [plus d'esprit](https://cs50.harvard.edu/extension/2022/fall/notes/0/#more-sprites)
 
