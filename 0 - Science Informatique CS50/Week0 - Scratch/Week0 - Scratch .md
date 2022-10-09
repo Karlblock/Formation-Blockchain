@@ -360,10 +360,7 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 *   Par exemple, si vous organisiez un grand dîner pour vos amis, le problème de devoir cuisiner tout le repas pourrait être assez écrasant ! Cependant, si vous décomposez la tâche de cuisiner le repas en tâches (ou problèmes) de plus en plus petites, la grande tâche de créer ce délicieux repas peut sembler moins difficile.
 
-
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/#abstraction)
-
-
+[Abstraction](https://cs50.harvard.edu/extension/2022/fall/notes/0/#abstraction)
 
 ---
 
