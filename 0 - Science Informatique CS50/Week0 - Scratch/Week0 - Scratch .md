@@ -354,6 +354,14 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 ## Les abstactions
 
+*   Avec le pseudocodage, l'abstraction est une compétence et un concept essentiels dans la programmation informatique.
+
+*   L'abstraction est l'acte de simplifier un problème en problèmes de plus en plus petits.
+
+*   Par exemple, si vous organisiez un grand dîner pour vos amis, le problème de devoir cuisiner tout le repas pourrait être assez écrasant ! Cependant, si vous décomposez la tâche de cuisiner le repas en tâches (ou problèmes) de plus en plus petites, la grande tâche de créer ce délicieux repas peut sembler moins difficile.
+
+*   En programmation, et même au sein de Scratch, nous pouvons voir l'abstraction en action. Dans votre espace de programmation, programmez comme suit :
+
 ---
 
 ## Si (if)
