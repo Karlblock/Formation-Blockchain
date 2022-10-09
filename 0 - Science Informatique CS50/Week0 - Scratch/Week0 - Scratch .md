@@ -360,11 +360,10 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 *   Par exemple, si vous organisiez un grand dîner pour vos amis, le problème de devoir cuisiner tout le repas pourrait être assez écrasant ! Cependant, si vous décomposez la tâche de cuisiner le repas en tâches (ou problèmes) de plus en plus petites, la grande tâche de créer ce délicieux repas peut sembler moins difficile.
 
-Remarquez que vous faites la même chose encore et encore. En effet, si vous vous voyez coder à plusieurs reprises les mêmes déclarations, il est probable que vous pourriez programmer de manière plus astucieuse 
 
-Notez que la boucle fait exactement comme le programme précédent. Cependant, le problème est simplifié en faisant abstraction de la répétition dans un bloc qui répète le code pour nous.
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/#abstraction)
 
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Scratch6.png)
+
 
 ---
 
