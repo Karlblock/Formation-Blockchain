@@ -368,6 +368,8 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 ## Si (if)
 
+_Voir directement sur le site pour les image de Scratch_
+
 [si](https://cs50.harvard.edu/extension/2022/fall/notes/0/#if)
 
 ---
