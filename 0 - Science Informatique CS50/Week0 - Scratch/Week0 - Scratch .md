@@ -362,8 +362,6 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 [Abstraction](https://cs50.harvard.edu/extension/2022/fall/notes/0/#abstraction)
 
-
-
 ---
 
 ## Si (if)
