@@ -362,24 +362,57 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 [Abstraction](https://cs50.harvard.edu/extension/2022/fall/notes/0/#abstraction)
 
+
+
 ---
 
 ## Si (if)
+
+[si](https://cs50.harvard.edu/extension/2022/fall/notes/0/#if)
 
 ---
 
 ## Développez votre imagination
 
+[Développez votre imagination](https://cs50.harvard.edu/extension/2022/fall/notes/0/#expanding-your-imagination)
+
 ---
 
 ## L'esprit en mouvement
+
+[ouvez votre espris](https://cs50.harvard.edu/extension/2022/fall/notes/0/#sprite-movement)
 
 ---
 
 ## plus d'esprit
 
+[plus d'esprit](https://cs50.harvard.edu/extension/2022/fall/notes/0/#more-sprites)
+
 ---
 
 ## Résumé de la premier semaine 
+
+
+Dans cette leçon, vous avez appris comment ce cours se situe dans le vaste monde de l'informatique et de la programmation. Tu as appris…
+
+*   Peu d'étudiants viennent à cette classe avec une expérience de codage préalable !
+
+*   Tu n'es pas seul! Vous faites partie d'une communauté.
+
+*   La résolution de problèmes est l'essence même du travail des informaticiens.
+
+*   Ce cours ne concerne pas simplement la programmation - ce cours vous présentera une nouvelle façon d'apprendre que vous pouvez appliquer à presque tous les domaines de la vie.
+
+*   Comment les nombres, le texte, les images, la musique et la vidéo sont compris par les ordinateurs.
+
+*   La compétence de programmation fondamentale du pseudocodage.
+
+*   Comment l'abstraction jouera un rôle dans votre travail futur dans ce cours.
+
+*   Les blocs de construction de base de la programmation, y compris les fonctions, les conditions, les boucles et les variables.
+
+*   Comment construire un projet dans Scratch.
+
+À la prochaine!
 
 ---
