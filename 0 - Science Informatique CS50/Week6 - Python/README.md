@@ -975,9 +975,10 @@ Python peut également être utilisé pour effectuer des recherches. Dans la fen
 
 Notez que ce code fonctionne. En effet, c'est une recherche linéaire.
 
+```py
 ##  Vous pouvez utiliser les capacités intégrées de Python comme suit :
 
-```py
+
   # Implements linear search for names using `in`
 
   import sys
@@ -1116,6 +1117,8 @@ Notez que l'utilisation du withbloc de code, avec le writeret son travail en des
 Notez que la namecolonne et la numbercolonne sont définies dans la dernière ligne de code.
 
 *   Vous pouvez en savoir plus sur les fichiers CSV en Python dans la documentation Python
+
+---
 
 ##  Expressions régulières
 
