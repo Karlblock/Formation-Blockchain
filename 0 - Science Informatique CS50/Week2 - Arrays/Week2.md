@@ -599,3 +599,100 @@ Nous pouvons simplifier ou abstraire le calcul de la moyenne. Modifiez votre cod
 *   Notez que ce code est assez simplifié, supprimant l' ifinstruction inutile.
 
 *   Vous pouvez lire toutes les fonctionnalités de la ctypebibliothèque sur les pages du manuel .
+
+
+
+
+##  Arguments de la ligne de commande
+
+*   Command-line argumentssont les arguments qui sont passés à votre programme sur la ligne de commande. Par exemple, toutes les instructions que vous avez tapées après clangsont considérées comme des arguments de ligne de commande. Vous pouvez utiliser ces arguments dans vos propres programmes !
+
+*   Dans la fenêtre de votre terminal, saisissez code greet.cet écrivez le code comme suit :
+
+```c
+  #include <cs50.h>
+  #include <stdio.h>
+
+  int main(void)
+  {
+      string name = get_string("What's your name? ");
+      printf("hello, %s\n", name);
+  }
+```
+
+*   Notez que cela dit helloà l'utilisateur.
+
+*   Pourtant, ne serait-il pas agréable de pouvoir prendre des arguments avant même que le programme ne s'exécute ? Modifiez votre code comme suit :
+
+```c
+  #include <cs50.h>
+  #include <stdio.h>
+
+  int main(int argc, string argv[])
+  {
+      if (argc == 2)
+      {
+          printf("hello, %s\n", argv[1]);
+      }
+      else
+      {
+          printf("hello, world\n");
+      }
+  }  
+  ```
+
+*   Notez que ce programme connaît à la fois argc, le nombre d'arguments de la ligne de commande et argvqui est un tableau des caractères passés en arguments sur la ligne de commande.
+
+*   Par conséquent, en utilisant la syntaxe de ce programme, l'exécution ./greet Davidaurait pour résultat que le programme dirait hello, David.
+
+##  Statut de sortie
+
+*   Lorsqu'un programme se termine, un code de sortie spécial est fourni à l'ordinateur.
+Lorsqu'un programme se termine sans erreur, un code d'état 0est fourni à l'ordinateur. Souvent, lorsqu'une erreur se produit et entraîne la fin du programme, un état de 1est fourni par l'ordinateur.
+Vous pouvez écrire un programme comme suit qui illustre cela en tapant code status.cet en écrivant le code comme suit :
+
+```
+  #include <cs50.h>
+  #include <stdio.h>
+
+  int main(int argc, string argv[])
+  {
+      if (argc != 2)
+      {
+          printf("Missing command-line argument\n");
+          return 1;
+      }
+      printf("hello, %s\n", argv[1]);
+      return 0;
+  }
+
+```
+
+*   Notez que si vous ne fournissez pas ./status David, vous obtiendrez un statut de sortie de 1. Cependant, si vous fournissez ./status David, vous obtiendrez un statut de sortie de 0.
+
+*   Vous pouvez imaginer comment vous pourriez utiliser des parties du programme ci-dessus pour vérifier si un utilisateur a fourni le nombre correct d'arguments de ligne de commande.
+
+##  Cryptographie
+
+La cryptographie est l'art de chiffrer et de déchiffrer un message.
+plaintextet a keysont fournis à a cipher, ce qui donne un texte chiffré.
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/2/cs50Week2Slide153.png)
+
+*   La clé est un argument spécial passé au chiffrement avec le texte en clair. Le chiffrement utilise la clé pour prendre des décisions sur la façon d'implémenter son algorithme de chiffrement.
+
+
+##  Résumé
+
+*   Dans cette leçon, vous avez appris plus de détails sur la compilation et sur la façon dont les données sont stockées dans un ordinateur. Concrètement, vous avez appris…
+
+*   Généralement, comment fonctionne un compilateur.
+*   Comment déboguer votre code en utilisant quatre méthodes.
+*   Comment utiliser les tableaux dans votre code.
+*   Comment les tableaux stockent les données dans des parties dos à dos de la mémoire.
+*   Comment les chaînes sont simplement des tableaux de caractères.
+*   Comment interagir avec les tableaux dans votre code.
+*   Comment les arguments de ligne de commande peuvent être passés à vos programmes.
+*   Les éléments de base de la cryptographie.
+
+__À la prochaine!__
