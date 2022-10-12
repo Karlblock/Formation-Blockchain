@@ -676,6 +676,7 @@ Dans CS50, nous avons créé des fonctions comme get_intpour simplifier l'acte d
 scanfest une fonction intégrée qui peut obtenir l'entrée de l'utilisateur.
 Nous pouvons réimplémenter get_intassez facilement en utilisant scanfcomme suit:
 
+```c
   #include <stdio.h>
 
   int main(void)
@@ -685,10 +686,13 @@ Nous pouvons réimplémenter get_intassez facilement en utilisant scanfcomme sui
       scanf("%i", &x);
       printf("x: %i\n", x);
   }
+```
+
 Notez que la valeur de xest stockée à l'emplacement de xdans la ligne scanf("%i", &x).
 
-Cependant, tenter de réimplémenter get_stringn'est pas facile. Considérer ce qui suit:
+*   Cependant, tenter de réimplémenter get_stringn'est pas facile. Considérer ce qui suit:
 
+```
   #include <stdio.h>
 
   int main(void)
@@ -698,10 +702,12 @@ Cependant, tenter de réimplémenter get_stringn'est pas facile. Considérer ce 
       scanf("%s", s);
       printf("s: %s\n", s);
   }
+```
 Notez que non &est requis car les chaînes sont spéciales. Pourtant, ce programme ne fonctionnera pas. Nulle part dans ce programme nous n'allouons la quantité de mémoire requise pour notre chaîne.
 
-Nous pouvons modifier notre code comme suit :
+*   Nous pouvons modifier notre code comme suit :
 
+```c
   #include <stdio.h>
 
   int main(void)
@@ -711,12 +717,15 @@ Nous pouvons modifier notre code comme suit :
       scanf("%s", s);
       printf("s: %s\n", s);
   }
+```
+
 Notez que si nous pré-allouons un tableau de size 4, nous pouvons taper catet les fonctions du programme. Cependant, une chaîne plus grande que cela créerait une erreur.
 
 ## scanf
 
-Vous pouvez lire et manipuler des fichiers. Bien que ce sujet soit abordé plus en détail dans une semaine à venir, considérez le code suivant pourphonebook.c :
+*   Vous pouvez lire et manipuler des fichiers. Bien que ce sujet soit abordé plus en détail dans une semaine à venir, considérez le code suivant pourphonebook.c :
 
+```c
   #include <cs50.h>
   #include <stdio.h>
   #include <string.h>
@@ -736,14 +745,12 @@ Vous pouvez lire et manipuler des fichiers. Bien que ce sujet soit abordé plus 
       // Close file
       fclose(file);
   }
+```
 Notez que ce code utilise des pointeurs pour accéder au fichier.
 
-Vous pouvez créer un fichier appelé phonebook.csvavant d'exécuter le code ci-dessus. Après avoir exécuté le programme ci-dessus et saisi un nom et un numéro de téléphone, vous remarquerez que ces données persistent dans votre fichier CSV.
-
-
+*   Vous pouvez créer un fichier appelé phonebook.csvavant d'exécuter le code ci-dessus. Après avoir exécuté le programme ci-dessus et saisi un nom et un numéro de téléphone, vous remarquerez que ces données persistent dans votre fichier CSV.
 
 ## Summing Up
-
 
 Dans cette leçon, vous avez découvert les pointeurs qui vous permettent d'accéder à des données et de les manipuler à des emplacements de mémoire spécifiques. Plus précisément, nous nous sommes penchés sur…
 
