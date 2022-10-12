@@ -167,7 +167,9 @@ Considérez le code suivant :
   int n = 50;
 
   int *p = &n;
-Notez que pc'est un pointeur qui contient un nombre qui est l'adresse d'un entier n.
+
+
+*   Notez que pc'est un pointeur qui contient un nombre qui est l'adresse d'un entier n.
 
 Modifiez votre code comme suit :
 
@@ -179,24 +181,25 @@ Modifiez votre code comme suit :
       int *p = &n;
       printf("%p\n", p);
   }
-Notez que ce code a le même effet que notre code précédent. Nous avons simplement mis à profit nos nouvelles connaissances des opérateurs &et .*
 
-Vous pouvez visualiser notre code comme suit :
+*   Notez que ce code a le même effet que notre code précédent. Nous avons simplement mis à profit nos nouvelles connaissances des opérateurs &et .*
+
+*   Vous pouvez visualiser notre code comme suit :
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
 
-Même valeur de 50 dans un emplacement de mémoire avec une valeur de pointeur stockée ailleurs
+*   Même valeur de 50 dans un emplacement de mémoire avec une valeur de pointeur stockée ailleurs
 
-Remarquez que le pointeur semble plutôt gros. En effet, un pointeur est généralement stocké sous la forme d'une valeur de 8 octets.
+*   Remarquez que le pointeur semble plutôt gros. En effet, un pointeur est généralement stocké sous la forme d'une valeur de 8 octets.
 
-Vous pouvez visualiser plus précisément un pointeur comme une adresse pointant vers une autre :
+*   Vous pouvez visualiser plus précisément un pointeur comme une adresse pointant vers une autre :
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide079.png)
 
-Un pointeur sous forme de flèche, pointant d'un emplacement de mémoire à un autre
+*   Un pointeur sous forme de flèche, pointant d'un emplacement de mémoire à un autre
 
-Pour illustrer l'utilisation de l' *opérateur, considérez ce qui suit :
-
+*   Pour illustrer l'utilisation de l' *opérateur, considérez ce qui suit :
+```c
   #include <stdio.h>
 
   int main(void)
@@ -205,6 +208,8 @@ Pour illustrer l'utilisation de l' *opérateur, considérez ce qui suit :
       int *p = &n;
       printf("%i\n", *p);
   }
+```
+
 Notez que la printfligne imprime l'entier à l'emplacement de p.
 
 ## les Strings
