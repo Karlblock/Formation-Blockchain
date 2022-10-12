@@ -263,8 +263,9 @@ Vous pouvez modifier votre code pour accomplir la même chose sous une forme plu
   }
 Notez que nous imprimons chaque caractère à l'emplacement de s.
 
-De plus, vous pouvez modifier votre code comme suit :
+*   De plus, vous pouvez modifier votre code comme suit :
 
+```c
   #include <stdio.h>
 
   int main(void)
@@ -274,16 +275,23 @@ De plus, vous pouvez modifier votre code comme suit :
       printf("%c\n", *(s + 1));
       printf("%c\n", *(s + 2));
   }
-Notez que le premier caractère à l'emplacement de sest imprimé. Ensuite, le caractère à l'emplacement s + 1est imprimé, et ainsi de suite.
+```
 
-Pouvez-vous imaginer ce qui se passerait si vous tentiez d'accéder à quelque chose sur places + 50 ? Les pirates tentent parfois d'accéder à des éléments en mémoire auxquels ils ne devraient pas avoir accès. Si vous essayez cela, le programme se fermera probablement par mesure de sécurité.
+*   Notez que le premier caractère à l'emplacement de sest imprimé. Ensuite, le caractère à l'emplacement s + 1est imprimé, et ainsi de suite.
+
+*   Pouvez-vous imaginer ce qui se passerait si vous tentiez d'accéder à quelque chose sur places + 50 ? Les pirates tentent parfois d'accéder à des éléments en mémoire auxquels ils ne devraient pas avoir accès. Si vous essayez cela, le programme se fermera probablement par mesure de sécurité.
+
 ## Comparing Strings
 
-Une chaîne de caractères est simplement un tableau de caractères identifié par son premier octet.
-Rappelez-vous que la semaine dernière, nous avons proposé que nous ne pouvions pas comparer deux chaînes à l'aide de l' ==opérateur.
-L'utilisation de l' ==opérateur dans une tentative de comparaison de chaînes tentera de comparer les emplacements de mémoire des chaînes au lieu des caractères qu'elles contiennent. En conséquence, nous avons recommandé l'utilisation de strcmp.
-Pour illustrer cela, tapez code compare.cet écrivez le code comme suit :
+*   Une chaîne de caractères est simplement un tableau de caractères identifié par son premier octet.
 
+*   Rappelez-vous que la semaine dernière, nous avons proposé que nous ne pouvions pas comparer deux chaînes à l'aide de l' ==opérateur.
+
+*   L'utilisation de l' ==opérateur dans une tentative de comparaison de chaînes tentera de comparer les emplacements de mémoire des chaînes au lieu des caractères qu'elles contiennent. En conséquence, nous avons recommandé l'utilisation de strcmp.
+
+*   Pour illustrer cela, tapez code compare.cet écrivez le code comme suit :
+
+```c
   #include <cs50.h>
   #include <stdio.h>
 
@@ -303,18 +311,21 @@ Pour illustrer cela, tapez code compare.cet écrivez le code comme suit :
           printf("Different\n");
       }
   }
-Remarquer que la saisie HI!des deux chaînes entraîne toujours la sortie de Different.
+```
 
-Pourquoi ces chaînes semblent-elles différentes ? Vous pouvez utiliser ce qui suit pour visualiser pourquoi :
+*   Remarquer que la saisie HI!des deux chaînes entraîne toujours la sortie de Different.
 
-deux chaînes stockées séparément en mémoire
+*   Pourquoi ces chaînes semblent-elles différentes ? Vous pouvez utiliser ce qui suit pour visualiser pourquoi :
 
-Pour plus de clarté, vous pouvez voir comment l'image suivante illustre des pointeurs pointant vers deux emplacements distincts en mémoire :
+*   deux chaînes stockées séparément en mémoire
 
-deux chaînes stockées séparément en mémoire avec des pointeurs distincts pointant vers elles
+*   Pour plus de clarté, vous pouvez voir comment l'image suivante illustre des pointeurs pointant vers deux emplacements distincts en mémoire :
 
-Modifiez votre code comme suit :
+*   deux chaînes stockées séparément en mémoire avec des pointeurs distincts pointant vers elles
 
+*   Modifiez votre code comme suit :
+
+```c
   #include <cs50.h>
   #include <stdio.h>
 
@@ -328,10 +339,12 @@ Modifiez votre code comme suit :
       printf("%s\n", s);
       printf("%s\n", t);
   }
+```
 Remarquez comment nous avons maintenant deux chaînes distinctes stockées probablement à deux emplacements distincts.
 
-Vous pouvez voir les emplacements de ces deux chaînes stockées avec une petite modification :
+*   Vous pouvez voir les emplacements de ces deux chaînes stockées avec une petite modification :
 
+```c
   #include <cs50.h>
   #include <stdio.h>
 
@@ -345,12 +358,17 @@ Vous pouvez voir les emplacements de ces deux chaînes stockées avec une petite
       printf("%p\n", s);
       printf("%p\n", t);
   }
+
+```
+
 Notez que le %sa été remplacé par %pdans l'instruction d'impression.
 
 ## Copying
 
-Un besoin courant en programmation est de copier une chaîne dans une autre.
+*   Un besoin courant en programmation est de copier une chaîne dans une autre.
 Dans la fenêtre de votre terminal, saisissez code copy.cet écrivez le code comme suit :
+
+```c
 
   #include <cs50.h>
   #include <ctype.h>
@@ -372,9 +390,13 @@ Dans la fenêtre de votre terminal, saisissez code copy.cet écrivez le code com
       printf("s: %s\n", s);
       printf("t: %s\n", t);
   }
-Notez que string t = scopie l'adresse de sà t. Cela n'accomplit pas ce que nous désirons. La chaîne n'est pas copiée - seule l'adresse l'est.
+```
 
-Avant de relever ce défi, il est important de s'assurer que nous ne rencontrons pas de défaut de segmentation dans notre code, où nous tentons de copier string svers string t, où string tn'existe pas. Nous pouvons utiliser la strlenfonction comme suit pour vous aider :
+*   Notez que string t = scopie l'adresse de sà t. Cela n'accomplit pas ce que nous désirons. La chaîne n'est pas copiée - seule l'adresse l'est.
+
+*   Avant de relever ce défi, il est important de s'assurer que nous ne rencontrons pas de défaut de segmentation dans notre code, où nous tentons de copier string svers string t, où string tn'existe pas. Nous pouvons utiliser la strlenfonction comme suit pour vous aider :
+
+```c
 
   #include <cs50.h>
   #include <ctype.h>
@@ -399,17 +421,21 @@ Avant de relever ce défi, il est important de s'assurer que nous ne rencontrons
       printf("s: %s\n", s);
       printf("t: %s\n", t);
   }
-Avis qui strlenest utilisé pour s'assurer qu'il string texiste. Si ce n'est pas le cas, rien ne sera copié.
+```
 
-Vous pouvez visualiser le code ci-dessus comme suit :
+*   Avis qui strlenest utilisé pour s'assurer qu'il string texiste. Si ce n'est pas le cas, rien ne sera copié.
 
-deux pointeurs pointant vers le même emplacement mémoire avec une chaîne
+*   Vous pouvez visualiser le code ci-dessus comme suit :
 
-Notez que set tpointent toujours vers les mêmes blocs de mémoire. Ce n'est pas une copie authentique d'une chaîne. Au lieu de cela, ce sont deux pointeurs pointant sur la même chaîne.
+*   deux pointeurs pointant vers le même emplacement mémoire avec une chaîne
 
-Pour pouvoir faire une copie authentique de la chaîne, nous devrons introduire deux nouveaux blocs de construction. Tout d'abord, mallocvous permet, le programmeur, d'allouer un bloc d'une taille de mémoire spécifique. Deuxièmement, freevous permet de dire au compilateur de libérer ce bloc de mémoire que vous avez précédemment alloué.
+*   Notez que set tpointent toujours vers les mêmes blocs de mémoire. Ce n'est pas une copie authentique d'une chaîne. Au lieu de cela, ce sont deux pointeurs pointant sur la même chaîne.
 
-Nous pouvons modifier notre code pour créer une copie authentique de notre chaîne comme suit :
+*   Pour pouvoir faire une copie authentique de la chaîne, nous devrons introduire deux nouveaux blocs de construction. Tout d'abord, mallocvous permet, le programmeur, d'allouer un bloc d'une taille de mémoire spécifique. Deuxièmement, freevous permet de dire au compilateur de libérer ce bloc de mémoire que vous avez précédemment alloué.
+
+*   *ous pouvons modifier notre code pour créer une copie authentique de notre chaîne comme suit :
+
+```c
 
   #include <cs50.h>
   #include <ctype.h>
@@ -438,9 +464,13 @@ Nous pouvons modifier notre code pour créer une copie authentique de notre cha�
       printf("s: %s\n", s);
       printf("t: %s\n", t);
   }
-Notez que malloc(strlen(s) + 1)crée un bloc de mémoire qui est la longueur de la chaîne splus un. Cela permet l'inclusion du caractère nul \0 dans notre chaîne finale copiée. Ensuite, la forboucle parcourt la chaîne set attribue chaque valeur au même emplacement sur la chaîne t.
 
-Il s'avère qu'il y a une inefficacité dans notre code. Modifiez votre code comme suit :
+```
+*   Notez que malloc(strlen(s) + 1)crée un bloc de mémoire qui est la longueur de la chaîne splus un. Cela permet l'inclusion du caractère nul \0 dans notre chaîne finale copiée. Ensuite, la forboucle parcourt la chaîne set attribue chaque valeur au même emplacement sur la chaîne t.
+
+*   Il s'avère qu'il y a une inefficacité dans notre code. Modifiez votre code comme suit :
+
+```c
 
   #include <cs50.h>
   #include <ctype.h>
@@ -469,10 +499,13 @@ Il s'avère qu'il y a une inefficacité dans notre code. Modifiez votre code com
       printf("s: %s\n", s);
       printf("t: %s\n", t);
   }
-Notez que n = strlen(s)c'est maintenant défini dans la partie gauche du fichier for loop. Il est préférable de ne pas appeler de fonctions inutiles dans la condition médiane de la forboucle, car elle s'exécutera encore et encore. Lors du déplacement n = strlen(s)vers la gauche, la fonction strlenne s'exécute qu'une seule fois.
+```
 
-Le Clangage a une fonction intégrée pour copier des chaînes appelées strcpy. Il peut être mis en œuvre comme suit :
+*   Notez que n = strlen(s)c'est maintenant défini dans la partie gauche du fichier for loop. Il est préférable de ne pas appeler de fonctions inutiles dans la condition médiane de la forboucle, car elle s'exécutera encore et encore. Lors du déplacement n = strlen(s)vers la gauche, la fonction strlenne s'exécute qu'une seule fois.
 
+*   Le Clangage a une fonction intégrée pour copier des chaînes appelées strcpy. Il peut être mis en œuvre comme suit :
+
+```c
   #include <cs50.h>
   #include <ctype.h>
   #include <stdio.h>
@@ -497,9 +530,13 @@ Le Clangage a une fonction intégrée pour copier des chaînes appelées strcpy.
       printf("s: %s\n", s);
       printf("t: %s\n", t);
   }
-Notez que cela strcpyfait le même travail que notre forboucle faisait précédemment.
+```
 
-Les deux get_stringet mallocreturn NULL, une valeur spéciale en mémoire, en cas de problème. Vous pouvez écrire du code qui peut vérifier cette NULLcondition comme suit :
+*   Notez que cela strcpyfait le même travail que notre forboucle faisait précédemment.
+
+*   Les deux get_stringet mallocreturn NULL, une valeur spéciale en mémoire, en cas de problème. Vous pouvez écrire du code qui peut vérifier cette NULLcondition comme suit :
+
+```c
 
   #include <cs50.h>
   #include <ctype.h>
@@ -540,12 +577,16 @@ Les deux get_stringet mallocreturn NULL, une valeur spéciale en mémoire, en ca
       free(t);
       return 0;
   }
+
+```
 Notez que si la chaîne obtenue est de longueur 0ou si malloc échoue, NULLest renvoyé. De plus, notez que cela freepermet à l'ordinateur de savoir que vous en avez terminé avec ce bloc de mémoire que vous avez créé via malloc.
 
 ## Valgrind
 
 Valgrind est un outil qui peut vérifier s'il y a des problèmes liés à la mémoire avec vos programmes dans lesquels vous avez utilisé malloc. Plus précisément, il vérifie si vous avez freetoute la mémoire que vous avez allouée.
 Considérez le code suivant :
+
+```c
 
   #include <stdio.h>
   #include <stdlib.h>
@@ -557,10 +598,15 @@ Considérez le code suivant :
       x[2] = 73;
       x[3] = 33;
   }
-Notez que l'exécution de ce programme ne provoque aucune erreur. Alors que mallocest utilisé pour allouer suffisamment de mémoire pour un tableau, le code échoue dans freecette mémoire allouée.
 
-Si vous tapez make memorysuivi de valgrind ./memory, vous obtiendrez un rapport de valgrind qui indiquera où la mémoire a été perdue à cause de votre programme.
+```
+
+*   Notez que l'exécution de ce programme ne provoque aucune erreur. Alors que mallocest utilisé pour allouer suffisamment de mémoire pour un tableau, le code échoue dans freecette mémoire allouée.
+
+*   Si vous tapez make memorysuivi de valgrind ./memory, vous obtiendrez un rapport de valgrind qui indiquera où la mémoire a été perdue à cause de votre programme.
 Vous pouvez modifier votre code comme suit :
+
+```c
 
   #include <stdio.h>
   #include <stdlib.h>
@@ -573,13 +619,16 @@ Vous pouvez modifier votre code comme suit :
       x[3] = 33;
       free(x);
   }
+```
 Notez que la réexécution de valgrind entraîne maintenant des fuites de mémoire.
 
 ## Garbage Values
 
-Lorsque vous demandez au compilateur un bloc de mémoire, rien ne garantit que cette mémoire sera vide.
-Il est très possible que cette mémoire que vous avez allouée ait été précédemment utilisée par l'ordinateur. En conséquence, vous pouvez voir des valeurs indésirables ou inutiles . Ceci est dû au fait que vous obtenez un bloc de mémoire mais que vous ne l'initialisez pas. Par exemple, considérez le code suivant :
+*   Lorsque vous demandez au compilateur un bloc de mémoire, rien ne garantit que cette mémoire sera vide.
 
+*   Il est très possible que cette mémoire que vous avez allouée ait été précédemment utilisée par l'ordinateur. En conséquence, vous pouvez voir des valeurs indésirables ou inutiles . Ceci est dû au fait que vous obtenez un bloc de mémoire mais que vous ne l'initialisez pas. Par exemple, considérez le code suivant :
+
+```c
   #include <stdio.h>
   #include <stdlib.h>
 
@@ -591,6 +640,8 @@ Il est très possible que cette mémoire que vous avez allouée ait été préc�
           printf("%i\n", scores[i]);
       }
   }
+```
+
 Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour votre tableau, mais la forboucle montrera probablement que toutes les valeurs qu'il contient ne sont pas 0. Il est toujours préférable d'être conscient du potentiel de valeurs parasites lorsque vous n'initialisez pas des blocs de mémoire à une autre valeur comme zéro ou autre.
 
 ## Pointer Fun with Binky
