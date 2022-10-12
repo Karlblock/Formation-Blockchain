@@ -89,7 +89,7 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 *   Vous pouvez imaginer un tableau comme suit :
 
-![https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide019.png](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide019.png)
+![*](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide019.png)
 
 En mémoire, d'autres valeurs sont stockées par d'autres programmes, fonctions et variables. Beaucoup d'entre eux peuvent être des valeurs parasites inutilisées qui ont été utilisées à un moment donné mais qui sont maintenant disponibles pour être utilisées.
 
