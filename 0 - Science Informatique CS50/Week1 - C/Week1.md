@@ -614,6 +614,19 @@ string, une chaîne de caractères
 ```
 Remarquez comment la get_intfonction est utilisée pour obtenir deux fois un nombre entier de l'utilisateur. Un entier est stocké dans la intvariable appelée x. Un autre est stocké dans la intvariable appelée y. Ensuite, la printffonction imprime la valeur de x + y, désignée par le %isymbole .
 
-Pendant que vous codez, portez une attention particulière aux types de variables que vous utilisez pour éviter les problèmes dans votre code.
+*   Pendant que vous codez, portez une attention particulière aux types de variables que vous utilisez pour éviter les problèmes dans votre code.
 
 ## Résumé
+
+Dans cette leçon, vous avez appris à appliquer les blocs de construction que vous avez appris dans Scratch au langage de programmation C. Tu as appris…
+
+*        Comment créer votre premier programme en C.
+*        Fonctions prédéfinies fournies nativement avec C et comment implémenter vos propres fonctions.
+*       Comment utiliser les variables, les conditions et les boucles.
+*       Comment utiliser la ligne de commande Linux.
+*       Comment aborder la résolution de problèmes pour un problème informatique.
+*       Comment intégrer des commentaires dans votre code.
+*       Comment aborder l'abstraction pour simplifier et améliorer votre code.
+*       Comment utiliser les types et les opérateurs.
+
+À la prochaine!
