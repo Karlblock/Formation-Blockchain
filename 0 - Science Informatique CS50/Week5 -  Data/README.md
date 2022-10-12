@@ -64,7 +64,8 @@ Dans le code, vous pouvez imaginer une pile comme suit :
       int size;
   }
   stack;
-  ```
+
+```
 
 *   Notez qu'un tableau appelé people est de type person. C'est CAPACITYà quelle hauteur la pile pourrait être. L'entier sizeest le niveau de remplissage réel de la pile, quelle que soit sa capacité .
 
@@ -77,3 +78,159 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 ##  Jack apprend les faits
 
 *   Nous avons regardé une vidéo intitulée Jack Learns the Facts par le professeur Shannon Duvall de l'Université d'Elon.
+
+---
+
+## Redimensionner les tableaux
+
+*   Revenant à la semaine 2, nous vous avons présenté votre première structure de données.
+
+*   Un tableau est un bloc de mémoire contigu.
+
+*   Vous pouvez imaginer un tableau comme suit :
+
+![https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide019.png](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide019.png)
+
+En mémoire, d'autres valeurs sont stockées par d'autres programmes, fonctions et variables. Beaucoup d'entre eux peuvent être des valeurs parasites inutilisées qui ont été utilisées à un moment donné mais qui sont maintenant disponibles pour être utilisées.
+
+trois boîtes avec 1 2 3 parmi plein d'autres éléments de mémoire
+
+Imaginez que vous souhaitiez stocker une quatrième valeur 4dans notre tableau ? Ce qu'il faudrait, c'est allouer une nouvelle zone de mémoire et déplacer l'ancien tableau vers un nouveau.
+
+Trois cases avec 1 2 3 au-dessus de quatre cases avec 1 2 et deux valeurs poubelles
+
+Les anciennes valeurs parasites seraient écrasées par nos nouvelles données.
+
+Trois cases avec 1 2 3 au-dessus de quatre cases avec 1 2 3 et une valeur poubelle
+
+L'un des inconvénients de cette approche est qu'elle est mal conçue : chaque fois que nous ajoutons un nombre, nous devons copier le tableau élément par élément.
+
+Ne serait-ce pas bien si nous pouvions mettre l' 4ailleurs en mémoire ? Par définition, ce ne serait plus un tableau car 4il ne serait plus en mémoire contiguë.
+
+Dans votre terminal, tapez code list.cet écrivez le code comme suit :
+
+  // Implements a list of numbers with an array of fixed size
+
+  #include <stdio.h>
+
+  int main(void)
+  {
+      // List of size 3
+      int list[3];
+
+      // Initialize list with numbers
+      list[0] = 1;
+      list[1] = 2;
+      list[2] = 3;
+
+      // Print list
+      for (int i = 0; i < 3; i++)
+      {
+          printf("%i\n", list[i]);
+      }
+  }
+Notez que ce qui précède ressemble beaucoup à ce que nous avons appris plus tôt dans ce cours. Nous avons de la mémoire préallouée pour trois éléments.
+
+En nous appuyant sur nos connaissances acquises plus récemment, nous pouvons tirer parti de notre compréhension des pointeurs pour créer une meilleure conception dans ce code. Modifiez votre code comme suit :
+
+  // Implements a list of numbers with an array of dynamic size
+
+  #include <stdio.h>
+  #include <stdlib.h>
+
+  int main(void)
+  {
+      // List of size 3
+      int *list = malloc(3 * sizeof(int));
+      if (list == NULL)
+      {
+          return 1;
+      }
+
+      // Initialize list of size 3 with numbers
+      list[0] = 1;
+      list[1] = 2;
+      list[2] = 3;
+
+      // List of size 4
+      int *tmp = malloc(4 * sizeof(int));
+      if (tmp == NULL)
+      {
+          free(list);
+          return 1;
+      }
+
+      // Copy list of size 3 into list of size 4
+      for (int i = 0; i < 3; i++)
+      {
+          tmp[i] = list[i];
+      }
+
+      // Add number to list of size 4
+      tmp[3] = 4;
+
+      // Free list of size 3
+      free(list);
+
+      // Remember list of size 4
+      list = tmp;
+
+      // Print list
+      for (int i = 0; i < 4; i++)
+      {
+          printf("%i\n", list[i]);
+      }
+
+      // Free list
+      free(list);
+      return 0;
+Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresses mémoire peuvent être affectées aux valeurs 1, 2et 3. Ensuite, une liste de taille quatre est créée. Ensuite, la liste est copiée du premier au second. La valeur de 4est ajoutée à la tmpliste. Le bloc de mémoire sur lequel listpointe n'étant plus utilisé, il est libéré à l'aide de la commande free(list). Enfin, le compilateur est invité à pointer le listpointeur vers le bloc de mémoire tmpvers lequel il pointe. Le contenu de listest imprimé puis libéré.
+
+Il est utile de penser à listet tmpcomme les deux signes qui pointent vers un morceau de mémoire. Comme dans l'exemple ci-dessus, listà un moment pointé vers un tableau de taille 3. À la fin, liston lui a dit de pointer vers un morceau de mémoire de taille 4. Techniquement, à la fin du code ci-dessus, tmples listdeux pointaient vers le même bloc de mémoire.
+
+C est livré avec une fonction très utile appelée reallocqui réaffectera la mémoire pour vous. reallocprend deux arguments. Tout d'abord, il vous demande de spécifier le tableau que vous essayez de copier. Deuxièmement, il vous demande de spécifier la taille à laquelle vous souhaitez que le tableau final soit. Modifiez votre code comme suit :
+
+  // Implements a list of numbers with an array of dynamic size using realloc
+
+  #include <stdio.h>
+  #include <stdlib.h>
+
+  int main(void)
+  {
+      // List of size 3
+      int *list = malloc(3 * sizeof(int));
+      if (list == NULL)
+      {
+          return 1;
+      }
+
+      // Initialize list of size 3 with numbers
+      list[0] = 1;
+      list[1] = 2;
+      list[2] = 3;
+
+      // Resize list to be of size 4
+      int *tmp = realloc(list, 4 * sizeof(int));
+      if (tmp == NULL)
+      {
+          free(list);
+          return 1;
+      }
+      list = tmp;
+
+      // Add number to list
+      list[3] = 4;
+
+      // Print list
+      for (int i = 0; i < 4; i++)
+      {
+          printf("%i\n", list[i]);
+      }
+
+      // Free list
+      free(list);
+      return 0;
+  }
+Notez que int *tmp = realloc(list, 4 * sizeof(int))crée une liste d'entiers de taille quatre. Ensuite, il copie les valeurs de listdans ce nouveau tableau. Enfin, un pointeur nommé tmppointe sur l'emplacement mémoire de ce nouveau tableau. La copie est gérée par realloc. Une fois cette copie effectuée, la mémoire à l'emplacement de listest libérée. Ensuite, le pointeur appelé listest pointé à l'emplacement de tmp, où se trouve le nouveau tableau.
+
+Vous pouvez imaginer à quel point l'utilisation reallocd'une file d'attente ou d'une pile pourrait être utile. À mesure que la quantité de données augmente, reallocpeut être utilisé pour augmenter ou réduire la pile ou la file d'attente.
