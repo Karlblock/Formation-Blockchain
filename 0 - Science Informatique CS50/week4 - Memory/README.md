@@ -1,8 +1,8 @@
 # Lecture 4  - Memory 
 
-- [Semaine 2 en anglais ](https://cs50.harvard.edu/x/2022/notes/2/)
-- [Les notes 2022 en anglais ](https://cs50.harvard.edu/extension/2022/fall/notes/2/#welcome)
-- [Vidéo Semaine 2](https://www.youtube.com/watch?v=ywg7cW0Txs4)
+- [Semaine 4 en anglais ](https://cs50.harvard.edu/x/2022/notes/4/)
+- [Les notes 2022 en anglais ](https://cs50.harvard.edu/extension/2022/fall/notes/4/#welcome)
+- [Vidéo Semaine 4](https://www.youtube.com/watch?v=ywg7cW0Txs4)
 
 ## Table des matières 
 
