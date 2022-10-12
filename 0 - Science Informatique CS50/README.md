@@ -26,7 +26,7 @@ Retrouvez l'introduction de CS50 :
 
 - Notes [Semaine 5 Data](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
 
-- Notes [Semaine 6 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
+- Notes [Semaine 6 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week6%20-%20Python)
 
 ---
 
