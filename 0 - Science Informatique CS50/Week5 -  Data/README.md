@@ -318,25 +318,25 @@ Ensuite, listest pointé à l'emplacement de la mémoire où npointe. net listpo
 
 ![liste pointant vers un nœud avec 1 comme nombre et null comme valeur de suivant et n pointant vers un nouveau nœud avec des valeurs parasites](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide073.png)
 
-*   La numbervaleur du nnœud de (le nouveau nœud) est mise à jour en 2.
+*   La number valeur du nnœud de (le nouveau nœud) est mise à jour en 2.
 
-*   liste pointant vers un nœud avec 1 comme nombre et null comme valeur de suivant et n pointant vers un nouveau nœud avec 2 comme nombre et poubelle comme suivant
+![liste pointant vers un nœud avec 1 comme nombre et null comme valeur de suivant et n pointant vers un nouveau nœud avec 2 comme nombre et poubelle comme suivant](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide075.png)
 
 *   De plus, le nextchamp est également mis à jour.
 
-*   liste pointant vers un nœud avec 1 comme nombre et null comme valeur de suivant et n pointant vers un nouveau nœud avec 2 comme nombre et null comme suivant
+![liste pointant vers un nœud avec 1 comme nombre et null comme valeur de suivant et n pointant vers un nouveau nœud avec 2 comme nombre et null comme suivant](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide077.png)
 
 *   Plus important encore, nous ne voulons pas perdre notre connexion à l'un de ces nœuds de peur qu'ils ne soient perdus à jamais. Par conséquent, nle nextchamp de est pointé vers le même emplacement mémoire que list.
 
-*   liste pointant vers un nœud avec 1 comme nombre et null comme valeur de suivant et n pointant vers un nouveau nœud avec 2 comme nombre et null comme suivant
+![l](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide084.png)
 
 *   Enfin, listest mis à jour pour pointer vers n. Nous avons maintenant une liste liée de deux éléments.
 
-*   liste pointant vers un nœud avec 1 comme numéro et suivant pointant vers un nœud avec un n pointant au même endroit le nœud avec un pointe vers un nœud avec 2 comme numéro et nul comme suivant
+*   ![liste comme suivant](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide086.png)
 
-```c
 Pour implémenter cela dans le code, modifiez votre code comme suit :
 
+```c
   // Prepends numbers to a linked list, using while loop to print
 
   #include <cs50.h>
