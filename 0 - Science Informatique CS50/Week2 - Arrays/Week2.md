@@ -651,7 +651,7 @@ Nous pouvons simplifier ou abstraire le calcul de la moyenne. Modifiez votre cod
 Lorsqu'un programme se termine sans erreur, un code d'état 0est fourni à l'ordinateur. Souvent, lorsqu'une erreur se produit et entraîne la fin du programme, un état de 1est fourni par l'ordinateur.
 Vous pouvez écrire un programme comme suit qui illustre cela en tapant code status.cet en écrivant le code comme suit :
 
-```
+```c
   #include <cs50.h>
   #include <stdio.h>
 
