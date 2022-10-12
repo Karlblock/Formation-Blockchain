@@ -164,15 +164,17 @@ $
 *   Un pointeur est une variable qui contient l'adresse d'une valeur. Plus succinctement, un pointeur est une adresse dans la mémoire de votre ordinateur.
 Considérez le code suivant :
 
+```c
   int n = 50;
 
   int *p = &n;
-
+```
 
 *   Notez que pc'est un pointeur qui contient un nombre qui est l'adresse d'un entier n.
 
 Modifiez votre code comme suit :
 
+```c
   #include <stdio.h>
 
   int main(void)
@@ -181,7 +183,7 @@ Modifiez votre code comme suit :
       int *p = &n;
       printf("%p\n", p);
   }
-
+```
 *   Notez que ce code a le même effet que notre code précédent. Nous avons simplement mis à profit nos nouvelles connaissances des opérateurs &et .*
 
 *   Vous pouvez visualiser notre code comme suit :
