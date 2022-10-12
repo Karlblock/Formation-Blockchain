@@ -1179,12 +1179,11 @@ De plus, vous pouvez exécuter le code suivant :
   engine.runAndWait()
 ```
 
+---
+
 ##  Résumé
 
 *   Dans cette leçon, vous avez appris comment les éléments de base de la programmation des leçons précédentes peuvent être implémentés dans Python. De plus, vous avez appris comment Python permettait un code plus simplifié. De plus, vous avez appris à utiliser diverses bibliothèques Python. En fin de compte, vous avez appris que vos compétences en tant que programmeur ne se limitent pas uniquement à un seul langage de programmation. Vous voyez déjà comment vous découvrez une nouvelle façon d'apprendre grâce à ce cours qui pourrait vous servir dans n'importe quel langage de programmation - et, peut-être, dans presque toutes les voies d'apprentissage ! Plus précisément, nous avons discuté…
-
---- 
-
 
 *    Python
 *    variables
