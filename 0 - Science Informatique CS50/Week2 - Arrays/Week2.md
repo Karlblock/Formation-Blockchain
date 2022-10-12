@@ -86,7 +86,9 @@ __Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=XmYns
 *   La compilation implique des étapes majeures, notamment les suivantes :
     *   Tout d'abord, le prétraitement est l'endroit où les fichiers d'en-tête de votre code, désignés par un #(tel que #include \<cs50.h\>) sont effectivement copiés et collés dans votre fichier. Au cours de cette étape, le code de cs50.hest copié dans votre programme. De même, tout comme votre code contient #include \<stdio.h\>, le code contenu stdio.hquelque part sur votre ordinateur est copié dans votre programme. Cette étape peut être visualisée comme suit :
 
-    ```c      ...
+    ```c 
+
+        ...
         string get_string(string prompt);
         int printf(string format, ...);
         ...
@@ -95,7 +97,8 @@ __Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=XmYns
         {
             string name = get_string("What's your name? ");
             printf("hello, %s\n", name);
-        }```
+        }
+    ```
 
 *   Deuxièmement, la compilation est l'endroit où votre programme est converti en code assembleur. Cette étape peut être visualisée comme suit :
 
