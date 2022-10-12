@@ -1070,10 +1070,11 @@ Notez que chaque valeur est échangée, en utilisant une syntaxe très Pythoniqu
 
 ---
 
-CSV
+ ## CSV
 
 *   Vous pouvez également utiliser Python pour interagir avec les fichiers CSV. Considérons le programme suivant appelé phonebook.py:
 
+```py
   # Saves names and numbers to a CSV file
 
   import csv
@@ -1088,9 +1089,12 @@ CSV
       # Print to file
       writer = csv.writer(file)
       writer.writerow([name, number])
+```
+
 Notez que l'utilisation du withbloc de code, avec le writeret son travail en dessous en retrait, nous empêche d'avoir besoin de closenotre fichier une fois terminé.
 
-Généralement, les fichiers CSV ont des colonnes qui portent des noms spécifiques. A DictWriterpeut être utilisé pour créer le fichier CSV et attribuer des noms spécifiques à chaque colonne. Considérez la modification suivante de notre code :
+*   Généralement, les fichiers CSV ont des colonnes qui portent des noms spécifiques. A DictWriterpeut être utilisé pour créer le fichier CSV et attribuer des noms spécifiques à chaque colonne. Considérez la modification suivante de notre code :
+```py
 
   # Saves names and numbers to a CSV file using a DictWriter
 
@@ -1106,22 +1110,30 @@ Généralement, les fichiers CSV ont des colonnes qui portent des noms spécifiq
       # Print to file
       writer = csv.DictWriter(file, fieldnames=["name", "number"])
       writer.writerow({"name": name, "number": number})
+
+```
+
 Notez que la namecolonne et la numbercolonne sont définies dans la dernière ligne de code.
 
-Vous pouvez en savoir plus sur les fichiers CSV en Python dans la documentation Python
+*   Vous pouvez en savoir plus sur les fichiers CSV en Python dans la documentation Python
 
-Expressions régulières
-Python peut être utilisé pour analyser des modèles de données à l'aide d'expressions régulières .
-Certaines expressions régulières intégrées à Python sont les suivantes :
+##  Expressions régulières
 
+*   Python peut être utilisé pour analyser des modèles de données à l'aide d'expressions régulières .
+
+*   Certaines expressions régulières intégrées à Python sont les suivantes :
+```
   .   any character
   .*  0 or more characters
   .+  1 or more characters
   ?   optional
   ^   start of input
   $   end of input
-Notre programme précédent agree.pypeut utiliser des expressions régulières :
+```
 
+*   Notre programme précédent agree.pypeut utiliser des expressions régulières :
+
+```py
   # Logical operators, using regular expressions
 
   import re
@@ -1136,11 +1148,18 @@ Notre programme précédent agree.pypeut utiliser des expressions régulières :
       print("Agreed.")
   elif re.search("^no?$", s, re.IGNORECASE):
       print("Not agreed.")
+
+```
+
 Notez que le ^moyen de regarder le début de l'entrée pour un fichier y. Ensuite, il désigne le escomme facultatif à l'aide des parenthèses et du ?symbole . Enfin, il désigne la fin de l'entrée avec le $symbole . Un modèle similaire est utilisé pour no.
 
-Parole
+---
+
+##  Parole
+
 En utilisant une bibliothèque tierce, Python peut faire de la synthèse vocale.
 
+```py
   # Says hello to someone
 
   import pyttsx3
@@ -1158,16 +1177,22 @@ De plus, vous pouvez exécuter le code suivant :
   engine = pyttsx3.init()
   engine.say("This was CS50")
   engine.runAndWait()
-Résumé
-Dans cette leçon, vous avez appris comment les éléments de base de la programmation des leçons précédentes peuvent être implémentés dans Python. De plus, vous avez appris comment Python permettait un code plus simplifié. De plus, vous avez appris à utiliser diverses bibliothèques Python. En fin de compte, vous avez appris que vos compétences en tant que programmeur ne se limitent pas uniquement à un seul langage de programmation. Vous voyez déjà comment vous découvrez une nouvelle façon d'apprendre grâce à ce cours qui pourrait vous servir dans n'importe quel langage de programmation - et, peut-être, dans presque toutes les voies d'apprentissage ! Plus précisément, nous avons discuté…
+```
 
-Python
-variables
-Conditionnels
-Boucles
-Les types
-Bibliothèques
-Dictionnaires
-Arguments de ligne de commande
-Expressions régulières
-À la prochaine!
+##  Résumé
+
+*   Dans cette leçon, vous avez appris comment les éléments de base de la programmation des leçons précédentes peuvent être implémentés dans Python. De plus, vous avez appris comment Python permettait un code plus simplifié. De plus, vous avez appris à utiliser diverses bibliothèques Python. En fin de compte, vous avez appris que vos compétences en tant que programmeur ne se limitent pas uniquement à un seul langage de programmation. Vous voyez déjà comment vous découvrez une nouvelle façon d'apprendre grâce à ce cours qui pourrait vous servir dans n'importe quel langage de programmation - et, peut-être, dans presque toutes les voies d'apprentissage ! Plus précisément, nous avons discuté…
+
+--- 
+
+
+*    Python
+*    variables
+*    Conditionnels
+*    Boucles
+*    Les types
+*    Bibliothèques
+*    Dictionnaires
+*    Arguments de ligne de commande
+*    Expressions régulières
+*    À la prochaine!
