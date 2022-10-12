@@ -270,6 +270,7 @@ Et si nous voulions rechercher une chaîne dans un tableau ? Modifiez votre code
 *   Le tri par sélection est l'un de ces algorithmes de recherche.
 
 *   L'algorithme de tri par sélection en pseudocode est :
+
 ```
   For i from 0 to n–1
       Find smallest number between numbers[i] and numbers[n-1]
@@ -277,24 +278,24 @@ Et si nous voulions rechercher une chaîne dans un tableau ? Modifiez votre code
 
 ```
 
-Considérez la liste non triée comme suit :
+*   Considérez la liste non triée comme suit :
 
 ```c
   5 2 7 4 1 6 3 0
   ^
 ```
-Le tri par sélection commencera par rechercher le plus petit nombre dans la liste et échangera ce nombre avec notre position actuelle dans la liste. Dans ce cas, le zéro est localisé et déplacé vers notre position actuelle.
+*   Le tri par sélection commencera par rechercher le plus petit nombre dans la liste et échangera ce nombre avec notre position actuelle dans la liste. Dans ce cas, le zéro est localisé et déplacé vers notre position actuelle.
 
  ```c
  0 | 2 7 4 1 6 3 5
 ```
-Maintenant, notre problème est devenu plus petit puisque nous savons qu'au moins le début de notre liste est trié. Nous pouvons donc répéter ce que nous avons fait, en commençant par le deuxième numéro de la liste :
+*   Maintenant, notre problème est devenu plus petit puisque nous savons qu'au moins le début de notre liste est trié. Nous pouvons donc répéter ce que nous avons fait, en commençant par le deuxième numéro de la liste :
 
 ```c
   0 | 2 7 4 1 6 3 5
 ```
       ^    
-1 est le plus petit nombre maintenant, nous allons donc l'échanger avec le deuxième nombre. Nous le répéterons encore…
+*   1 est le plus petit nombre maintenant, nous allons donc l'échanger avec le deuxième nombre. Nous le répéterons encore…
 
 ```c
   0 1 | 7 4 2 6 3 5
@@ -348,8 +349,8 @@ etc.
 2 5 4 1 6 3 7 0
             ^ ^
 2 5 4 1 6 3 0 7
-
 ```
+
 *   Maintenant, le nombre le plus élevé est tout à droite, nous avons donc amélioré notre problème. Nous allons répéter ceci:
 
 ```c
@@ -367,9 +368,11 @@ etc.
           ^ ^
 2 4 1 5 3 0 6 | 7
 ```
+
 *   Maintenant, les deux plus grandes valeurs sont à droite. Nous répéterons encore :
 
-  ```c
+```c
+
 2 4 1 5 3 0 | 6 7
   ^ ^
   2 4 1 5 3 0 | 6 7
@@ -385,7 +388,7 @@ etc.
 ```
 *   … et encore …
 
-  ```c
+```c
 2 1 4 3 0 | 5 6 7
   ^ ^
   1 2 4 3 0 | 5 6 7
@@ -396,6 +399,7 @@ etc.
         ^ ^
   1 2 3 0 4 | 5 6 7
 ```
+
 *   … et encore …
 
 ```c
