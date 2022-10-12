@@ -630,21 +630,25 @@ Pour implémenter cela dans le code, modifiez votre code comme suit :
 
 ---
 
-Des arbres
-Les arbres de recherche binaires sont une autre structure de données qui peut être utilisée pour stocker des données plus efficacement afin qu'elles puissent être recherchées et récupérées.
-Vous pouvez imaginer une séquence triée de nombres.
+##  Des arbres
 
-1 2 3 4 5 6 7 dans des cases côte à côte
+*   Les arbres de recherche binaires sont une autre structure de données qui peut être utilisée pour stocker des données plus efficacement afin qu'elles puissent être recherchées et récupérées.
 
-Imaginez alors que la valeur centrale devienne la cime d'un arbre. Ceux qui sont inférieurs à cette valeur sont placés à gauche. Les valeurs supérieures à cette valeur sont à droite.
+*   Vous pouvez imaginer une séquence triée de nombres.
 
-1 2 3 4 5 6 7 dans des cases disposées en hiérarchie 4 est en haut 3 et 5 sont en dessous et 1 2 6 7 sont en dessous de celles-ci
+![1  côte](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide086.png)
 
-Des pointeurs peuvent ensuite être utilisés pour pointer vers l'emplacement correct de chaque zone de mémoire de sorte que chacun de ces nœuds puisse être connecté.
+*   Imaginez alors que la valeur centrale devienne la cime d'un arbre. Ceux qui sont inférieurs à cette valeur sont placés à gauche. Les valeurs supérieures à cette valeur sont à droite.
 
-1 2 3 4 5 6 7 dans des cases disposées en hiérarchie 4 est en haut 3 et 5 sont en dessous et 1 2 6 7 sont en dessous ces flèches les relient dans une arborescence
+![ de celles-ci](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide119.png)
+
+*   Des pointeurs peuvent ensuite être utilisés pour pointer vers l'emplacement correct de chaque zone de mémoire de sorte que chacun de ces nœuds puisse être connecté.
+
+![1](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide120.png)
 
 Dans le code, cela peut être implémenté comme suit.
+
+```c
 
   // Implements a list of numbers as a binary search tree
 
@@ -732,8 +736,11 @@ Dans le code, cela peut être implémenté comme suit.
       printf("%i\n", root->number);
       print_tree(root->right);
   }
-La recherche dans cet arbre pourrait être implémentée comme suit :
+```
 
+*   La recherche dans cet arbre pourrait être implémentée comme suit :
+
+```c
   bool search(node *tree, int number)
   {
       if (tree == NULL)
@@ -753,9 +760,10 @@ La recherche dans cet arbre pourrait être implémentée comme suit :
           return true;
       }
   }
+```
 Notez que cette fonction de recherche commence par aller à l'emplacement de tree. Ensuite, il utilise la récursivité pour rechercher number.
 
-Un arbre comme celui-ci offre un dynamisme qu'un tableau n'offre pas. Il peut grandir et rétrécir comme nous le souhaitons.
+*   Un arbre comme celui-ci offre un dynamisme qu'un tableau n'offre pas. Il peut grandir et rétrécir comme nous le souhaitons.
 
 ---
 
