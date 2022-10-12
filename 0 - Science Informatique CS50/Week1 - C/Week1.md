@@ -27,6 +27,30 @@
 __Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=XmYnsO7iSI8&t=0s)__
 
 ## Hello-World
+
+*   Le compilateur utilisé pour ce cours est Visual Studio Code , affectueusement appelé , accessible via cette même URL, ou simplement en tant que *VS Code.*
+
+*   L'une des raisons les plus importantes pour lesquelles nous utilisons VS Code est qu'il contient tous les logiciels requis pour le cours déjà préchargés. Ce cours et les instructions qu'il contient ont été conçus avec VS Code à l'esprit. Il est préférable de toujours utiliser VS Code pour les devoirs de ce cours.
+
+*   Vous pouvez ouvrir VS Code sur __Lien vers la vidéo  de l'[code.cs50.io](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://code.cs50.io/)__ .
+
+*   Le compilateur peut être divisé en plusieurs régions :
+
+```c
+
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void)
+{
+    string answer = get_string("What's your name? ");
+    printf("hello, %s\n", answer);
+}
+  
+```
+
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/1/cs50Week1Slide017.png)
+
 ## les-functions
 ## variables
 ## Conditionnels
