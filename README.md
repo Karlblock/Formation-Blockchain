@@ -116,3 +116,5 @@ Vous pouvez me retrouver sur le :
 🙏🙏 ERC20 : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
 
                    🐈‍⬛🐈‍⬛ catwoman.near 🐈‍⬛🐈‍⬛
+
+#blockchain #github #rust #formation #C #crypto #dev #futur
