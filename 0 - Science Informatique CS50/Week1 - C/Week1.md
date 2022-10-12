@@ -10,7 +10,7 @@
 * [Bienvenue](#Bienvenue)
 * [Hello World](#Hello-World)
 * [Les functions ](#les-functions)
-* [Variubles](#varibles)
+* [Variables](#varibles)
 * [Conditionnels](#Conditionnels)
 * [Boucles](#Boucles)
 * [Linux et les lignes de commande](#Linux-et-les-lignes-e-commande)
@@ -26,7 +26,7 @@
 ## Bienvenue
 ## Hello-World
 ## les-functions
-## varibles
+## variables
 ## Conditionnels
 ## Boucles
 ## Linux etles ligne de commande
