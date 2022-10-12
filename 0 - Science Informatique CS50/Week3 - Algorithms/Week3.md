@@ -547,6 +547,7 @@ La récursivité est un concept de programmation où une fonction s'appelle elle
 *   Nous pouvons maintenant tirer parti de la récursivité dans notre quête d'un algorithme de tri plus efficace et implémenter ce qu'on appelle le tri par fusion , un algorithme de tri très efficace.
 
 *   Le pseudocode pour le tri par fusion est assez court :
+
 ```c
   If only one number
       Quit
@@ -561,25 +562,30 @@ La récursivité est un concept de programmation où une fonction s'appelle elle
  ```c
  7254
 ```
-Tout d'abord, le tri par fusion demande, "est-ce un numéro?" La réponse est "non", donc l'algorithme continue.
+
+*   Tout d'abord, le tri par fusion demande, "est-ce un numéro?" La réponse est "non", donc l'algorithme continue.
 
 ```c
   7254
 ```
-Deuxièmement, le tri par fusion divisera désormais les nombres au milieu (ou aussi près que possible) et triera la moitié gauche des nombres.
+
+*   Deuxièmement, le tri par fusion divisera désormais les nombres au milieu (ou aussi près que possible) et triera la moitié gauche des nombres.
+
 ```c
 
   72|54
 ```
-Troisièmement, le tri par fusion regarderait ces nombres sur la gauche et demanderait, "est-ce un nombre?" Puisque la réponse est non, cela diviserait alors les nombres à gauche au milieu.
+
+*   Troisièmement, le tri par fusion regarderait ces nombres sur la gauche et demanderait, "est-ce un nombre?" Puisque la réponse est non, cela diviserait alors les nombres à gauche au milieu.
 
 **  7|2**
-Quatrièmement, le tri par fusion demandera à nouveau "est-ce un numéro?" La réponse est oui cette fois ! Par conséquent, il quittera cette tâche et reviendra à la dernière tâche en cours d'exécution à ce stade :
+
+*   Quatrièmement, le tri par fusion demandera à nouveau "est-ce un numéro?" La réponse est oui cette fois ! Par conséquent, il quittera cette tâche et reviendra à la dernière tâche en cours d'exécution à ce stade :
 
  ```python
  72|54
 ```
-Cinquièmement, le tri par fusion triera les nombres sur la gauche.
+*   Cinquièmement, le tri par fusion triera les nombres sur la gauche.
 
 ```python
   27|54
