@@ -37,17 +37,31 @@
 
 ---
 
-Accueillir!
-Au cours des semaines précédentes, vous avez été initié aux éléments de base de la programmation.
-Vous avez appris la programmation dans un langage de programmation de niveau inférieur appelé C.
-Aujourd'hui, nous allons travailler avec un langage de programmation de niveau supérieur appelé Python .
-Au fur et à mesure que vous apprendrez ce nouveau langage, vous constaterez que vous serez plus apte à vous apprendre de nouveaux langages de programmation.
-Python
-Les humains, au fil des décennies, ont vu comment les décisions de conception précédentes pouvaient être améliorées.
-Python est un langage de programmation qui s'appuie sur ce que vous
-Bonjour
-Jusqu'à présent, le code ressemblait à ceci :
+## Accueillir!
 
+*   Au cours des semaines précédentes, vous avez été initié aux éléments de base de la programmation.
+
+*   Vous avez appris la programmation dans un langage de programmation de niveau inférieur appelé C.
+
+*   Aujourd'hui, nous allons travailler avec un langage de programmation de niveau supérieur appelé Python .
+
+*   Au fur et à mesure que vous apprendrez ce nouveau langage, vous constaterez que vous serez plus apte à vous apprendre de nouveaux langages de programmation.
+
+--- 
+
+## Python
+
+*   Les humains, au fil des décennies, ont vu comment les décisions de conception précédentes pouvaient être améliorées.
+
+*   Python est un langage de programmation qui s'appuie sur ce que vous
+
+---
+
+##  Bonjour
+
+*   Jusqu'à présent, le code ressemblait à ceci :
+
+```python
   // A program that says hello to the world
 
   #include <stdio.h>
@@ -56,6 +70,8 @@ Jusqu'à présent, le code ressemblait à ceci :
   {
       printf("hello, world\n");
   }
+```
+
 Aujourd'hui, vous constaterez que le processus d'écriture et de compilation du code a été simplifié.
 Par exemple, le code ci-dessus sera rendu en Python comme :
 
@@ -64,8 +80,9 @@ Par exemple, le code ci-dessus sera rendu en Python comme :
   print("hello, world")
 Remarquez que le point-virgule a disparu.
 
-En C, vous vous souvenez peut-être de ce code :
+*   En C, vous vous souvenez peut-être de ce code :
 
+``` c
   // get_string and printf with %s
 
   #include <cs50.h>
@@ -76,24 +93,32 @@ En C, vous vous souvenez peut-être de ce code :
       string answer = get_string("What's your name? ");
       printf("hello, %s\n", answer);
   }
+
+```
+
 Ce code est transformé en Python en :
 
+```python
   # get_string and print, with concatenation
 
   from cs50 import get_string
 
   answer = get_string("What's your name? ")
   print("hello, " + answer)
-Vous pouvez écrire ce code en l'exécutant code hello.pydans la fenêtre du terminal. Ensuite, vous pouvez exécuter ce code en exécutant python hello.py. Remarquez comment le +signe concatène helloet answer.
+```
 
-De même, vous pouvez implémenter le code ci-dessus comme :
+*   Vous pouvez écrire ce code en l'exécutant code hello.pydans la fenêtre du terminal. Ensuite, vous pouvez exécuter ce code en exécutant python hello.py. Remarquez comment le +signe concatène helloet answer.
 
+*   De même, vous pouvez implémenter le code ci-dessus comme :
+```py
   # get_string and print, with format strings
 
   from cs50 import get_string
 
   answer = get_string("What's your name? ")
   print(f"hello, {answer}")
+```
+
 Remarquez comment les accolades permettent à la printfonction d'interpoler le answertel qui answerapparaît à l'intérieur.
 
 Les types
