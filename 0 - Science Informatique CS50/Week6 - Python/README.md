@@ -932,7 +932,7 @@ Notez que l'exécution de ce code entraînera le découpage du mot python.
 ##   Statut de sortie
 
 *   Dans la sysbibliothèque, il a aussi des méthodes intégrées :
-
+```py
   # Exits with explicit value, importing sys
 
   import sys
@@ -943,11 +943,17 @@ Notez que l'exécution de ce code entraînera le découpage du mot python.
 
   print(f"hello, {sys.argv[1]}")
   sys.exit(0)
+```
+
 Notez que la notation par points est utilisée pour utiliser les fonctions intégrées de sys.
 
-Chercher
+---
+
+##  Chercher
+
 Python peut également être utilisé pour effectuer des recherches. Dans la fenêtre de votre terminal, saisissez code names.pyet écrivez le code comme suit :
 
+```py
   # Implements linear search for names
 
   import sys
@@ -965,10 +971,13 @@ Python peut également être utilisé pour effectuer des recherches. Dans la fen
 
   print("Not found")
   sys.exit(1)
+```
+
 Notez que ce code fonctionne. En effet, c'est une recherche linéaire.
 
-Vous pouvez utiliser les capacités intégrées de Python comme suit :
+##  Vous pouvez utiliser les capacités intégrées de Python comme suit :
 
+```py
   # Implements linear search for names using `in`
 
   import sys
@@ -986,12 +995,18 @@ Vous pouvez utiliser les capacités intégrées de Python comme suit :
 
   print("Not found")
   sys.exit(1)
+```
 Remarquez que la inpréposition est utilisée. Python comprend alors comment implémenter le code de niveau inférieur pour effectuer une recherche linéaire.
 
-Annuaire
-Rappelez-vous qu'un dictionnaire ou dictest une collection de paires de clés et de valeurs .
-Vous pouvez implémenter un dictionnaire en Python comme suit :
+---
 
+##  Annuaire
+
+Rappelez-vous qu'un dictionnaire ou dictest une collection de paires de clés et de valeurs .
+
+*   Vous pouvez implémenter un dictionnaire en Python comme suit :
+
+```py
   # Implements a phone book
 
   from cs50 import get_string
@@ -1005,12 +1020,19 @@ Vous pouvez implémenter un dictionnaire en Python comme suit :
   name = get_string("Name: ")
   if name in people:
       print(f"Number: {people[name]}")
+```
+
 Notez que le dictionnaire est implémenté à l'aide d'accolades. Ensuite, l'instruction if name in peoplerecherche si le namese trouve dans le peopledictionnaire. De plus, notez comment, dans l' printinstruction, nous pouvons indexer dans le dictionnaire des personnes en utilisant la valeur de name. Très utile!
 
-Python a fait de son mieux pour obtenir un temps constant en utilisant ses recherches intégrées.
-Comparaison
+*   Python a fait de son mieux pour obtenir un temps constant en utilisant ses recherches intégrées.
+
+---
+
+##  Comparaison
+
 Nous pouvons implémenter des comparaisons comme suit en Python :
 
+```py
   # Compares two strings
 
   # Get two strings
@@ -1022,11 +1044,16 @@ Nous pouvons implémenter des comparaisons comme suit en Python :
       print("Same")
   else:
       print("Different")
+```
+
 Remarquez comment Python utilise le ==pour pouvoir comparer deux variables. De plus, notez que Python vous permet de comparer deux chaînes sans examiner les chaînes caractère par caractère en utilisant des pointeurs comme en C.
 
-Échanger
-De plus, nous pouvons implémenter un programme qui échange les valeurs comme nous l'avons fait en C. Considérez le code suivant en Python :
+---
 
+##  Échanger
+
+*   De plus, nous pouvons implémenter un programme qui échange les valeurs comme nous l'avons fait en C. Considérez le code suivant en Python :
+```py 
   # Swaps two integers
 
   x = 1
@@ -1035,10 +1062,17 @@ De plus, nous pouvons implémenter un programme qui échange les valeurs comme n
   print(f"x is {x}, y is {y}")
   x, y = y, x
   print(f"x is {x}, y is {y}")
-Notez que chaque valeur est échangée, en utilisant une syntaxe très Pythoniquex, y = y, x .
+```
+
+
+Notez que chaque valeur est échangée, en utilisant une syntaxe très Pythoniquex, y 
+= y, x .
+
+---
 
 CSV
-Vous pouvez également utiliser Python pour interagir avec les fichiers CSV. Considérons le programme suivant appelé phonebook.py:
+
+*   Vous pouvez également utiliser Python pour interagir avec les fichiers CSV. Considérons le programme suivant appelé phonebook.py:
 
   # Saves names and numbers to a CSV file
 
