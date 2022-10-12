@@ -23,9 +23,10 @@
 
 __Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=AcWIE9qazLI&t)__
 
-Au cours des semaines précédentes, nous avons parlé d'images constituées de blocs de construction plus petits appelés pixels.
+*   Au cours des semaines précédentes, nous avons parlé d'images constituées de blocs de construction plus petits appelés pixels.
 Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui composent ces images.
-De plus, nous verrons comment accéder aux données sous-jacentes stockées dans la mémoire de l'ordinateur.
+
+*   De plus, nous verrons comment accéder aux données sous-jacentes stockées dans la mémoire de l'ordinateur.
 
 ## Memoire
 
@@ -43,12 +44,36 @@ De plus, nous verrons comment accéder aux données sous-jacentes stockées dans
 
 ![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide016.png)
 
-Remarquez comment la quantité de rouge, de bleu et de vert modifie la couleur sélectionnée.
+*   Remarquez comment la quantité de rouge, de bleu et de vert modifie la couleur sélectionnée.
 
-Vous pouvez voir par l'image ci-dessus que la couleur n'est pas simplement représentée en trois valeurs. Au bas de la fenêtre, il y a une valeur spéciale composée de chiffres et de caractères. 255est représenté par FF. Pourquoi cela pourrait-il être?
-
+*   Vous pouvez voir par l'image ci-dessus que la couleur n'est pas simplement représentée en trois valeurs. Au bas de la fenêtre, il y a une valeur spéciale composée de chiffres et de caractères. 255est représenté par FF. Pourquoi cela pourrait-il être?
 
 ## Hexadecimal
+
+*   L'hexadécimal est un système de comptage qui a 16 valeurs de comptage. Ils sont les suivants :
+
+ ```c
+ 0 1 2 3 4 5 6 7 8 9 a b c d e f
+```
+*   Remarquez que cela Freprésente 15.
+
+*   L'hexadécimal est également connu sous le nom de base-16 .
+
+*   En comptant en hexadécimal, chaque colonne est une puissance de 16.
+
+$$
+Le nombre 0est représenté par 00.
+Le nombre 1est représenté par 01.
+Le nombre 9est représenté par 09.
+Le nombre 10est représenté par 0A.
+Le nombre 15est représenté par 0F.
+Le nombre 16est représenté par 10.
+$$
+
+*   ²Le nombre 255est représenté par FF, car 16 x 15 (ou F) est égal à 240. Ajoutez 15 de plus pour obtenir 255. C'est le nombre le plus élevé que vous puissiez compter en utilisant un système hexadécimal à deux chiffres.
+
+*   L'hexadécimal est utile car il peut être représenté en utilisant moins de chiffres. L'hexadécimal nous permet de représenter les informations plus succinctement.
+
 ## Addresses
 
 
