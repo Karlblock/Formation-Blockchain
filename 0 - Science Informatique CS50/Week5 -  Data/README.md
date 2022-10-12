@@ -627,3 +627,208 @@ Pour implémenter cela dans le code, modifiez votre code comme suit :
 ```
 
 *   Remarquez comment cette liste est triée au fur et à mesure de sa construction. Pour insérer un élément dans cet ordre spécifique, notre code s'exécutera toujours danspour chaque insertion, car dans le pire des cas, nous devrons parcourir tous les éléments courants.
+
+---
+
+Des arbres
+Les arbres de recherche binaires sont une autre structure de données qui peut être utilisée pour stocker des données plus efficacement afin qu'elles puissent être recherchées et récupérées.
+Vous pouvez imaginer une séquence triée de nombres.
+
+1 2 3 4 5 6 7 dans des cases côte à côte
+
+Imaginez alors que la valeur centrale devienne la cime d'un arbre. Ceux qui sont inférieurs à cette valeur sont placés à gauche. Les valeurs supérieures à cette valeur sont à droite.
+
+1 2 3 4 5 6 7 dans des cases disposées en hiérarchie 4 est en haut 3 et 5 sont en dessous et 1 2 6 7 sont en dessous de celles-ci
+
+Des pointeurs peuvent ensuite être utilisés pour pointer vers l'emplacement correct de chaque zone de mémoire de sorte que chacun de ces nœuds puisse être connecté.
+
+1 2 3 4 5 6 7 dans des cases disposées en hiérarchie 4 est en haut 3 et 5 sont en dessous et 1 2 6 7 sont en dessous ces flèches les relient dans une arborescence
+
+Dans le code, cela peut être implémenté comme suit.
+
+  // Implements a list of numbers as a binary search tree
+
+  #include <stdio.h>
+  #include <stdlib.h>
+
+  // Represents a node
+  typedef struct node
+  {
+      int number;
+      struct node *left;
+      struct node *right;
+  }
+  node;
+
+  void free_tree(node *root);
+  void print_tree(node *root);
+
+  int main(void)
+  {
+      // Tree of size 0
+      node *tree = NULL;
+
+      // Add number to list
+      node *n = malloc(sizeof(node));
+      if (n == NULL)
+      {
+          return 1;
+      }
+      n->number = 2;
+      n->left = NULL;
+      n->right = NULL;
+      tree = n;
+
+      // Add number to list
+      n = malloc(sizeof(node));
+      if (n == NULL)
+      {
+          free_tree(tree);
+          return 1;
+      }
+      n->number = 1;
+      n->left = NULL;
+      n->right = NULL;
+      tree->left = n;
+
+      // Add number to list
+      n = malloc(sizeof(node));
+      if (n == NULL)
+      {
+          free_tree(tree);
+          return 1;
+      }
+      n->number = 3;
+      n->left = NULL;
+      n->right = NULL;
+      tree->right = n;
+
+      // Print tree
+      print_tree(tree);
+
+      // Free tree
+      free_tree(tree);
+      return 0;
+  }
+
+  void free_tree(node *root)
+  {
+      if (root == NULL)
+      {
+          return;
+      }
+      free_tree(root->left);
+      free_tree(root->right);
+      free(root);
+  }
+
+  void print_tree(node *root)
+  {
+      if (root == NULL)
+      {
+          return;
+      }
+      print_tree(root->left);
+      printf("%i\n", root->number);
+      print_tree(root->right);
+  }
+La recherche dans cet arbre pourrait être implémentée comme suit :
+
+  bool search(node *tree, int number)
+  {
+      if (tree == NULL)
+      {
+          return false;
+      }
+      else if (number < tree->number)
+      {
+          return search(tree->left, number);
+      }
+      else if (number > tree->number)
+      {
+          return search(tree->right, number);
+      }
+      else if (number == tree->number)
+      {
+          return true;
+      }
+  }
+Notez que cette fonction de recherche commence par aller à l'emplacement de tree. Ensuite, il utilise la récursivité pour rechercher number.
+
+Un arbre comme celui-ci offre un dynamisme qu'un tableau n'offre pas. Il peut grandir et rétrécir comme nous le souhaitons.
+
+---
+
+##  Dictionnaires
+
+*   Les dictionnaires sont une autre structure de données.
+
+*   Les dictionnaires, comme les vrais dictionnaires sous forme de livre qui ont un mot et une définition, ont une clé et une valeur .
+
+*   Le Saint Graal de la complexité temporelle estou temps constant . C'est-à-dire que l'ultime est que l'accès soit instantané.
+
+![un  meilleur](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide151.png)
+
+*   Les dictionnaires peuvent offrir cette vitesse d'accès.
+
+---
+
+##  Hachage et tables de hachage
+
+*   Le hachage est l'idée de prendre une valeur et de pouvoir produire une valeur qui devient un raccourci vers celle-ci plus tard.
+
+*   Par exemple, le hachage de la pomme peut être haché comme une valeur de 1, et la baie peut être hachée comme 2. Par conséquent, trouver Apple est aussi simple que de demander à l' algorithme de hachage où Apple est stocké. Bien qu'il ne soit pas idéal en termes de conception, en fin de compte, en mettant tous les a dans un compartiment et les b dans un autre, ce concept de compartimentage des valeurs hachées illustre comment vous pouvez utiliser ce concept : une valeur hachée peut être utilisée pour trouver un raccourci comme un évaluer.
+
+*   Une fonction de hachage est un algorithme qui réduit une valeur plus grande à quelque chose de petit et de prévisible. Généralement, cette fonction prend un élément que vous souhaitez ajouter à votre table de hachage et renvoie un entier représentant l'index du tableau dans lequel l'élément doit être placé.
+
+*   Une table de hachage est une combinaison fantastique de tableaux et de listes chaînées. Lorsqu'elle est implémentée dans le code, une table de hachage est un tableau de pointeurs vers des nœuds .
+
+*   Une table de hachage pourrait être imaginée comme suit :
+
+![une colonne lphabet](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide157.png)
+*Notez qu'il s'agit d'un tableau auquel chaque valeur de l'alphabet est affectée.
+
+*   Ensuite, à chaque emplacement du tableau, une liste chaînée est utilisée pour suivre chaque valeur qui y est stockée :
+
+![une colonne ](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide169.png)
+
+*   Les collisions se produisent lorsque vous ajoutez des valeurs à la table de hachage et que quelque chose existe déjà à l'emplacement haché. Dans ce qui précède, les   collisions sont simplement ajoutées à la fin de la liste.
+
+*   Les collisions peuvent être réduites en programmant mieux votre table de hachage et votre algorithme de hachage. Vous pouvez imaginer une amélioration par rapport à ce qui précède comme suit :
+
+![une colonne verticale de diverses boîtes disposées par HAG et HAR avec hagrid sortant de HAG et harry sortant de HAR](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide184.png)
+
+*   En tant que programmeur, vous devez prendre une décision sur les avantages d'utiliser plus de mémoire pour avoir une grande table de hachage et de réduire potentiellement le temps de recherche ou d'utiliser moins de mémoire et d'augmenter potentiellement le temps de recherche.
+
+---
+
+##  Essaie
+
+*   Les essais sont une autre forme de structure de données.
+
+*   Les essais sont toujours consultables en temps constant.
+
+*   L'un des inconvénients des essais est qu'ils ont tendance à occuper une grande quantité de mémoire. Remarquez qu'il nous faut nodec'est juste pour ranger Hagrid !
+
+*   Hagrid serait stocké comme suit :
+
+![hagrid de suite](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide207.png)
+
+Harry serait alors stocké comme suit :
+
+![hagrid  H et A](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide209.png)
+
+---
+
+##  Résumé
+
+*   Dans cette leçon, vous avez appris à utiliser des pointeurs pour créer de nouvelles structures de données. Plus précisément, nous nous sommes penchés sur…
+
+*   Structures de données
+*   Piles et files d'attente
+*   Redimensionner les tableaux
+*   Listes liées
+*   Dictionnaires
+*   Essaie
+
+À la prochaine!
