@@ -91,14 +91,13 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 ![*](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide019.png)
 
-En mémoire, d'autres valeurs sont stockées par d'autres programmes, fonctions et variables. Beaucoup d'entre eux peuvent être des valeurs parasites inutilisées qui ont été utilisées à un moment donné mais qui sont maintenant disponibles pour être utilisées.
+*   En mémoire, d'autres valeurs sont stockées par d'autres programmes, fonctions et variables. Beaucoup d'entre eux peuvent être des valeurs parasites inutilisées qui ont été utilisées à un moment donné mais qui sont maintenant disponibles pour être utilisées.
 
-trois boîtes avec 1 2 3 parmi plein d'autres éléments de mémoire
+![trois boîtes avec 1 2 3 parmi plein d'autres éléments de mémoire](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide022.png)
 
 Imaginez que vous souhaitiez stocker une quatrième valeur 4dans notre tableau ? Ce qu'il faudrait, c'est allouer une nouvelle zone de mémoire et déplacer l'ancien tableau vers un nouveau.
 
-Trois cases avec 1 2 3 au-dessus de quatre cases avec 1 2 et deux valeurs poubelles
-
+![e](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide025.png)
 Les anciennes valeurs parasites seraient écrasées par nos nouvelles données.
 
 Trois cases avec 1 2 3 au-dessus de quatre cases avec 1 2 3 et une valeur poubelle
