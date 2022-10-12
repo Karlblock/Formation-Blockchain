@@ -209,19 +209,24 @@ Notez que la printfligne imprime l'entier à l'emplacement de p.
 
 ## les Strings
 
-Maintenant que nous avons un modèle mental pour les pointeurs, nous pouvons revenir sur un niveau de simplification qui a été proposé plus tôt dans ce cours.
+*   Maintenant que nous avons un modèle mental pour les pointeurs, nous pouvons revenir sur un niveau de simplification qui a été proposé plus tôt dans ce cours.
 Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemple, string s = "HI!"peut être représenté comme suit :
 
-La chaîne HI avec un point d'exclamation stocké en mémoire
+*   La chaîne HI avec un point d'exclamation stocké en mémoire
 
-Cependant, qu'est-ce que c'est svraiment ? Où est sstocké en mémoire ? Comme vous pouvez l'imaginer, sdoit être stocké quelque part. Vous pouvez visualiser la relation de sà la chaîne comme suit :
 
-Même chaîne HI avec un pointeur pointant dessus
+https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png
 
-Remarquez comment un pointeur appelé sindique au compilateur où se trouve le premier octet de la chaîne en mémoire.
 
-Modifiez votre code comme suit :
+*   Cependant, qu'est-ce que c'est svraiment ? Où est sstocké en mémoire ? Comme vous pouvez l'imaginer, sdoit être stocké quelque part. Vous pouvez visualiser la relation de sà la chaîne comme suit :
 
+https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png
+
+*   Remarquez comment un pointeur appelé sindique au compilateur où se trouve le premier octet de la chaîne en mémoire.
+
+*   Modifiez votre code comme suit :
+
+```c
   #include <cs50.h>
   #include <stdio.h>
 
@@ -234,10 +239,12 @@ Modifiez votre code comme suit :
       printf("%p\n", &s[2]);
       printf("%p\n", &s[3]);
   }
+ ``` 
 Notez que ce qui précède imprime les emplacements mémoire de chaque caractère dans la chaîne s.
 
-De même, vous pouvez modifier votre code comme suit :
+*   De même, vous pouvez modifier votre code comme suit :
 
+```c
   #include <stdio.h>
 
   int main(void)
@@ -245,13 +252,16 @@ De même, vous pouvez modifier votre code comme suit :
       char *s = "HI!";
       printf("%s\n", s);
   }
+```
+
 Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
 
 
 ## Pointer Arithmetic
 
-Vous pouvez modifier votre code pour accomplir la même chose sous une forme plus longue comme suit :
+*   Vous pouvez modifier votre code pour accomplir la même chose sous une forme plus longue comme suit :
 
+```c
   #include <stdio.h>
 
   int main(void)
@@ -261,7 +271,9 @@ Vous pouvez modifier votre code pour accomplir la même chose sous une forme plu
       printf("%c\n", s[1]);
       printf("%c\n", s[2]);
   }
-Notez que nous imprimons chaque caractère à l'emplacement de s.
+```
+
+*   Notez que nous imprimons chaque caractère à l'emplacement de s.
 
 *   De plus, vous pouvez modifier votre code comme suit :
 
