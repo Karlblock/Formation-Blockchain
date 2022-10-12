@@ -20,7 +20,7 @@
 
 ---
 
-##  Accueillir!
+##  Accueillir !
 
 *   Toutes les semaines précédentes vous ont présenté les éléments fondamentaux de la programmation.
 
