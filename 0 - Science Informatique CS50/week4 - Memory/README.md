@@ -595,15 +595,16 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 ## Pointer Fun with Binky
 
-Nous avons regardé une vidéo de l'Université de Stanford qui nous a aidés à visualiser et à comprendre les pointeurs.
+*   Nous avons regardé une 
+[vidéo de l'Université de Stanford](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://www.youtube.com/watch?v%3D5VnDaHBi8dM) qui nous a aidés à visualiser et à comprendre les pointeurs.
 
-https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://www.youtube.com/watch?v%3D5VnDaHBi8dM
 
 
 ## Swap
 
-Dans le monde réel, un besoin courant en programmation est d'échanger deux valeurs. Naturellement, il est difficile d'échanger deux variables sans un espace de stockage temporaire. En pratique, vous pouvez taper code swap.cet écrire du code comme suit pour voir cela en action :
+*   Dans le monde réel, un besoin courant en programmation est d'échanger deux valeurs. Naturellement, il est difficile d'échanger deux variables sans un espace de stockage temporaire. En pratique, vous pouvez taper code swap.cet écrire du code comme suit pour voir cela en action :
 
+```c
   #include <stdio.h>
 
   void swap(int a, int b);
@@ -624,19 +625,21 @@ Dans le monde réel, un besoin courant en programmation est d'échanger deux val
       a = b;
       b = tmp;
   }
-Notez que pendant que ce code s'exécute, il ne fonctionne pas. Les valeurs, même après avoir été envoyées à la swapfonction, ne s'échangent pas. Pourquoi?
+```
 
-Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de xet ycréées dans les {}accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
+*   Notez que pendant que ce code s'exécute, il ne fonctionne pas. Les valeurs, même après avoir été envoyées à la swapfonction, ne s'échangent pas. Pourquoi?
 
-un rectangle avec le code machine en haut suivi du tas global et de la pile
+*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de xet ycréées dans les {}accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
 
-Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans le stackdans une autre zone de la mémoire.
+*   un rectangle avec le code machine en haut suivi du tas global et de la pile
 
-Maintenant, considérons l'image suivante :
+*   Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans le stackdans une autre zone de la mémoire.
 
-un rectangle avec la fonction principale en bas et la fonction d'échange directement au-dessus
+*   Maintenant, considérons l'image suivante :
 
-Notez que mainet ont deux cadres ou zones de mémoire swapdistincts . Par conséquent, nous ne pouvons pas simplement passer les valeurs d'une fonction à une autre pour les modifier.
+*   un rectangle avec la fonction principale en bas et la fonction d'échange directement au-dessus
+
+*   Notez que mainet ont deux cadres ou zones de mémoire swapdistincts . Par conséquent, nous ne pouvons pas simplement passer les valeurs d'une fonction à une autre pour les modifier.
 
 Modifiez votre code comme suit :
 
@@ -668,13 +671,19 @@ a et b stockés dans la fonction principale étant passés par référence à la
 
 ## Overflow
 
-Un débordement de tas se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
-Un débordement de pile se produit lorsque trop de fonctions sont appelées, dépassant la quantité de mémoire disponible.
-Ces deux éléments sont considérés comme des débordements de tampon .
-scanf
-Dans CS50, nous avons créé des fonctions comme get_intpour simplifier l'acte d'obtenir l'entrée de l'utilisateur.
-scanfest une fonction intégrée qui peut obtenir l'entrée de l'utilisateur.
-Nous pouvons réimplémenter get_intassez facilement en utilisant scanfcomme suit:
+*   Un débordement de tas se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
+
+*   Un débordement de pile se produit lorsque trop de fonctions sont appelées, dépassant la quantité de mémoire disponible.
+
+*   Ces deux éléments sont considérés comme des débordements de tampon .
+
+__scanf__
+
+*   Dans CS50, nous avons créé des fonctions comme get_intpour simplifier l'acte d'obtenir l'entrée de l'utilisateur.
+
+*   scanfest une fonction intégrée qui peut obtenir l'entrée de l'utilisateur.
+
+*   Nous pouvons réimplémenter get_intassez facilement en utilisant scanfcomme suit:
 
 ```c
   #include <stdio.h>
