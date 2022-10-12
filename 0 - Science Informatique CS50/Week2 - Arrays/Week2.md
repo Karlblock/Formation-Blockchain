@@ -268,7 +268,7 @@ L'avis n < 0a été modifié.
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/2/cs50Week2Slide087.png)
 
-De même, un int, qui nécessite 4 octets peut ressembler à ceci :
+*   De même, un int, qui nécessite 4 octets peut ressembler à ceci :
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/2/cs50Week2Slide088.png)
 
@@ -296,8 +296,9 @@ Vous pouvez imaginer comment ces variables sont stockées en mémoire :
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/2/cs50Week2Slide098.png)
 
-Les tableaux sont un moyen de stocker des données dos à dos dans la mémoire de sorte que ces données soient facilement accessibles.
-int scores[3]est une façon de dire au compilateur de vous fournir trois emplacements dos à dos en mémoire de taille intpour stocker trois fichiers scores. Compte tenu de notre programme, vous pouvez réviser votre code comme suit :
+*   Les tableaux sont un moyen de stocker des données dos à dos dans la mémoire de sorte que ces données soient facilement accessibles.
+
+*   int scores[3]est une façon de dire au compilateur de vous fournir trois emplacements dos à dos en mémoire de taille intpour stocker trois fichiers scores. Compte tenu de notre programme, vous pouvez réviser votre code comme suit :
 
 ```c
   #include <cs50.h>
@@ -409,9 +410,9 @@ Nous pouvons simplifier ou abstraire le calcul de la moyenne. Modifiez votre cod
   }
 ```
 
-Notez que cela affichera les valeurs décimales de chaque caractère.
+*   Notez que cela affichera les valeurs décimales de chaque caractère.
 
-Pour mieux comprendre comment stringfonctionne a, révisez votre code comme suit :
+*   Pour mieux comprendre comment stringfonctionne a, révisez votre code comme suit :
 
 ```c
   #include <cs50.h>
@@ -424,9 +425,9 @@ Pour mieux comprendre comment stringfonctionne a, révisez votre code comme suit
   }
 ```
 
-Remarquez comment l' printfinstruction présente trois valeurs de notre tableau appelé s.
+*   Remarquez comment l' printfinstruction présente trois valeurs de notre tableau appelé s.
 
-Imaginons que nous voulons dire à la fois HI!et BYE!. Modifiez votre code comme suit :
+*   Imaginons que nous voulons dire à la fois HI!et BYE!. Modifiez votre code comme suit :
 
 ```c
   #include <cs50.h>
@@ -442,13 +443,13 @@ Imaginons que nous voulons dire à la fois HI!et BYE!. Modifiez votre code comme
   }
 ```
 
-Notez que deux chaînes sont déclarées et utilisées dans cet exemple.
+*   Notez que deux chaînes sont déclarées et utilisées dans cet exemple.
 
-Vous pouvez visualiser ceci comme suit :
+*   Vous pouvez visualiser ceci comme suit :
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/2/cs50Week2Slide126.png)
 
-Nous pouvons encore améliorer ce code. Modifiez votre code comme suit :
+*   Nous pouvons encore améliorer ce code. Modifiez votre code comme suit :
 
 ```c
   #include <cs50.h>
@@ -466,9 +467,9 @@ Nous pouvons encore améliorer ce code. Modifiez votre code comme suit :
   }
 ```
 
-Notez que les deux chaînes sont stockées dans un seul tableau de type string.
+*   Notez que les deux chaînes sont stockées dans un seul tableau de type string.
 
-Un problème courant en programmation, et peut-être en C plus spécifiquement, est de découvrir la longueur d'un tableau. Comment pourrions-nous implémenter cela dans le code ? Tapez code length.cdans la fenêtre du terminal et codez comme suit :
+*   Un problème courant en programmation, et peut-être en C plus spécifiquement, est de découvrir la longueur d'un tableau. Comment pourrions-nous implémenter cela dans le code ? Tapez code length.cdans la fenêtre du terminal et codez comme suit :
 
 ```c
   #include <cs50.h>
