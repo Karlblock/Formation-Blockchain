@@ -620,13 +620,13 @@ Remarquez comment la get_intfonction est utilisée pour obtenir deux fois un nom
 
 Dans cette leçon, vous avez appris à appliquer les blocs de construction que vous avez appris dans Scratch au langage de programmation C. Tu as appris…
 
-*        Comment créer votre premier programme en C.
-*        Fonctions prédéfinies fournies nativement avec C et comment implémenter vos propres fonctions.
-*       Comment utiliser les variables, les conditions et les boucles.
-*       Comment utiliser la ligne de commande Linux.
-*       Comment aborder la résolution de problèmes pour un problème informatique.
-*       Comment intégrer des commentaires dans votre code.
-*       Comment aborder l'abstraction pour simplifier et améliorer votre code.
-*       Comment utiliser les types et les opérateurs.
+*   Comment créer votre premier programme en C.
+*   Fonctions prédéfinies fournies nativement avec C et comment implémenter vos propres fonctions.
+*   Comment utiliser les variables, les conditions et les boucles.
+*   Comment utiliser la ligne de commande Linux.
+*   Comment aborder la résolution de problèmes pour un problème informatique.
+*   Comment intégrer des commentaires dans votre code.
+*   Comment aborder l'abstraction pour simplifier et améliorer votre code.
+*   Comment utiliser les types et les opérateurs.
 
 À la prochaine!
