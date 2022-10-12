@@ -562,6 +562,7 @@ Il est possible que certains types de valeurs aient non seulement des propriét�
 
 *   Par exemple, strsen Python, il y a des méthodes intégrées . Par conséquent, vous pouvez modifier votre code comme suit :
 
+```py
   # Logical operators, using lists
 
   from cs50 import get_string
@@ -574,9 +575,13 @@ Il est possible que certains types de valeurs aient non seulement des propriét�
       print("Agreed.")
   elif s.lower() in ["n", "no"]:
       print("Not agreed.")
+```
+
 Remarquez comment nous sommes capables d'exprimer plusieurs mots-clés comme yet yeset de convertir toute entrée utilisateur en minuscules.
 
-Cela pourrait être encore simplifié comme suit :
+*   Cela pourrait être encore simplifié comme suit :
+
+```py
 
   # Logical operators, using lists
 
@@ -592,12 +597,22 @@ Cela pourrait être encore simplifié comme suit :
       print("Agreed.")
   elif s in ["n", "no"]:
       print("Not agreed.")
+```
+
 Remarquez comment l'ancienne valeur de sest écrasée par le résultat de s.lower().
 
+
 Dans cette classe, nous ne ferons qu'effleurer la surface de Python. Par conséquent, la documentation Python revêtira une importance particulière au fur et à mesure que vous avancerez.
+
 Vous pouvez en savoir plus sur les méthodes de chaîne dans la documentation Python
-Miaou
-Revenant à meow.cdes semaines plus tôt, rappelez-vous le code suivant :
+
+---
+
+##  Miaou
+
+*   Revenant à meow.cdes semaines plus tôt, rappelez-vous le code suivant :
+
+```py
 
   // Demonstrates while loop
 
@@ -611,8 +626,14 @@ Revenant à meow.cdes semaines plus tôt, rappelez-vous le code suivant :
           printf("meow\n");
           i++;
       }
+      
   }
+
+```
+
 Ce qui précède peut être implémenté dans Python comme :
+
+```py
 
   # Demonstrates while loop
 
@@ -640,9 +661,14 @@ Comme nous l'avons laissé entendre plus tôt dans la journée, vous pouvez enco
 
 
   main()
+
+```
+
 Notez que la meowfonction résume l' printinstruction. De plus, notez que la mainfonction apparaît en haut du fichier. En bas du fichier, la mainfonction est appelée. Par convention, on s'attend à ce que vous créiez une mainfonction en Python.
 
-En effet, nous pouvons passer des variables entre nos fonctions comme suit :
+*   En effet, nous pouvons passer des variables entre nos fonctions comme suit :
+
+```py
 
   # Abstraction with parameterization
 
@@ -657,23 +683,30 @@ En effet, nous pouvons passer des variables entre nos fonctions comme suit :
 
 
   main()
-Remarquez comment meowprend maintenant une variable n. Dans la mainfonction, vous pouvez appeler meowet transmettre une valeur similaire 3à celle-ci. Ensuite, meowutilise la valeur de ndans la forboucle.
+```
 
-En lisant le code ci-dessus, remarquez comment vous, en tant que programmeur C, êtes capable de donner un sens assez facilement au code ci-dessus. Bien que certaines conventions soient différentes, les blocs de construction que vous avez appris précédemment sont très apparents dans ce nouveau langage de programmation.
+*   Remarquez comment meowprend maintenant une variable n. Dans la mainfonction, vous pouvez appeler meowet transmettre une valeur similaire 3à celle-ci. Ensuite, meowutilise la valeur de ndans la forboucle.
 
-Mario
+*   En lisant le code ci-dessus, remarquez comment vous, en tant que programmeur C, êtes capable de donner un sens assez facilement au code ci-dessus. Bien que certaines conventions soient différentes, les blocs de construction que vous avez appris précédemment sont très apparents dans ce nouveau langage de programmation.
+
+##  Mario
+
 Rappelez-vous il y a quelques semaines notre défi de construire trois blocs les uns sur les autres, comme dans Mario.
 
-trois blocs verticaux
+![trois blocs verticaux](https://cs50.harvard.edu/extension/2022/fall/notes/6/cs50Week6Slide073.png)
 
-En Python, nous pouvons implémenter quelque chose qui ressemble à ceci comme suit :
+*   En Python, nous pouvons implémenter quelque chose qui ressemble à ceci comme suit :
 
+```py
   # Prints a column of 3 bricks with a loop
 
   for i in range(3):
       print("#")
-En C, nous avions l'avantage d'une do-whileboucle. Cependant, en Python, il est de convention d'utiliser une whileboucle. Python n'a pas de do whileboucle. Vous pouvez écrire du code comme suit dans un fichier appelé mario.py:
+```
 
+*   En C, nous avions l'avantage d'une do-whileboucle. Cependant, en Python, il est de convention d'utiliser une whileboucle. Python n'a pas de do whileboucle. Vous pouvez écrire du code comme suit dans un fichier appelé mario.py:
+
+```py
   # Prints a column of bricks, using a helper function to get input
 
   from cs50 import get_int
@@ -693,10 +726,13 @@ En C, nous avions l'avantage d'une do-whileboucle. Cependant, en Python, il est 
 
 
   main()
+```
+
 Remarquez comment la portée de nest partout dans la get_heightfonction une fois qu'une valeur lui a été attribuée. Notez en outre que, par convention, il existe des doubles espaces entre les fonctions.
 
-On peut repartir les roues stabilisatrices de la librairie CS50 comme suit :
+*   On peut repartir les roues stabilisatrices de la librairie CS50 comme suit :
 
+```py
   # Prints a column of bricks, catching exceptions
 
 
@@ -717,6 +753,8 @@ On peut repartir les roues stabilisatrices de la librairie CS50 comme suit :
 
 
   main()
+```
+
 Notez qu'il tryest utilisé pour tenter de convertir nen entier. S'il ne peut pas le faire, une erreur est émise.
 
 Considérez l'image suivante :
@@ -725,41 +763,56 @@ quatre blocs de questions horizontaux
 
 En Python, nous pourrions implémenter en modifiant votre code comme suit :
 
+```py
   # Prints a row of 4 question marks with a loop
 
   for i in range(4):
       print("?", end="")
   print()
+```
+
 Notez que vous pouvez remplacer le comportement de la printfonction pour rester sur la même ligne que l'impression précédente.
 
-Dans l'esprit des itérations précédentes, nous pouvons encore simplifier ce programme :
+*   Dans l'esprit des itérations précédentes, nous pouvons encore simplifier ce programme :
 
+```py
   # Prints a row of 4 question marks without a loop
 
   print("?" * 4)
+
+```
+
 Notez que nous pouvons utiliser *pour multiplier l'instruction d'impression pour répéter les 4temps.
 
-Qu'en est-il d'un gros bloc de briques ?
+*   Qu'en est-il d'un gros bloc de briques ?
 
-bloc trois par trois de blocs mario
+![bloc trois par trois de blocs mario](https://cs50.harvard.edu/extension/2022/fall/notes/6/cs50Week6Slide078.png)
 
 Pour implémenter ce qui précède, vous pouvez modifier votre code comme suit :
-
+```py
   # Prints a 3-by-3 grid of bricks with loops
 
   for i in range(3):
       for j in range(3):
           print("#", end="")
       print()
+```
+
 Remarquez comment une forboucle existe à l'intérieur d'une autre. L' printinstruction ajoute une nouvelle ligne à la fin de chaque rangée de briques.
 
 Vous pouvez en savoir plus sur la printfonction dans la documentation Python
 
-Partitions
-lists sont une structure de données dans Python.
-lists ont des méthodes ou des fonctions intégrées en leur sein.
-Par exemple, considérez le code suivant :
+---
 
+##  Partitions
+
+*   lists sont une structure de données dans Python.
+
+*   lists ont des méthodes ou des fonctions intégrées en leur sein.
+
+*   Par exemple, considérez le code suivant :
+
+```py
   # Averages three numbers using a list and a loop
 
   from cs50 import get_int
@@ -773,10 +826,13 @@ Par exemple, considérez le code suivant :
   # Print average
   average = sum(scores) / len(scores)
   print(f"Average: {average}")
+```
+
 Notez que vous pouvez utiliser la appendméthode intégrée, grâce à laquelle vous pouvez appendattribuer le score à la liste.
 
-Vous pouvez même utiliser la syntaxe suivante :
+*   Vous pouvez même utiliser la syntaxe suivante :
 
+```py
   # Averages three numbers using a list and a loop with + operator
 
   from cs50 import get_int
@@ -790,13 +846,21 @@ Vous pouvez même utiliser la syntaxe suivante :
   # Print average
   average = sum(scores) / len(scores)
   print(f"Average: {average}")
+```
+
 Avis qui +=est utilisé pour ajouter le score à la liste.
 
-Vous pouvez en savoir plus sur les listes dans la documentation Python
-Vous pouvez également en savoir plus lendans la documentation Python
-Majuscule
-De même, considérez le code suivant :
+*   Vous pouvez en savoir plus sur les listes dans la documentation Python
 
+*   Vous pouvez également en savoir plus lendans la documentation Python
+
+---
+
+##  Majuscule
+
+*   De même, considérez le code suivant :
+
+```py
   # Uppercases string one character at a time
 
   before = input("Before: ")
@@ -804,20 +868,27 @@ De même, considérez le code suivant :
   for c in before:
       print(c.upper(), end="")
   print()
+```
+
 Notez que chaque caractère est en majuscule un à la fois.
 
-Python a une méthode intégrée pour strs. Vous pourriez modifier votre code comme suit :
+*   Python a une méthode intégrée pour strs. Vous pourriez modifier votre code comme suit :
 
+```py
   # Uppercases string all at once
 
   before = input("Before: ")
   after = before.upper()
   print(f"After:  {after}")
+```
+
 Notez que la upperméthode est utilisée pour mettre en majuscule toute la chaîne en une seule fois.
 
-Saluer
-Comme avec C, vous pouvez également utiliser des arguments de ligne de commande. Considérez le code suivant :
+##  Saluer
 
+*   Comme avec C, vous pouvez également utiliser des arguments de ligne de commande. Considérez le code suivant :
+
+```py
   # Prints a command-line argument
 
   from sys import argv
@@ -826,32 +897,41 @@ Comme avec C, vous pouvez également utiliser des arguments de ligne de commande
       print(f"hello, {argv[1]}")
   else:
       print("hello, world")
-Avis qui argv[1]est imprimé à l'aide d'une chaîne formatée , notée par le fprésent dans l' printinstruction.
+```
 
-Vous pouvez imprimer tous les arguments argvcomme suit :
+*   Avis qui argv[1]est imprimé à l'aide d'une chaîne formatée , notée par le fprésent dans l' printinstruction.
 
+*   Vous pouvez imprimer tous les arguments argvcomme suit :
+
+```py
   # Printing command-line arguments, indexing into argv
 
   from sys import argv
 
   for i in range(len(argv)):
       print(argv[i])
+```
+
 Notez que ce qui précède présentera le mot pythons'il est exécuté, tout comme pythonl'un des arguments que vous avez passés.
 
-Vous pouvez découper des morceaux de listes. Considérez le code suivant :
-
+*   Vous pouvez découper des morceaux de listes. Considérez le code suivant :
+```py
   # Printing command-line arguments using a slice
 
   from sys import argv
 
   for arg in argv[1:]:
       print(arg)
+```
 Notez que l'exécution de ce code entraînera le découpage du mot python.
 
-Vous pouvez en savoir plus sur la sysbibliothèque dans la documentation Python
+*   Vous pouvez en savoir plus sur la sysbibliothèque dans la documentation Python
 
-Statut de sortie
-Dans la sysbibliothèque, il a aussi des méthodes intégrées :
+--- 
+
+##   Statut de sortie
+
+*   Dans la sysbibliothèque, il a aussi des méthodes intégrées :
 
   # Exits with explicit value, importing sys
 
