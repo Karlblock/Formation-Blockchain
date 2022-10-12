@@ -24,6 +24,8 @@
 
 
 ## Bienvenue
+__Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=XmYnsO7iSI8&t=0s)__
+
 ## Hello-World
 ## les-functions
 ## variables
