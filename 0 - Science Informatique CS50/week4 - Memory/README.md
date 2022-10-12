@@ -161,7 +161,7 @@ $
 
 ## Les pointers
 
-Un pointeur est une variable qui contient l'adresse d'une valeur. Plus succinctement, un pointeur est une adresse dans la mémoire de votre ordinateur.
+*   Un pointeur est une variable qui contient l'adresse d'une valeur. Plus succinctement, un pointeur est une adresse dans la mémoire de votre ordinateur.
 Considérez le code suivant :
 
   int n = 50;
@@ -183,7 +183,7 @@ Notez que ce code a le même effet que notre code précédent. Nous avons simple
 
 Vous pouvez visualiser notre code comme suit :
 
-![alt-text]https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
 
 Même valeur de 50 dans un emplacement de mémoire avec une valeur de pointeur stockée ailleurs
 
@@ -191,7 +191,7 @@ Remarquez que le pointeur semble plutôt gros. En effet, un pointeur est génér
 
 Vous pouvez visualiser plus précisément un pointeur comme une adresse pointant vers une autre :
 
-![alt-text]https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide079.png)
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide079.png)
 
 Un pointeur sous forme de flèche, pointant d'un emplacement de mémoire à un autre
 
@@ -215,12 +215,11 @@ Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemp
 *   La chaîne HI avec un point d'exclamation stocké en mémoire
 
 
-https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png
-
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
 
 *   Cependant, qu'est-ce que c'est svraiment ? Où est sstocké en mémoire ? Comme vous pouvez l'imaginer, sdoit être stocké quelque part. Vous pouvez visualiser la relation de sà la chaîne comme suit :
 
-https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
 
 *   Remarquez comment un pointeur appelé sindique au compilateur où se trouve le premier octet de la chaîne en mémoire.
 
