@@ -61,14 +61,12 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
 
 *   En comptant en hexadécimal, chaque colonne est une puissance de 16.
 
-
-*   Le nombre 0 est représenté par 00.
-*   Le nombre 1 est représenté par 01.
-*   Le nombre 9 est représenté par 09.
-*   Le nombre 10 est représenté par 0A.
-*   Le nombre 15 est représenté par 0F.
-*   Le nombre 16 est représenté par 10.
-
+    *   Le nombre 0 est représenté par 00.
+    *   Le nombre 1 est représenté par 01.
+    *   Le nombre 9 est représenté par 09.
+    *   Le nombre 10 est représenté par 0A.
+    *   Le nombre 15 est représenté par 0F.
+    *   Le nombre 16 est représenté par 10.
 
 *   ²Le nombre 255est représenté par FF, car 16 x 15 (ou F) est égal à 240. Ajoutez 15 de plus pour obtenir 255. C'est le nombre le plus élevé que vous puissiez compter en utilisant un système hexadécimal à deux chiffres.
 
