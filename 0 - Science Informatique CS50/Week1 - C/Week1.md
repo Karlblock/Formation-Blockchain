@@ -32,7 +32,7 @@ __Lien vers la vidéo  de l'[introduction](https://www.youtube.com/watch?v=XmYns
 
 *   L'une des raisons les plus importantes pour lesquelles nous utilisons VS Code est qu'il contient tous les logiciels requis pour le cours déjà préchargés. Ce cours et les instructions qu'il contient ont été conçus avec VS Code à l'esprit. Il est préférable de toujours utiliser VS Code pour les devoirs de ce cours.
 
-*   Vous pouvez ouvrir VS Code sur __Lien vers la vidéo  de l'[code.cs50.io](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://code.cs50.io/)__ .
+*   Vous pouvez ouvrir VS Code sur __[code.cs50.io](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://code.cs50.io/)__ .
 
 *   Le compilateur peut être divisé en plusieurs régions :
 
