@@ -121,27 +121,39 @@ Ce code est transformé en Python en :
 
 Remarquez comment les accolades permettent à la printfonction d'interpoler le answertel qui answerapparaît à l'intérieur.
 
-Les types
-Les types de données en python n'ont pas besoin d'être explicitement déclarés. Par exemple, vous avez vu comment answerci-dessus est une chaîne, mais nous n'avons pas eu à dire à l'interpréteur que c'était le cas : il savait tout seul.
-En Python, les types couramment utilisés incluent :
+##  Les types
 
+*   Les types de données en python n'ont pas besoin d'être explicitement déclarés. Par exemple, vous avez vu comment answerci-dessus est une chaîne, mais nous n'avons pas eu à dire à l'interpréteur que c'était le cas : il savait tout seul.
+
+*   En Python, les types couramment utilisés incluent :
+
+```
   bool
   float
   int
   str
-Notez que longet doublemanquent. Python gérera le type de données à utiliser pour les nombres plus grands et plus petits.
+```
 
-Certains autres types de données en Python incluent :
+*   Notez que longet doublemanquent. Python gérera le type de données à utiliser pour les nombres plus grands et plus petits.
 
+*   Certains autres types de données en Python incluent :
+```
   range
   list
   tuple
   dict
   set
-Chacun de ces types de données peut être implémenté en C, mais Python peut l'implémenter plus simplement.
-Orthographe
-Pour illustrer cette simplicité, tapons 'code dictionary.py' dans la fenêtre du terminal et écrivons le code comme suit :
+```
 
+*   Chacun de ces types de données peut être implémenté en C, mais Python peut l'implémenter plus simplement.
+
+---
+
+##  Orthographe
+
+*   Pour illustrer cette simplicité, tapons 'code dictionary.py' dans la fenêtre du terminal et écrivons le code comme suit :
+
+```py
   # Words in dictionary
   words = set()
 
@@ -172,29 +184,48 @@ Pour illustrer cette simplicité, tapons 'code dictionary.py' dans la fenêtre d
   def unload():
       """Unloads dictionary from memory, returning true if successful else false"""
       return True
-Notez qu'il y a quatre fonctions ci-dessus. Dans la checkfonction, si a wordest dans words, elle renvoie vrai. Tellement plus simple qu'une implémentation en C ! De même, dans la loadfonction, le fichier dictionnaire est ouvert. Pour chaque ligne de ce fichier, nous ajoutons cette ligne à words. En utilisant rstrip, la nouvelle ligne de fin est supprimée du mot ajouté. sizerenvoie simplement la lenou la longueur de words. unloadn'a besoin de revenir trueque parce que Python gère lui-même la gestion de la mémoire.
+```
 
-Le code ci-dessus illustre pourquoi les langages de niveau supérieur existent : pour simplifier et vous permettre d'écrire du code plus facilement.
-Cependant, la vitesse est un compromis. Étant donné que C vous permet, en tant que programmeur, de prendre des décisions concernant la gestion de la mémoire, il peut souvent fonctionner plus rapidement que Python, en fonction de votre code. Alors que C n'exécute que vos lignes de code, Python exécute tout le code qui se trouve sous le capot avec lui lorsque vous appelez les fonctions intégrées de Python.
-Vous pouvez en savoir plus sur les fonctions dans la documentation Python
-Reconnaissance d'images
-De nombreuses bibliothèques ont été écrites par les contributeurs de Python.
-Vous pouvez utiliser ces bibliothèques dans vos propres créations de code.
-Par exemple, vous pouvez simplement importer la reconnaissance faciale en utilisant une bibliothèque Python telle que PIL.
-David a fourni une démonstration de reconnaissance faciale utilisant Python et des bibliothèques tierces.
-Bibliothèque CS50
-Comme avec C, la bibliothèque CS50 peut être utilisée dans Python.
+   Notez qu'il y a quatre fonctions ci-dessus. Dans la checkfonction, si a wordest dans words, elle renvoie vrai. Tellement plus simple qu'une implémentation en C ! De même, dans la loadfonction, le fichier dictionnaire est ouvert. Pour chaque ligne de ce fichier, nous ajoutons cette ligne à words. En utilisant rstrip, la nouvelle ligne de fin est supprimée du mot ajouté. sizerenvoie simplement la lenou la longueur de words. unloadn'a besoin de revenir trueque parce que Python gère lui-même la gestion de la mémoire.
+
+*   Le code ci-dessus illustre pourquoi les langages de niveau supérieur existent : pour simplifier et vous permettre d'écrire du code plus facilement.
+
+*   Cependant, la vitesse est un compromis. Étant donné que C vous permet, en tant que programmeur, de prendre des décisions concernant la gestion de la mémoire, il peut souvent fonctionner plus rapidement que Python, en fonction de votre code. Alors que C n'exécute que vos lignes de code, Python exécute tout le code qui se trouve sous le capot avec lui lorsque vous appelez les fonctions intégrées de Python.
+
+*   Vous pouvez en savoir plus sur les fonctions dans la documentation Python
+
+##  Reconnaissance d'images
+
+*   De nombreuses bibliothèques ont été écrites par les contributeurs de Python.
+
+*   Vous pouvez utiliser ces bibliothèques dans vos propres créations de code.
+
+*   Par exemple, vous pouvez simplement importer la reconnaissance faciale en utilisant une bibliothèque Python telle que PIL.
+
+*   David a fourni une démonstration de reconnaissance faciale utilisant Python et des bibliothèques tierces.
+
+##  Bibliothèque CS50
+
+*   Comme avec C, la bibliothèque CS50 peut être utilisée dans Python.
 Les fonctions suivantes seront particulièrement utiles :
 
+```
   get_float
   get_int
   get_string
-Vous avez également la possibilité d'importer uniquement des fonctions spécifiques de la bibliothèque CS50 comme suit :
+```
 
+*   Vous avez également la possibilité d'importer uniquement des fonctions spécifiques de la bibliothèque CS50 comme suit :
+
+ ```
   from CS50 import get_float, get_int, get_string
-Conditionnels
-En C, vous vous souvenez peut-être d'un programme comme celui-ci :
+```
 
+##  Conditionnels
+
+*   En C, vous vous souvenez peut-être d'un programme comme celui-ci :
+
+```c
   // Conditionals, Boolean expressions, relational operators
 
   #include <cs50.h>
@@ -220,8 +251,11 @@ En C, vous vous souvenez peut-être d'un programme comme celui-ci :
           printf("x is equal to y\n");
       }
   }
+```
+
 En Python, cela se présenterait comme suit :
 
+```py
   # Conditionals, Boolean expressions, relational operators
 
   from cs50 import get_int
@@ -237,14 +271,22 @@ En Python, cela se présenterait comme suit :
       print("x is greater than y")
   else:
       print("x is equal to y")
+```
+
 Remarquez qu'il n'y a plus d'accolades. Au lieu de cela, des indentations sont utilisées. Deuxièmement, deux-points sont utilisés dans la ifdéclaration. De plus, elifremplace else if. Les parenthèses ne sont également plus nécessaires dans la ifdéclaration.
 
-variables
-La déclaration des variables est également simplifiée. En C, vous pourriez avoir int counter = 1;. En Python, cette même ligne se lirait counter = 1. Vous n'avez pas besoin de déclarer le type de la variable.
-Python préfère counter += 1incrémenter de un, perdant la possibilité trouvée en C de taper counter++.
-Boucles
-Les boucles en Python sont très similaires au C. Vous vous souviendrez peut-être du code suivant en C :
+---
 
+##  variables
+
+*   La déclaration des variables est également simplifiée. En C, vous pourriez avoir int counter = 1;. En Python, cette même ligne se lirait counter = 1. Vous n'avez pas besoin de déclarer le type de la variable.
+Python préfère counter += 1incrémenter de un, perdant la possibilité trouvée en C de taper counter++.
+
+##  Boucles
+
+*   Les boucles en Python sont très similaires au C. Vous vous souviendrez peut-être du code suivant en C :
+
+```c
   // Demonstrates while loop
 
   #include <stdio.h>
@@ -258,7 +300,10 @@ Les boucles en Python sont très similaires au C. Vous vous souviendrez peut-êt
           i++;
       }
   }
-En Python, ce code apparaît comme :
+``` 
+*   En Python, ce code apparaît comme :
+
+```py
 
   # Demonstrates while loop
 
@@ -266,18 +311,25 @@ En Python, ce code apparaît comme :
   while i < 3:
       print("meow")
       i += 1
-forles boucles peuvent être implémentées en Python comme suit :
+```
+*   for les boucles peuvent être implémentées en Python comme suit :
+```py
 
   # Better design
 
+
   for i in range(3):
       print("meow")
+```
 De même, on pourrait exprimer le code ci-dessus comme suit :
+
+```py
 
   # Abstraction with parameterization
 
   def main():
       meow(3)
+
 
 
   # Meow some number of times
@@ -287,11 +339,15 @@ De même, on pourrait exprimer le code ci-dessus comme suit :
 
 
   main()
+```
+
 Notez qu'une fonction est utilisée pour résumer le miaulement.
 
-Calculatrice
-Nous pouvons implémenter une calculatrice simple comme nous l'avons fait en C. Tapez code calculator.pydans la fenêtre du terminal et écrivez le code comme suit :
+##  Calculatrice
 
+*   Nous pouvons implémenter une calculatrice simple comme nous l'avons fait en C. Tapez code calculator.pydans la fenêtre du terminal et écrivez le code comme suit :
+
+```py
   # Addition with int [using get_int]
 
   from cs50 import get_int
@@ -304,9 +360,13 @@ Nous pouvons implémenter une calculatrice simple comme nous l'avons fait en C. 
 
   # Perform addition
   print(x + y)
+```
+
 Remarquez comment la bibliothèque CS50 est importée. Ensuite, xet y sont recueillies auprès de l'utilisateur. Enfin, le résultat est imprimé. Notez que la mainfonction qui aurait été vue dans un programme C a complètement disparu ! Bien que l'on puisse utiliser une mainfonction, ce n'est pas obligatoire.
 
-Il est possible d'enlever les roues stabilisatrices de la librairie CS50. Modifiez votre code comme suit :
+*   Il est possible d'enlever les roues stabilisatrices de la librairie CS50. Modifiez votre code comme suit :
+
+```py   
 
   # Addition with int [using input]
 
@@ -318,10 +378,13 @@ Il est possible d'enlever les roues stabilisatrices de la librairie CS50. Modifi
 
   # Perform addition
   print(x + y)
+```
+
 Remarquez comment l'exécution du code ci-dessus entraîne un comportement étrange du programme. Pourquoi pourrait-il en être ainsi?
 
-Vous avez peut-être deviné que l'interprète a compris xet yêtre des chaînes. Vous pouvez corriger votre code en utilisant la intfonction comme suit :
+*   Vous avez peut-être deviné que l'interprète a compris xet yêtre des chaînes. Vous pouvez corriger votre code en utilisant la intfonction comme suit :
 
+```py
   # Addition with int [using input]
 
   # Prompt user for x
@@ -332,10 +395,12 @@ Vous avez peut-être deviné que l'interprète a compris xet yêtre des chaînes
 
   # Perform addition
   print(x + y)
+```
+
 Remarquez comment l'entrée pour xet yest transmise à la intfonction qui la convertit en entier.
 
-Nous pouvons étendre les capacités de notre calculatrice. Modifiez votre code comme suit :
-
+*   Nous pouvons étendre les capacités de notre calculatrice. Modifiez votre code comme suit :
+```py
   # Division with integers, demonstration lack of truncation
 
   # Prompt user for x
@@ -347,9 +412,12 @@ Nous pouvons étendre les capacités de notre calculatrice. Modifiez votre code 
   # Divide x by y
   z = x / y
   print(z)
+```
+
 Notez que l'exécution de ce code donne une valeur, mais que si vous voyiez plus de chiffres après .333333, vous verriez que nous sommes confrontés à une imprécision en virgule flottante .
 
-Nous pouvons révéler cette imprécision en modifiant légèrement nos codes :
+*   Nous pouvons révéler cette imprécision en modifiant légèrement nos codes :
+```py
 
   # Floating-point imprecision
 
@@ -362,11 +430,17 @@ Nous pouvons révéler cette imprécision en modifiant légèrement nos codes :
   # Divide x by y
   z = x / y
   print(f"{z:.50f}")
+
+```
+
 Notez que ce code révèle l'imprécision. Python est toujours confronté à ce problème, tout comme C.
 
-Comparer
-En C, nous avons rencontré des difficultés lorsque nous avons voulu comparer deux valeurs. Considérez le code suivant :
 
+##  Comparer
+
+*   En C, nous avons rencontré des difficultés lorsque nous avons voulu comparer deux valeurs. Considérez le code suivant :
+
+```py
   // Conditionals, Boolean expressions, relational operators
 
   #include <cs50.h>
@@ -392,8 +466,11 @@ En C, nous avons rencontré des difficultés lorsque nous avons voulu comparer d
           printf("x is equal to y\n");
       }
   }
+```
+
 En Python, nous pouvons exécuter ce qui précède comme suit :
 
+```py
   # Conditionals, Boolean expressions, relational operators
 
   from cs50 import get_int
@@ -409,9 +486,13 @@ En Python, nous pouvons exécuter ce qui précède comme suit :
       print("x is greater than y")
   else:
       print("x is equal to y")
+
+```
+
 Notez que la bibliothèque CS50 est importée. De plus, des changements mineurs existent dans la ifdéclaration.
 
-En regardant plus loin les comparaisons, considérons le code suivant en C :
+*   En regardant plus loin les comparaisons, considérons le code suivant en C :
+```py
 
   // Logical operators
 
@@ -433,7 +514,10 @@ En regardant plus loin les comparaisons, considérons le code suivant en C :
           printf("Not agreed.\n");
       }
   }
+```
 Ce qui précède peut être mis en œuvre comme suit :
+
+```py
 
   # Logical operators
 
@@ -447,9 +531,12 @@ Ce qui précède peut être mis en œuvre comme suit :
       print("Agreed.")
   elif s == "N" or s == "n":
       print("Not agreed.")
+```
+
 Notez que les deux barres verticales utilisées dans C sont remplacées par or. En effet, les gens apprécient souvent Python car il est plus lisible par les humains. Notez également que cela charn'existe pas en Python. Au lieu de cela, strs sont utilisés.
 
-Une autre approche de ce même code pourrait être la suivante :
+*   Une autre approche de ce même code pourrait être la suivante :
+```py
 
   # Logical operators, using lists
 
@@ -463,13 +550,17 @@ Une autre approche de ce même code pourrait être la suivante :
       print("Agreed.")
   elif s in ["n", "no"]:
       print("Not agreed.")
+```
 Remarquez comment nous pouvons exprimer plusieurs mots-clés comme yet yes.
 
-Programmation orientée objet
-Jusqu'à présent, nos programmes dans ce cours étaient linéaires : séquentiels.
+##  Programmation orientée objet
+
+*   Jusqu'à présent, nos programmes dans ce cours étaient linéaires : séquentiels.
 Il est possible que certains types de valeurs aient non seulement des propriétés ou des attributs à l'intérieur, mais aussi des fonctions.
-Alors qu'en C, nous pourrions créer un structoù vous pourriez associer plusieurs variables à l'intérieur d'un seul type de données auto-créé, Python peut le faire et vous permettre d'avoir des fonctions intégrées pour vos types de données.
-Par exemple, strsen Python, il y a des méthodes intégrées . Par conséquent, vous pouvez modifier votre code comme suit :
+
+*   Alors qu'en C, nous pourrions créer un structoù vous pourriez associer plusieurs variables à l'intérieur d'un seul type de données auto-créé, Python peut le faire et vous permettre d'avoir des fonctions intégrées pour vos types de données.
+
+*   Par exemple, strsen Python, il y a des méthodes intégrées . Par conséquent, vous pouvez modifier votre code comme suit :
 
   # Logical operators, using lists
 
