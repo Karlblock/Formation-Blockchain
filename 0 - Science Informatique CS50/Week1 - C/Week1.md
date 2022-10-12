@@ -51,7 +51,41 @@ int main(void)
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/1/cs50Week1Slide017.png)
 
-## les-functions
+Notez qu'il y a un explorateur de fichiers sur le côté gauche où vous pouvez trouver vos fichiers. De plus, notez qu'il y a une région au milieu appelée un éditeur de texte où vous pouvez éditer votre programme. Enfin, il existe un command line interface, appelé CLI , ligne de commande ou fenêtre de terminal où nous pouvons envoyer des commandes à l'ordinateur dans le cloud.
+
+*   Nous pouvons construire votre premier programme en C en tapant code hello.cdans la fenêtre du terminal. Notez que nous avons délibérément mis en minuscules le nom de fichier entier et inclus l' .cextension. Ensuite, dans l'éditeur de texte qui apparaît, écrivez le code comme suit :
+
+```c
+  #include <stdio.h>
+
+  int main(void)
+  {
+    printf("hello, world\n");
+  }
+```
+
+Notez que chaque caractère ci-dessus a un but. Si vous ne le tapez pas correctement, le programme ne fonctionnera pas.
+
+*   En cliquant de nouveau dans la fenêtre du terminal, vous pouvez compiler votre code en exécutant make hello. Remarquez que nous omettons .c. makeest un compilateur qui recherchera notre hello.cfichier et le transformera en un programme appelé hello. Si l'exécution de cette commande ne génère aucune erreur, vous pouvez continuer. Si ce n'est pas le cas, revérifiez votre code pour vous assurer qu'il correspond à ce qui précède.
+
+*   Maintenant, tapez ./helloet votre programme s'exécutera en disant hello, world.
+
+*   Maintenant, ouvrez l' explorateur de fichiers sur la gauche. Vous remarquerez qu'il existe maintenant à la fois un fichier appelé hello.cet un autre fichier appelé hello. hello.cpeut être lu par le compilateur : c'est là que votre code est stocké. helloest un fichier exécutable que vous pouvez exécuter, mais qui ne peut pas être lu par le compilateur.
+
+*   Regardons notre code plus attentivement :
+
+```c
+  #include <stdio.h>
+
+  int main(void)
+  {
+    printf("hello, world\n");
+  }
+```
+
+*   Notez que notre code est mis en surbrillance à l'aide de la coloration syntaxique.
+
+## les functions
 ## variables
 ## Conditionnels
 ## Boucles
@@ -59,5 +93,5 @@ int main(void)
 ## Mario
 ## Commantaire
 ## Les abstactions
-## operateur-de-type
+## operateur de type
 ## Résumé
