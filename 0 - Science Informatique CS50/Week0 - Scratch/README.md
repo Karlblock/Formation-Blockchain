@@ -17,7 +17,7 @@
 * [Emojis](#Emojis)
 * [Les images, vidéos et le son](#Les-images,-vidéos-et-le-son)
 * [Les algorithmes](#les-algorithmes)
-* [Le pseudocode et les éléments de base de la programmatio](#Le-pseudocode-et-les-éléments-de-base-de-la-programmation)
+* [Le pseudocode et les éléments de base de la programmation](#Le-pseudocode-et-les-éléments-de-base-de-la-programmation)
 * [Logiciel Scratch ](#logiciel-Scratch)
 * [Les abstactions](#Les-abstactions)
 * [Si (if)](#Si-(if))
