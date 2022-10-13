@@ -244,7 +244,7 @@ Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemp
       printf("%p\n", &s[3]);
   }
  ``` 
-Notez que ce qui précède imprime les emplacements mémoire de chaque caractère dans la chaîne **s**.
+Notez que ce qui précède imprime les emplacements mémoire de chaque caractère dans la chaîne ```s```
 
 *   De même, vous pouvez modifier votre code comme suit :
 
@@ -293,9 +293,9 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
   }
 ```
 
-*   Notez que le premier caractère à l'emplacement de **s** est imprimé. Ensuite, le caractère à l'emplacement s + 1 est imprimé, et ainsi de suite.
+*   Notez que le premier caractère à l'emplacement de ```s``` est imprimé. Ensuite, le caractère à l'emplacement ```s + 1``` est imprimé, et ainsi de suite.
 
-*   Pouvez-vous imaginer ce qui se passerait si vous tentiez d'accéder à quelque chose sur places + 50 ? Les pirates tentent parfois d'accéder à des éléments en mémoire auxquels ils ne devraient pas avoir accès. Si vous essayez cela, le programme se fermera probablement par mesure de sécurité.
+*   Pouvez-vous imaginer ce qui se passerait si vous tentiez d'accéder à quelque chose sur place ```s + 50``` ? Les pirates tentent parfois d'accéder à des éléments en mémoire auxquels ils ne devraient pas avoir accès. Si vous essayez cela, le programme se fermera probablement par mesure de sécurité.
 
 ## Comparing Strings
 
@@ -303,9 +303,9 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
 
 *   Rappelez-vous que la semaine dernière, nous avons proposé que nous ne pouvions pas comparer deux chaînes à l'aide de l' ```==``` opérateur.
 
-*   L'utilisation de l' ==opérateur dans une tentative de comparaison de chaînes tentera de comparer les emplacements de mémoire des chaînes au lieu des caractères qu'elles contiennent. En conséquence, nous avons recommandé l'utilisation de strcmp.
+*   L'utilisation de l'opérateur ```==``` dans une tentative de comparaison de chaînes tentera de comparer les emplacements de mémoire des chaînes au lieu des caractères qu'elles contiennent. En conséquence, nous avons recommandé l'utilisation de ```strcmp```.
 
-*   Pour illustrer cela, tapez code compare.cet écrivez le code comme suit :
+*   Pour illustrer cela, tapez ```code compare.c``` et écrivez le code comme suit :
 
 ```c
   #include <cs50.h>
