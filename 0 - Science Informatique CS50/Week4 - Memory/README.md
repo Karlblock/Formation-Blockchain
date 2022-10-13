@@ -549,9 +549,9 @@ Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impres
   }
 ```
 
-*   Notez que cela strcpyfait le même travail que notre forboucle faisait précédemment.
+*   Notez que cela ```strcpy``` fait le même travail que notre boucle for faisait précédemment.
 
-*   Les deux get_stringet mallocreturn NULL, une valeur spéciale en mémoire, en cas de problème. Vous pouvez écrire du code qui peut vérifier cette NULLcondition comme suit :
+*   Les deux ```get_string``` et ```malloc``` return ```NULL```, une valeur spéciale en mémoire, en cas de problème. Vous pouvez écrire du code qui peut vérifier cette ```NULL``` condition comme suit :
 
 ```c
 
@@ -596,11 +596,11 @@ Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impres
   }
 
 ```
-Notez que si la chaîne obtenue est de longueur 0ou si malloc échoue, NULLest renvoyé. De plus, notez que cela freepermet à l'ordinateur de savoir que vous en avez terminé avec ce bloc de mémoire que vous avez créé via malloc.
+Notez que si la chaîne obtenue est de longueur 0 ou si ```malloc``` échoue, ```NULL``` est renvoyé. De plus, notez que cela freepermet à l'ordinateur de savoir que vous en avez terminé avec ce bloc de mémoire que vous avez créé via ```malloc```.
 
 ## Valgrind
 
-Valgrind est un outil qui peut vérifier s'il y a des problèmes liés à la mémoire avec vos programmes dans lesquels vous avez utilisé malloc. Plus précisément, il vérifie si vous avez freetoute la mémoire que vous avez allouée.
+Valgrind est un outil qui peut vérifier s'il y a des problèmes liés à la mémoire avec vos programmes dans lesquels vous avez utilisé ```malloc```. Plus précisément, il vérifie si vous avez ```free``` toute la mémoire que vous avez allouée.
 Considérez le code suivant :
 
 ```c
@@ -618,9 +618,9 @@ Considérez le code suivant :
 
 ```
 
-*   Notez que l'exécution de ce programme ne provoque aucune erreur. Alors que mallocest utilisé pour allouer suffisamment de mémoire pour un tableau, le code échoue dans freecette mémoire allouée.
+*   Notez que l'exécution de ce programme ne provoque aucune erreur. Alors que ```malloc``` est utilisé pour allouer suffisamment de mémoire pour un tableau, le code échoue dans ```free``` cette mémoire allouée.
 
-*   Si vous tapez make memorysuivi de valgrind ./memory, vous obtiendrez un rapport de valgrind qui indiquera où la mémoire a été perdue à cause de votre programme.
+*   Si vous tapez ```make memory``` suivi de ```valgrind ./memory``` , vous obtiendrez un rapport de valgrind qui indiquera où la mémoire a été perdue à cause de votre programme.
 Vous pouvez modifier votre code comme suit :
 
 ```c
