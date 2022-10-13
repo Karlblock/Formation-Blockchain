@@ -244,7 +244,7 @@ Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemp
       printf("%p\n", &s[3]);
   }
  ``` 
-Notez que ce qui précède imprime les emplacements mémoire de chaque caractère dans la chaîne s.
+Notez que ce qui précède imprime les emplacements mémoire de chaque caractère dans la chaîne **s**.
 
 *   De même, vous pouvez modifier votre code comme suit :
 
@@ -293,7 +293,7 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
   }
 ```
 
-*   Notez que le premier caractère à l'emplacement de sest imprimé. Ensuite, le caractère à l'emplacement s + 1est imprimé, et ainsi de suite.
+*   Notez que le premier caractère à l'emplacement de **s** est imprimé. Ensuite, le caractère à l'emplacement s + 1 est imprimé, et ainsi de suite.
 
 *   Pouvez-vous imaginer ce qui se passerait si vous tentiez d'accéder à quelque chose sur places + 50 ? Les pirates tentent parfois d'accéder à des éléments en mémoire auxquels ils ne devraient pas avoir accès. Si vous essayez cela, le programme se fermera probablement par mesure de sécurité.
 
