@@ -123,7 +123,7 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
   }
 ```
 
-*   Remarquez le **%p**, qui nous permet de visualiser l'adresse d'un emplacement en mémoire. &npeut être littéralement traduit par "l'adresse de n". L'exécution de ce code renverra une adresse de mémoire commençant par 0x.
+*   Remarquez le **%p**, qui nous permet de visualiser l'adresse d'un emplacement en mémoire. &n peut être littéralement traduit par "l'adresse de n". L'exécution de ce code renverra une adresse de mémoire commençant par 0x.
 
 ``` c
 #include <stdio.h>
