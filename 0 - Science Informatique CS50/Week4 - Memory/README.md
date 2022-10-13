@@ -329,7 +329,7 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
   }
 ```
 
-*   Remarquer que la saisie HI!des deux chaînes entraîne toujours la sortie de Different.
+*   Remarquer que la saisie ```HI!``` des deux chaînes entraîne toujours la sortie de ```Different```.
 
 *   Pourquoi ces chaînes semblent-elles différentes ? Vous pouvez utiliser ce qui suit pour visualiser pourquoi :
 
