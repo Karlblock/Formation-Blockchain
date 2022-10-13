@@ -226,7 +226,7 @@ Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemp
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide086.png)
 
-*   Remarquez comment un pointeur appelé sindique au compilateur où se trouve le premier octet de la chaîne en mémoire.
+*   Remarquez comment un pointeur appelé **s** indique au compilateur où se trouve le premier octet de la chaîne en mémoire.
 
 *   Modifiez votre code comme suit :
 
