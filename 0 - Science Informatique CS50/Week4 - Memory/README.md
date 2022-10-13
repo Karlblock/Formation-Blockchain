@@ -104,11 +104,12 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
 ![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide070.png)
 
 
-*   Le Clangage a deux opérateurs puissants qui se rapportent à la mémoire :
+*   Le langage C a deux opérateurs puissants qui se rapportent à la mémoire :
 ```
 
-  & Provides the address of something stored in memory.
-  * Instructs the compiler to go to a location in memory.
+  & Fournit l'adresse d'un élément stocké en mémoire.
+  * Ordonne au compilateur d'aller à un emplacement en mémoire.
+
 ```
 *   Nous pouvons tirer parti de ces connaissances en modifiant notre code comme suit :
 
@@ -122,7 +123,7 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
   }
 ```
 
-*   Remarquez le %p, qui nous permet de visualiser l'adresse d'un emplacement en mémoire. &npeut être littéralement traduit par "l'adresse de n". L'exécution de ce code renverra une adresse de mémoire commençant par 0x.
+*   Remarquez le **%p**, qui nous permet de visualiser l'adresse d'un emplacement en mémoire. &npeut être littéralement traduit par "l'adresse de n". L'exécution de ce code renverra une adresse de mémoire commençant par 0x.
 
 ``` c
 #include <stdio.h>
