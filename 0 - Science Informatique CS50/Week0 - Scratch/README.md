@@ -279,11 +279,13 @@ print("hello, world")
 
 *   Notez que le langage de notre pseudocode a des caractéristiques uniques. Premièrement, certaines de ces lignes commencent par des verbes comme ramasser, ouvrir, regarder. Plus tard, nous appellerons ces fonctions .
 
-*   Deuxièmement, notez que certaines lignes incluent des instructions telles que ifou else if.Celles-ci sont appelées conditionnelles .
+*   Deuxièmement, notez que certaines lignes incluent des instructions telles que ifou else if. Celles-ci sont appelées conditionnelles.
 
 *   Troisièmement, remarquez qu'il existe des expressions qui peuvent être déclarées vraies ou fausses, telles que "la personne est plus tôt dans le livre". Nous appelons ces expressions booléennes .
-Enfin, remarquez comment ces déclarations comme "revenir à la ligne 3". Nous appelons ces boucles .
-Dans le contexte de Scratch , qui est discuté ci-dessous, nous utiliserons chacun des éléments de base de la programmation ci-dessus.
+
+*   Enfin, remarquez comment ces déclarations comme "revenir à la ligne 3". Nous appelons ces boucles.
+
+*   Dans le contexte de Scratch , qui est discuté ci-dessous, nous utiliserons chacun des éléments de base de la programmation ci-dessus.
 
 ---
 
@@ -366,6 +368,18 @@ Notez que ce programme, lorsque le drapeau vert est cliqué, passe la même vari
 
 ## Si (if)
 
+*   les conditions sont un élément essentiel de la programmation, où le programme cherche à voir si une condition spécifique a été remplie. Si une condition est remplie, le programme fait quelque chose.
+
+*   Pour illustrer une condition, écrivez le code comme suit :
+
+
+*   Notez que le foreverbloc est utilisé de manière à ce qu'il ifsoit déclenché encore et encore, de sorte qu'il puisse vérifier en permanence si le chat touche le pointeur de la souris.
+
+*   Nous pouvons modifier notre programme comme suit pour intégrer la détection vidéo :
+
+
+*   N'oubliez pas que la programmation est souvent un processus d'essais et d'erreurs. Si vous êtes frustré, prenez le temps de vous parler du problème en question. Quel est le problème spécifique sur lequel vous travaillez actuellement ? Qu'est-ce qui fonctionne ? Qu'est-ce qui ne fonctionne pas ?
+
 _Voir directement sur le site pour les image de Scratch_
 
 [si](https://cs50.harvard.edu/extension/2022/fall/notes/0/#if)
@@ -373,6 +387,14 @@ _Voir directement sur le site pour les image de Scratch_
 ---
 
 ## Développez votre imagination
+
+*   Nous vous avons montré dans cette conférence un certain nombre de programmes Scratch pour alimenter votre imagination.
+Oscartime est l'un des propres programmes Scratch de David - bien que la musique puisse le hanter en raison du nombre d'heures qu'il a écoutées lors de la création de ce programme. Prenez quelques instants pour jouer vous-même au jeu.
+
+*   Construisant Oscartime nous-mêmes, nous ajoutons d'abord le lampadaire.
+
+![interface oscartime](https://cs50.harvard.edu/extension/2022/fall/notes/0/cs50Week0Scratch10.png)
+
 
 _Voir directement sur le site pour les image de Scratch_
 
