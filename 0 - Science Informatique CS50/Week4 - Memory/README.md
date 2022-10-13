@@ -224,7 +224,7 @@ Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemp
 
 *   Cependant, qu'est-ce que c'est svraiment ? Où est stocké **s** en mémoire ? Comme vous pouvez l'imaginer, **s** doit être stocké quelque part. Vous pouvez visualiser la relation de **s** à la chaîne comme suit :
 
-![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
+![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide086.png)
 
 *   Remarquez comment un pointeur appelé sindique au compilateur où se trouve le premier octet de la chaîne en mémoire.
 
