@@ -1,4 +1,24 @@
- #include <cs50.h>
+//  #include <cs50.h>
+//   #include <stdio.h>
+
+//   int main(void)
+//   {
+//       // Get two strings
+//       char *s = get_string("s: ");
+//       char *t = get_string("t: ");
+
+//       // Compare strings' addresses
+//       if (s == t)
+//       {
+//           printf("Same\n");
+//       }
+//       else
+//       {
+//           printf("Different\n");
+//       }
+//   }
+
+  #include <cs50.h>
   #include <stdio.h>
 
   int main(void)
@@ -7,13 +27,7 @@
       char *s = get_string("s: ");
       char *t = get_string("t: ");
 
-      // Compare strings' addresses
-      if (s == t)
-      {
-          printf("Same\n");
-      }
-      else
-      {
-          printf("Different\n");
-      }
+      // Print strings
+      printf("%s\n", s);
+      printf("%s\n", t);
   }
