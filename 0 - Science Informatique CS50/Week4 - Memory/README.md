@@ -97,7 +97,7 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
   }
 ```
 
-*   Remarquez comment nest stocké en mémoire avec la valeur 50.
+*   Remarquez comment **n** est stocké en mémoire avec la valeur 50.
 
 *   Vous pouvez visualiser comment ce programme stocke cette valeur comme suit :
 
