@@ -80,7 +80,7 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
 
 ![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide065.png)
 
-*   Vous pouvez imaginer à quel point il peut y avoir confusion quant à savoir si le 10 bloc ci-dessus peut représenter un emplacement en mémoire ou la valeur 10. En conséquence, par convention, tous les nombres hexadécimaux sont souvent représentés avec le # **0x** préfixe suivant :
+*   Vous pouvez imaginer à quel point il peut y avoir confusion quant à savoir si le 10 bloc ci-dessus peut représenter un emplacement en mémoire ou la valeur 10. En conséquence, par convention, tous les nombres hexadécimaux sont souvent représentés avec le **0x** préfixe suivant :
 
 ![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide066.png)
 
