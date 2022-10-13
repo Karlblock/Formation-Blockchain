@@ -639,7 +639,7 @@ Vous pouvez modifier votre code comme suit :
 ```
 Notez que la réexécution de valgrind entraîne maintenant des fuites de mémoire.
 
-## Garbage Values
+## Valeurs Inutiles
 
 *   Lorsque vous demandez au compilateur un bloc de mémoire, rien ne garantit que cette mémoire sera vide.
 
