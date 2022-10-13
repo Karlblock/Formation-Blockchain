@@ -159,8 +159,6 @@ $
 
 ```
 
-
-
 ## Les pointers
 
 *   Un pointeur est une variable qui contient l'adresse d'une valeur. Plus succinctement, un pointeur est une adresse dans la mémoire de votre ordinateur.
@@ -172,7 +170,7 @@ Considérez le code suivant :
   int *p = &n;
 ```
 
-*   Notez que pc'est un pointeur qui contient un nombre qui est l'adresse d'un entier n.
+*   Notez que **p** c'est un pointeur qui contient un nombre qui est l'adresse d'un entier n.
 
 Modifiez votre code comme suit :
 
@@ -214,19 +212,17 @@ Modifiez votre code comme suit :
   }
 ```
 
-Notez que la printfligne imprime l'entier à l'emplacement de p.
+Notez que la ligne printf imprime l'entier à l'emplacement de p.
 
 ## les Strings
 
 *   Maintenant que nous avons un modèle mental pour les pointeurs, nous pouvons revenir sur un niveau de simplification qui a été proposé plus tôt dans ce cours.
 Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemple, string s = "HI!"peut être représenté comme suit :
 
-*   La chaîne HI avec un point d'exclamation stocké en mémoire
-
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
 
-*   Cependant, qu'est-ce que c'est svraiment ? Où est sstocké en mémoire ? Comme vous pouvez l'imaginer, sdoit être stocké quelque part. Vous pouvez visualiser la relation de sà la chaîne comme suit :
+*   Cependant, qu'est-ce que c'est svraiment ? Où est stocké **s** en mémoire ? Comme vous pouvez l'imaginer, **s** doit être stocké quelque part. Vous pouvez visualiser la relation de **s** à la chaîne comme suit :
 
 ![alt-text](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide085.png)
 
