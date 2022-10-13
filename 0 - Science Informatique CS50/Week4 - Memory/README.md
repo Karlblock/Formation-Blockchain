@@ -301,7 +301,7 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
 
 *   Une chaîne de caractères est simplement un tableau de caractères identifié par son premier octet.
 
-*   Rappelez-vous que la semaine dernière, nous avons proposé que nous ne pouvions pas comparer deux chaînes à l'aide de  ```==```  l'opérateur.
+*   Rappelez-vous que la semaine dernière, nous avons dit que nous ne pouvions pas comparer deux chaînes à l'aide de  ```==```  l'opérateur.
 
 *   L'utilisation de l'opérateur ```==``` dans une tentative de comparaison de chaînes tentera de comparer les emplacements de mémoire des chaînes au lieu des caractères qu'elles contiennent. En conséquence, nous avons recommandé l'utilisation de ```strcmp```.
 
@@ -333,11 +333,11 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
 
 *   Pourquoi ces chaînes semblent-elles différentes ? Vous pouvez utiliser ce qui suit pour visualiser pourquoi :
 
-*   deux chaînes stockées séparément en mémoire
+ ![rr](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide115.png) 
 
 *   Pour plus de clarté, vous pouvez voir comment l'image suivante illustre des pointeurs pointant vers deux emplacements distincts en mémoire :
 
-*   deux chaînes stockées séparément en mémoire avec des pointeurs distincts pointant vers elles
+![deu](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide116.png)
 
 *   Modifiez votre code comme suit :
 
