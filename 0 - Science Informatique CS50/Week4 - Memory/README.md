@@ -483,7 +483,7 @@ Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impres
   }
 
 ```
-*   Notez que malloc(strlen(s) + 1)crée un bloc de mémoire qui est la longueur de la chaîne splus un. Cela permet l'inclusion du caractère nul \0 dans notre chaîne finale copiée. Ensuite, la forboucle parcourt la chaîne set attribue chaque valeur au même emplacement sur la chaîne t.
+*   Notez que ```malloc(strlen(s) + 1)``` crée un bloc de mémoire qui est la longueur de la chaîne ```s``` plus un. Cela permet l'inclusion du caractère nul ```\0``` dans notre chaîne finale copiée. Ensuite, la boucle for parcourt la chaîne set attribue chaque valeur au même emplacement sur la chaîne ```t```.
 
 *   Il s'avère qu'il y a une inefficacité dans notre code. Modifiez votre code comme suit :
 
@@ -518,9 +518,9 @@ Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impres
   }
 ```
 
-*   Notez que n = strlen(s)c'est maintenant défini dans la partie gauche du fichier for loop. Il est préférable de ne pas appeler de fonctions inutiles dans la condition médiane de la forboucle, car elle s'exécutera encore et encore. Lors du déplacement n = strlen(s)vers la gauche, la fonction strlenne s'exécute qu'une seule fois.
+*   Notez que ```n = strlen(s)``` c'est maintenant défini dans la partie gauche du fichier ```for loop```. Il est préférable de ne pas appeler de fonctions inutiles dans la condition médiane de la  boucle for, car elle s'exécutera encore et encore. Lors du déplacement n = strlen(s)vers la gauche, la fonction ```strlen``` ne s'exécute qu'une seule fois.
 
-*   Le Clangage a une fonction intégrée pour copier des chaînes appelées strcpy. Il peut être mis en œuvre comme suit :
+*   Le langage ```C```  a une fonction intégrée pour copier des chaînes appelées ```strcpy```. Il peut être mis en œuvre comme suit :
 
 ```c
   #include <cs50.h>
