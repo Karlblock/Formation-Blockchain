@@ -409,9 +409,9 @@ Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impres
   }
 ```
 
-*   Notez que string t = scopie l'adresse de sà t. Cela n'accomplit pas ce que nous désirons. La chaîne n'est pas copiée - seule l'adresse l'est.
+*   Notez que string ```t = s``` copie l'adresse de ```s``` à ```t```. Cela n'accomplit pas ce que nous désirons. La chaîne n'est pas copiée - seule l'adresse l'est.
 
-*   Avant de relever ce défi, il est important de s'assurer que nous ne rencontrons pas de défaut de segmentation dans notre code, où nous tentons de copier string svers string t, où string tn'existe pas. Nous pouvons utiliser la strlenfonction comme suit pour vous aider :
+*   Avant de relever ce défi, il est important de s'assurer que nous ne rencontrons pas de défaut de segmentation dans notre code, où nous tentons de copier ```string s``` vers ```string t```, où ```string t```n'existe pas. Nous pouvons utiliser la ```strlen``` fonction comme suit pour vous aider :
 
 ```c
 
@@ -440,17 +440,17 @@ Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impres
   }
 ```
 
-*   Avis qui strlenest utilisé pour s'assurer qu'il string texiste. Si ce n'est pas le cas, rien ne sera copié.
+*   Avis qui ```strlen``` est utilisé pour s'assurer qu'il ```string t``` existe. Si ce n'est pas le cas, rien ne sera copié.
 
 *   Vous pouvez visualiser le code ci-dessus comme suit :
 
-*   deux pointeurs pointant vers le même emplacement mémoire avec une chaîne
+*   ![chaîne](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide124.png)
 
-*   Notez que set tpointent toujours vers les mêmes blocs de mémoire. Ce n'est pas une copie authentique d'une chaîne. Au lieu de cela, ce sont deux pointeurs pointant sur la même chaîne.
+*   Notez que ```s``` et ```t``` pointent toujours vers les mêmes blocs de mémoire. Ce n'est pas une copie authentique d'une chaîne. Au lieu de cela, ce sont deux pointeurs pointant sur la même chaîne.
 
-*   Pour pouvoir faire une copie authentique de la chaîne, nous devrons introduire deux nouveaux blocs de construction. Tout d'abord, mallocvous permet, le programmeur, d'allouer un bloc d'une taille de mémoire spécifique. Deuxièmement, freevous permet de dire au compilateur de libérer ce bloc de mémoire que vous avez précédemment alloué.
+*   Pour pouvoir faire une copie authentique de la chaîne, nous devrons introduire deux nouveaux blocs de construction. Tout d'abord, ```malloc``` vous permet, le programmeur, d'allouer un bloc d'une taille de mémoire spécifique. Deuxièmement, ```free``` vous permet de dire au compilateur de libérer ce bloc de mémoire que vous avez précédemment alloué.
 
-*   *ous pouvons modifier notre code pour créer une copie authentique de notre chaîne comme suit :
+*   Vous pouvons modifier notre code pour créer une copie authentique de notre chaîne comme suit :
 
 ```c
 
