@@ -55,7 +55,7 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
  ```c
  0 1 2 3 4 5 6 7 8 9 a b c d e f
 ```
-*   Remarquez que cela Freprésente 15.
+*   Remarquez que cela **F** représente 15.
 
 *   L'hexadécimal est également connu sous le nom de base-16 .
 
