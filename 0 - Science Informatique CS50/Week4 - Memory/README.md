@@ -69,7 +69,7 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
     *   Le nombre 16 est représenté par 10.
 
 
-*   Le nombre 255est représenté par FF, car 16 x 15 (ou F) est égal à 240. Ajoutez 15 de plus pour obtenir 255. C'est le nombre le plus élevé que vous puissiez compter en utilisant un système hexadécimal à deux chiffres.
+*   Le nombre 255 est représenté par FF, car 16 x 15 (ou F) est égal à 240. Ajoutez 15 de plus pour obtenir 255. C'est le nombre le plus élevé que vous puissiez compter en utilisant un système hexadécimal à deux chiffres.
 
 *   L'hexadécimal est utile car il peut être représenté en utilisant moins de chiffres. L'hexadécimal nous permet de représenter les informations plus succinctement.
 
@@ -78,9 +78,9 @@ Aujourd'hui, nous allons entrer plus en détail sur les zéros et les uns qui co
 
 *   Au cours des dernières semaines, vous vous souviendrez peut-être de notre rendu artistique de blocs de mémoire simultanés. En appliquant une numérotation hexadécimale à chacun de ces blocs de mémoire, vous pouvez les visualiser comme suit :
 
-![alt-test](https://cs50.harvard.edu/x/2022/notes/4/addresses.png)
+![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide065.png)
 
-*   Vous pouvez imaginer à quel point il peut y avoir confusion quant à savoir si le 10bloc ci-dessus peut représenter un emplacement en mémoire ou la valeur 10. En conséquence, par convention, tous les nombres hexadécimaux sont souvent représentés avec le 0xpréfixe suivant :
+*   Vous pouvez imaginer à quel point il peut y avoir confusion quant à savoir si le 10 bloc ci-dessus peut représenter un emplacement en mémoire ou la valeur 10. En conséquence, par convention, tous les nombres hexadécimaux sont souvent représentés avec le 0xpréfixe suivant :
 
 ![alt-test](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide066.png)
 
