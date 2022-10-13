@@ -377,12 +377,13 @@ Remarquez comment nous avons maintenant deux chaînes distinctes stockées proba
 
 ```
 
-Notez que le %sa été remplacé par %pdans l'instruction d'impression.
+Notez que le ```%s``` a été remplacé par ```%p``` dans l'instruction d'impression.
 
 ## Copying
 
 *   Un besoin courant en programmation est de copier une chaîne dans une autre.
-Dans la fenêtre de votre terminal, saisissez code copy.cet écrivez le code comme suit :
+
+* Dans la fenêtre de votre terminal, saisissez code ```copy.c``` et écrivez le code comme suit :
 
 ```c
 
