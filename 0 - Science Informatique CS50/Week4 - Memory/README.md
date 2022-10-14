@@ -850,6 +850,13 @@ Dans cette leçon, vous avez découvert les pointeurs qui vous permettent d'acc�
 
 ```python
 À la prochaine!
+
+
 ```
+
+Semaine suivant : [Week5](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
+
+[🙏 Buy Me A Coffee 🙏](https://www.buymeacoffee.com/karlblock)
+
 
 
