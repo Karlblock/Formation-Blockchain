@@ -701,7 +701,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 ![pile](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide163.png)
 
-*   Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans le stackdans une autre zone de la mémoire.
+*   Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans le ``stack`` dans une autre zone de la mémoire.
 
 *   Maintenant, considérons l'image suivante :
 
