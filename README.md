@@ -8,8 +8,8 @@ Quelle sont les étapes pour être capable de reproduire le code bitcoin et de l
 
 ``Pour le kiffe lisez le avant & tout au long de la formation ! `` => [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 
- je vous propose de suivre ma propre auto formation pour devenir développeur blockchain. 
-Je me suis lancé dans l'idée d'apprendre tout ce qui était possible sur le domaine. Et ce n'est pas comme si le secteur n'évolu pas constament.Let's go... 
+ Je vous propose de suivre ma propre auto formation pour devenir développeur blockchain. 
+Je me suis lancé dans l'idée d'apprendre tout ce qui était possible sur le domaine. Et ce n'est pas comme si le secteur n'évolu pas constament... 
 
 Afin de partager en temps réel mes journées vous pouvez me rejoindre sur les plateformes :
 
