@@ -701,7 +701,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 ![pile](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide163.png)
 
-*   Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans le ``stack`` dans une autre zone de la mémoire.
+*   Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans la ``stack`` dans une autre zone de la mémoire.
 
 *   Maintenant, considérons l'image suivante :
 
@@ -711,7 +711,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 Modifiez votre code comme suit :
 
-  #include <stdio.h>
+```c  #include <stdio.h>
 
   void swap(int *a, int *b);
 
@@ -731,6 +731,7 @@ Modifiez votre code comme suit :
       *a = *b;
       *b = tmp;
   }
+```
 
 Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de aet bsont fournies à la fonction. Par conséquent, la swapfonction peut savoir où apporter des modifications à la fonction réelle ```a``` et ```b``` à partir de la fonction principale.
 
