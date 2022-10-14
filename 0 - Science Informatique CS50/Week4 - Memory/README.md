@@ -734,7 +734,7 @@ Modifiez votre code comme suit :
   }
 ```
 
-Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de aet bsont fournies à la fonction. Par conséquent, la swapfonction peut savoir où apporter des modifications à la fonction réelle ```a``` et ```b``` à partir de la fonction principale.
+Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de ``a`` et ``b`` sont fournies à la fonction. Par conséquent, la swapfonction peut savoir où apporter des modifications à la fonction réelle ```a``` et ```b``` à partir de la fonction principale.
 
 Vous pouvez visualiser cela comme suit :
 
