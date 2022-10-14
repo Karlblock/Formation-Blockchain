@@ -47,7 +47,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 -  [Semaine 5 Data](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
 
--  [Semaine 5 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
+-  [Semaine 6 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
 
 #### Step 2 : 
 
