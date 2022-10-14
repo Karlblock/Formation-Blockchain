@@ -621,3 +621,7 @@ La récursivité est un concept de programmation où une fonction s'appelle elle
     *   Récursivité.
     
 __À la prochaine!__
+
+Semaine suivant : [Week4](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week4%20-%20Memory)
+
+[🙏 Buy Me A Coffee 🙏](https://www.buymeacoffee.com/karlblock)

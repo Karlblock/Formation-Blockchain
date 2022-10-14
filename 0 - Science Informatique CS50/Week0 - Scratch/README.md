@@ -444,3 +444,7 @@ Dans cette leçon, vous avez appris comment ce cours se situe dans le vaste mond
 À la prochaine!
 
 ---
+
+Semaine suivant : [Week1](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week1%20-%20C)
+
+[🙏 Buy Me A Coffee 🙏](https://www.buymeacoffee.com/karlblock)

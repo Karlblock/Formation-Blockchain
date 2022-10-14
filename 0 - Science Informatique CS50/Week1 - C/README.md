@@ -630,3 +630,9 @@ Dans cette leçon, vous avez appris à appliquer les blocs de construction que v
 *   Comment utiliser les types et les opérateurs.
 
 À la prochaine!
+
+---
+
+Semaine suivant : [Week2](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week2%20-%20Arrays)
+
+[🙏 Buy Me A Coffee 🙏](https://www.buymeacoffee.com/karlblock)
