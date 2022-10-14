@@ -670,7 +670,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 ## Swap
 
-*   Dans le monde réel, un besoin courant en programmation est d'échanger deux valeurs. Naturellement, il est difficile d'échanger deux variables sans un espace de stockage temporaire. En pratique, vous pouvez taper code swap.cet écrire du code comme suit pour voir cela en action :
+*   Dans le monde réel, un besoin courant en programmation est d'échanger deux valeurs. Naturellement, il est difficile d'échanger deux variables sans un espace de stockage temporaire. En pratique, vous pouvez taper code swap.c et écrire du code comme suit pour voir cela en action :
 
 ```c
   #include <stdio.h>
