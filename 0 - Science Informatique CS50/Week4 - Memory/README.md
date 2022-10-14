@@ -742,19 +742,19 @@ Vous pouvez visualiser cela comme suit :
 
 ## Overflow
 
-*   Un débordement de tas *heap overflow* se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
+*   Un débordement de tas *heap overflow* se produit lorsque vous débordez la ``heap``, touchant des zones de mémoire que vous n'êtes pas censés toucher.
 
 *   Un débordement de pile *stack overflow* se produit lorsque trop de fonctions sont appelées, dépassant la quantité de mémoire disponible.
 
-*   Ces deux éléments sont considérés comme des débordements de tampon .
+*   Ces deux éléments sont considérés comme des débordements de tampon *buffer overflows* .
 
-__scanf__
+``scanf``
 
-*   Dans CS50, nous avons créé des fonctions comme get_intpour simplifier l'acte d'obtenir l'entrée de l'utilisateur.
+*   Dans CS50, nous avons créé des fonctions comme ``get_int`` pour simplifier l'acte d'obtenir l'entrée de l'utilisateur.
 
-*   scanfest une fonction intégrée qui peut obtenir l'entrée de l'utilisateur.
+*   ``scanf`` est une fonction intégrée qui peut obtenir l'entrée de l'utilisateur.
 
-*   Nous pouvons réimplémenter get_intassez facilement en utilisant scanfcomme suit:
+*   Nous pouvons réimplémenter ``get_int`` assez facilement en utilisant ``scanf`` comme suit:
 
 ```c
   #include <stdio.h>
