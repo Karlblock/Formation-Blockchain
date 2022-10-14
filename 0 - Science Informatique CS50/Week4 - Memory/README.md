@@ -783,7 +783,7 @@ Notez que la valeur de ``x`` est stockée à l'emplacement de ``x`` dans la lign
       printf("s: %s\n", s);
   }
 ```
-Notez que non &est requis car les chaînes sont spéciales. Pourtant, ce programme ne fonctionnera pas. Nulle part dans ce programme nous n'allouons la quantité de mémoire requise pour notre chaîne.
+Notez que non ``&`` est requis car les chaînes sont spéciales. Pourtant, ce programme ne fonctionnera pas. Nulle part dans ce programme nous n'allouons la quantité de mémoire requise pour notre chaîne.
 
 *   Nous pouvons modifier notre code comme suit :
 
@@ -799,7 +799,7 @@ Notez que non &est requis car les chaînes sont spéciales. Pourtant, ce program
   }
 ```
 
-Notez que si nous pré-allouons un tableau de size 4, nous pouvons taper catet les fonctions du programme. Cependant, une chaîne plus grande que cela créerait une erreur.
+Notez que si nous pré-allouons un tableau de size ``4``, nous pouvons taper ``cat`` et les fonctions du programme. Cependant, une chaîne plus grande que cela créerait une erreur.
 
 ## scanf
 
