@@ -1,6 +1,12 @@
-# Road to Blockchain Dev :
+#👨‍💻👩‍💻 Road to Blockchain Dev 👨‍💻👩‍💻:
 
 ### Présentation :
+
+Pour ! je crois que l'aventure commence au moment ou j'ai voulu comprendre l'entiereté du White paper de bitcoin ! 
+
+Quelle sont les étapes pour être capable au moins de reproduire le code bitcoin et de le comprendre ! ``Let's go team ?``
+
+pour le kiffe lisez le avant & tout au long de la formation ! [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 
 Bienvenue, je vous propose de suivre ma propre autoformation pour devenir développeur blockchain. 
 Je me suis lancé dans l'idée d'apprendre tout ce qui était possible  dans le domaine. Let's go... 
@@ -23,7 +29,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 ---
 
-### La Formation :
+### 👨‍💻👩‍💻 L'aventure commence ici 👨‍💻👩‍💻  :
 
 #### Step 1 : 
 
@@ -52,18 +58,10 @@ Des bases algorthymiques et en anglais sont un plus :
 - [Blockchain et les Maths (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784)
 - [Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
 - [Bitcoin](https://www.youtube.com/watch?v=0ETcLj5jBy4&t=1210s)
-  - [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
+- [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum ](https://fr.wikipedia.org/wiki/Ethereum)
 - [Rust ](https://www.udemy.com/course/programmer-en-rust)
 - [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) 
-
----
-
-## Formation Avancé
-
-### Blockchain Developement :
-
-#### Consensus :
 
 ---
 
