@@ -711,7 +711,8 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 Modifiez votre code comme suit :
 
-```c  #include <stdio.h>
+```c  
+#include <stdio.h>
 
   void swap(int *a, int *b);
 
