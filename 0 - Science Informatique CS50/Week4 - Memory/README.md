@@ -1,10 +1,10 @@
-# Lecture 4  - Memory 
+# Lecture 4  - Memory
 
 - [Semaine 4 en anglais ](https://cs50.harvard.edu/x/2022/notes/4/)
 - [Les notes 2022 en anglais ](https://cs50.harvard.edu/extension/2022/fall/notes/4/#welcome)
 - [Vidéo Semaine 4](https://www.youtube.com/watch?v=ywg7cW0Txs4)
 
-## Table des matières 
+## Table des matières
 
 * [Bienvenue](#Bienvenue)
 * [Compiler](#Compiler)
@@ -141,7 +141,7 @@ int main(void)
     printf("%p\n", &t);
 
     //pointer
-    
+
     int n = 50;
     int *p = &n;
     printf("%p\n", p);
@@ -150,12 +150,12 @@ int main(void)
 
 ```c
 
-$ make address 
-$ ./address 
+$ make address
+$ ./address
 50
 0x7ffccad4d988
 0x7ffccad4d984
-$ 
+$
 
 ```
 
@@ -243,7 +243,7 @@ Rappelez-vous qu'une chaîne est simplement un tableau de caractères. Par exemp
       printf("%p\n", &s[2]);
       printf("%p\n", &s[3]);
   }
- ``` 
+ ```
 Notez que ce qui précède imprime les emplacements mémoire de chaque caractère dans la chaîne ```s```
 
 *   De même, vous pouvez modifier votre code comme suit :
@@ -333,7 +333,7 @@ Notez que ce code présentera la chaîne qui commence à l'emplacement de s.
 
 *   Pourquoi ces chaînes semblent-elles différentes ? Vous pouvez utiliser ce qui suit pour visualiser pourquoi :
 
- ![rr](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide115.png) 
+ ![rr](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide115.png)
 
 *   Pour plus de clarté, vous pouvez voir comment l'image suivante illustre des pointeurs pointant vers deux emplacements distincts en mémoire :
 
@@ -663,7 +663,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 ## Pointer Fun with Binky
 
-*   Nous avons regardé une 
+*   Nous avons regardé une
 [vidéo de l'Université de Stanford](https://translate.google.com/website?sl=en&tl=fr&hl=fr&client=webapp&u=https://www.youtube.com/watch?v%3D5VnDaHBi8dM) qui nous a aidés à visualiser et à comprendre les pointeurs.
 
 
@@ -697,7 +697,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 *   Notez que pendant que ce code s'exécute, il ne fonctionne pas. Les valeurs, même après avoir été envoyées à la swap fonction, ne s'échangent pas. Pourquoi?
 
-*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de `x` et ```y``` créées dans les {} accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
+*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de `x` et ```y``` créées dans les `{}` accolades de la `` main`` fonction n'ont que la portée de la ``main`` fonction. Considérez l'image suivante :
 
 ![pile](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide163.png)
 
