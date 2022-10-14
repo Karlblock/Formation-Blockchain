@@ -2,7 +2,7 @@
 
 ## Présentation :
 
-Pour ! je crois que l'aventure commence au moment ou j'ai voulu comprendre l'entiereté du White paper de bitcoin ! 
+ je crois que l'aventure commence au moment ou j'ai voulu comprendre l'entiereté du White paper de bitcoin ! 
 
 Quelle sont les étapes pour être capable au moins de reproduire le code bitcoin et de le comprendre ! ``Let's go team ?``
 
