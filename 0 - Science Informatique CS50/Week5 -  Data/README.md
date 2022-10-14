@@ -840,3 +840,9 @@ Harry serait alors stocké comme suit :
 *   Essaie
 
 À la prochaine!
+
+---
+
+Semaine suivant : [Week6](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week6%20-%20Python)
+
+[🙏 Buy Me A Coffee 🙏](https://www.buymeacoffee.com/karlblock)

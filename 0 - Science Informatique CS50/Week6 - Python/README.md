@@ -1198,3 +1198,9 @@ De plus, vous pouvez exécuter le code suivant :
 *    Arguments de ligne de commande
 *    Expressions régulières
 *    À la prochaine!
+
+---
+
+Semaine suivant : [Week7](https://github.com/BlockchainSpot/Formation-Blockchain/tree/)
+
+[🙏 Buy Me A Coffee 🙏](https://www.buymeacoffee.com/karlblock)
