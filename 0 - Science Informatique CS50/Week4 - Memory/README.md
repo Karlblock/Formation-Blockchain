@@ -768,9 +768,9 @@ Vous pouvez visualiser cela comme suit :
   }
 ```
 
-Notez que la valeur de ``x`` est stockée à l'emplacement de ``x`` dans la ligne scanf("%i", &x).
+Notez que la valeur de ``x`` est stockée à l'emplacement de ``x`` dans la ligne ``scanf("%i", &x)``.
 
-*   Cependant, tenter de réimplémenter get_stringn'est pas facile. Considérer ce qui suit:
+*   Cependant, tenter de réimplémenter ``get_string`` n'est pas facile. Considérer ce qui suit:
 
 ```
   #include <stdio.h>
