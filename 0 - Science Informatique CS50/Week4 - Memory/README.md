@@ -707,7 +707,7 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 ![rectangle](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide167.png)
 
-*   Notez que mainet ont deux cadres ou zones de mémoire swapdistincts . Par conséquent, nous ne pouvons pas simplement passer les valeurs d'une fonction à une autre pour les modifier.
+*   Notez que ```main``` et ```swap``` ont deux cadres ou zones de mémoire  distincts . Par conséquent, nous ne pouvons pas simplement passer les valeurs d'une fonction à une autre pour les modifier.
 
 Modifiez votre code comme suit :
 
@@ -731,11 +731,12 @@ Modifiez votre code comme suit :
       *a = *b;
       *b = tmp;
   }
-Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de aet bsont fournies à la fonction. Par conséquent, la swapfonction peut savoir où apporter des modifications à la fonction réelle aet bà partir de la fonction principale.
+
+Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de aet bsont fournies à la fonction. Par conséquent, la swapfonction peut savoir où apporter des modifications à la fonction réelle ```a``` et ```b``` à partir de la fonction principale.
 
 Vous pouvez visualiser cela comme suit :
 
-a et b stockés dans la fonction principale étant passés par référence à la fonction swap
+![a et b](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide173.png)
 
 ## Overflow
 
