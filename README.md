@@ -6,7 +6,7 @@
 
 Quelle sont les étapes pour être capable au moins de reproduire le code bitcoin et de le comprendre ! ``Let's go team ?``
 
-``Pour le kiffe lisez le avant & tout au long de la formation ! ``[WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
+``Pour le kiffe lisez le avant & tout au long de la formation ! `` => [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 
 Bienvenue, je vous propose de suivre ma propre autoformation pour devenir développeur blockchain. 
 Je me suis lancé dans l'idée d'apprendre tout ce qui était possible  dans le domaine. Let's go... 
