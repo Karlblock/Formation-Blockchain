@@ -742,7 +742,7 @@ Vous pouvez visualiser cela comme suit :
 
 ## Overflow
 
-*   Un débordement de tas **(heap overflow** se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
+*   Un débordement de tas **heap overflow** se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
 
 *   Un débordement de pile se produit lorsque trop de fonctions sont appelées, dépassant la quantité de mémoire disponible.
 
