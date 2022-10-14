@@ -16,7 +16,7 @@ Afin de partager en temps réel mes journées vous pouvez me rejoindre sur les p
  - [discord](https://discord.gg/VGhMvUmBhm) 
  - [twitch](https://www.twitch.tv/karlbl0ck)
 
-_Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilées ici ! merci à tous pour la contribution faite pour l'écosystem._
+_Disclaimer : Je ne suis pas à l'origine de l'ensemble des informations compilées ici ! merci à tous pour la contribution faite pour l'écosystem._
 
 ---
 
