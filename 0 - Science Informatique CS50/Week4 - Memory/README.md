@@ -697,15 +697,15 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
 
 *   Notez que pendant que ce code s'exécute, il ne fonctionne pas. Les valeurs, même après avoir été envoyées à la swapfonction, ne s'échangent pas. Pourquoi?
 
-*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de xet ycréées dans les {}accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
+*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de xet ycréées dans les {} accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
 
-*   un rectangle avec le code machine en haut suivi du tas global et de la pile
+![pile](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide163.png)
 
 *   Notez que les variables globales , que nous n'avons pas utilisées dans ce cours, vivent à un endroit en mémoire. Diverses fonctions sont stockées dans le stackdans une autre zone de la mémoire.
 
 *   Maintenant, considérons l'image suivante :
 
-*   un rectangle avec la fonction principale en bas et la fonction d'échange directement au-dessus
+![rectangle](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide167.png)
 
 *   Notez que mainet ont deux cadres ou zones de mémoire swapdistincts . Par conséquent, nous ne pouvons pas simplement passer les valeurs d'une fonction à une autre pour les modifier.
 
