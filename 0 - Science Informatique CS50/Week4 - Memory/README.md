@@ -801,7 +801,7 @@ Notez que non ``&`` est requis car les chaînes sont spéciales. Pourtant, ce pr
 
 Notez que si nous pré-allouons un tableau de size ``4``, nous pouvons taper ``cat`` et les fonctions du programme. Cependant, une chaîne plus grande que cela créerait une erreur.
 
-## scanf
+## Files
 
 *   Vous pouvez lire et manipuler des fichiers. Bien que ce sujet soit abordé plus en détail dans une semaine à venir, considérez le code suivant pourphonebook.c :
 
