@@ -1,6 +1,6 @@
-#👨‍💻👩‍💻 Road to Blockchain Dev 👨‍💻👩‍💻:
+# 👨‍💻👩‍💻 Road to Blockchain Dev 👨‍💻👩‍💻:
 
-### Présentation :
+## Présentation :
 
 Pour ! je crois que l'aventure commence au moment ou j'ai voulu comprendre l'entiereté du White paper de bitcoin ! 
 
@@ -20,7 +20,7 @@ _Disclaimer : Je ne suis pas à l'origine de l'ensemble des inforations compilé
 
 ---
 
-### Prérequis : 
+## Prérequis : 
 
 Des bases algorthymiques et en anglais sont un plus : 
 
@@ -29,11 +29,9 @@ Des bases algorthymiques et en anglais sont un plus :
 
 ---
 
-### 👨‍💻👩‍💻 L'aventure commence ici 👨‍💻👩‍💻  :
+## 👨‍💻👩‍💻 L'aventure commence ici 👨‍💻👩‍💻  :
 
-#### Step 1 : 
-
-- [Computer Science](https://cs50.harvard.edu/)
+### Comprendre la science information avec CS50 : 
 
 -  [Semaine 0 Scratch](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week0%20-%20Scratch)
 
@@ -49,12 +47,31 @@ Des bases algorthymiques et en anglais sont un plus :
 
 -  [Semaine 6 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
 
-#### Step 2 : 
+### Langage & Cryptographie : 
 
-- [Cryptographie]()
+- [Cryptographie](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/2%20-%20Cryptography)
 
-#### Step 3 : 
+### Devops & DevSecOps :
 
+Créer son environnement de travail 
+
+
+---
+
+### Les vidéos / Documentaires :
+
+- [Le mystere Satoishi (Fr)](https://www.youtube.com/watch?v=0ETcLj5jBy4)
+
+### les Livres :
+
+- [Mastering Blockchain](https://www.amazon.fr/Mastering-Blockchain-distributed-consensus-cryptocurrencies/dp/1839213191/ref=sr_1_2_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=22NO9FJPWMRRT&keywords=blockchain&qid=1646584849&sprefix=blockchain%2Caps%2C68&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMTJIQkhUSVRYQVRRJmVuY3J5cHRlZElkPUEwMjAzNDgxMkFOT05CMTkzVVlTUSZlbmNyeXB0ZWRBZElkPUEwNDU3MzY3MU82RU80QkcwWVRQUCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
+
+### Mes sources :
+
+- [CS50 (EN)](https://cs50.harvard.edu/x/2022/notes/0/)
+- [cosmwasm(Fr)(EN)](https://docs.cosmwasm.com/fr/dev-academy/intro)
+list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
+- [willitscale (EN)](https://github.com/willitscale)
 - [Blockchain et les Maths (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784)
 - [Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
 - [Bitcoin](https://www.youtube.com/watch?v=0ETcLj5jBy4&t=1210s)
@@ -62,23 +79,6 @@ Des bases algorthymiques et en anglais sont un plus :
 - [Ethereum ](https://fr.wikipedia.org/wiki/Ethereum)
 - [Rust ](https://www.udemy.com/course/programmer-en-rust)
 - [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) 
-
----
-
-## Les vidéos / Documentaires :
-
-- [Le mystere Satoishi (Fr)](https://www.youtube.com/watch?v=0ETcLj5jBy4)
-
-## les Livres :
-
-- [Mastering Blockchain](https://www.amazon.fr/Mastering-Blockchain-distributed-consensus-cryptocurrencies/dp/1839213191/ref=sr_1_2_sspa?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=22NO9FJPWMRRT&keywords=blockchain&qid=1646584849&sprefix=blockchain%2Caps%2C68&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExMTJIQkhUSVRYQVRRJmVuY3J5cHRlZElkPUEwMjAzNDgxMkFOT05CMTkzVVlTUSZlbmNyeXB0ZWRBZElkPUEwNDU3MzY3MU82RU80QkcwWVRQUCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
-
-## Mes sources :
-
-- [CS50 (EN)](https://cs50.harvard.edu/x/2022/notes/0/)
-- [cosmwasm(Fr)(EN)](https://docs.cosmwasm.com/fr/dev-academy/intro)
-list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
-- [willitscale (EN)](https://github.com/willitscale)
 
 - & more more more !
 
