@@ -734,7 +734,7 @@ Modifiez votre code comme suit :
   }
 ```
 
-Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de ``a`` et ``b`` sont fournies à la fonction. Par conséquent, la swapfonction peut savoir où apporter des modifications à la fonction réelle ```a``` et ```b``` à partir de la fonction principale.
+Notez que les variables ne sont pas passées par valeur mais par référence . Autrement dit, les adresses de ``a`` et ``b`` sont fournies à la fonction. Par conséquent, la ``swap`` fonction peut savoir où apporter des modifications à la fonction réelle ```a``` et ```b``` à partir de la fonction principale.
 
 Vous pouvez visualiser cela comme suit :
 
@@ -742,7 +742,7 @@ Vous pouvez visualiser cela comme suit :
 
 ## Overflow
 
-*   Un débordement de tas se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
+*   Un débordement de tas **(heap overflow)** se produit lorsque vous débordez le tas, touchant des zones de mémoire que vous n'êtes pas censés toucher.
 
 *   Un débordement de pile se produit lorsque trop de fonctions sont appelées, dépassant la quantité de mémoire disponible.
 
