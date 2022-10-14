@@ -2,9 +2,9 @@
 
 ## Présentation :
 
- je crois que l'aventure commence au moment ou j'ai voulu comprendre l'entiereté du [WhitePaper](https://bitcoin.org/bitcoin.pdf) de bitcoin ! 
+ je crois que l'aventure commence à la lecture du  [WhitePaper](https://bitcoin.org/bitcoin.pdf) de bitcoin ! *bah c'est cool j'ai compris 30%*
 
-Quelle sont les étapes pour être capable au moins de reproduire le code bitcoin et de le comprendre ! ``Let's go team ?``
+Quelle sont les étapes pour être capable de reproduire le code bitcoin et de le comprendre ! ``Let's go team ?``
 
 ``Pour le kiffe lisez le avant & tout au long de la formation ! `` => [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 
