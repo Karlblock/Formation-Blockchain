@@ -695,9 +695,9 @@ Notez que l'exécution de ce code allouera des 1024emplacements en mémoire pour
   }
 ```
 
-*   Notez que pendant que ce code s'exécute, il ne fonctionne pas. Les valeurs, même après avoir été envoyées à la swapfonction, ne s'échangent pas. Pourquoi?
+*   Notez que pendant que ce code s'exécute, il ne fonctionne pas. Les valeurs, même après avoir été envoyées à la swap fonction, ne s'échangent pas. Pourquoi?
 
-*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de xet ycréées dans les {} accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
+*   Lorsque vous transmettez des valeurs à une fonction, vous ne fournissez que des copies. Au cours des semaines précédentes, nous avons discuté du concept de portée . Les valeurs de `x` et ```y``` créées dans les {} accolades de la mainfonction n'ont que la portée de la mainfonction. Considérez l'image suivante :
 
 ![pile](https://cs50.harvard.edu/extension/2022/fall/notes/4/cs50Week4Slide163.png)
 
