@@ -53,7 +53,14 @@ Des bases algorthymiques et en anglais sont un plus :
 
 ### Devops & DevSecOps :
 
-Créer son environnement de travail 
+Créer son environnement de travail
+
+### Apprendre Rust 
+
+- [Langage Rust](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/2%20-%20Cryptography)
+
+-    [Rust book EN](https://doc.rust-lang.org/book/)
+-    [Rust book EN](https://doc.rust-lang.org/book/)
 
 ---
 
