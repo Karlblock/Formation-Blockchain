@@ -57,7 +57,7 @@ Créer son environnement de travail
 
 ### Apprendre Rust 
 
-- [Langage Rust](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/2%20-%20Cryptography)
+- [Langage Rust](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/6%20-%20Langage%20Rust)
 
 -    [Rust book EN](https://doc.rust-lang.org/book/)
 -    [Rust book FR](https://jimskapt.github.io/rust-book-fr/)
