@@ -60,7 +60,7 @@ Créer son environnement de travail
 - [Langage Rust](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/2%20-%20Cryptography)
 
 -    [Rust book EN](https://doc.rust-lang.org/book/)
--    [Rust book EN](https://doc.rust-lang.org/book/)
+-    [Rust book FR](https://jimskapt.github.io/rust-book-fr/)
 
 ---
 
