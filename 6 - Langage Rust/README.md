@@ -13,19 +13,15 @@ Docuement Rust en Francais :
 
 ### A savoir
 
-pour compiler utliser Cargo comme compilateur 
+Compilateur Cargo : 
 
-installation de Cargo : [CargoInstall](https://doc.rust-lang.org/cargo/getting-started/installation.html)
-
+Installation de Cargo : [CargoInstall](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 
 ``curl https://sh.rustup.rs -sSf | sh
 ``
 
 #### Variable :
-
-
-
 
 <!-- Primitive Types --
 Intergers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128, (number of bits they take in memory)
