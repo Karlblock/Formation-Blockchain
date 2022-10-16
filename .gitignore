@@ -1,6 +1,11 @@
+<<<<<<< Updated upstream
 *\artifacts
 node_modules
 **/.vscode/
 .env
 *.c
 makefile
+=======
+*\artifacts
+node_modules
+>>>>>>> Stashed changes
