@@ -24,9 +24,9 @@ Installation de Cargo : [CargoInstall](https://doc.rust-lang.org/cargo/getting-s
 
 #### types 
 
-// Variables hold primitive data or references to data
-// Variables are immutable by default
-// rust is a block-scoped language
+Variables hold primitive data or references to data
+Variables are immutable by default
+rust is a block-scoped language
 
 ```rust
 pub fn run() {
