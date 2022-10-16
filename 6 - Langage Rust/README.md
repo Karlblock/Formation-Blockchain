@@ -10,7 +10,7 @@ Docuement Rust en Francais :
 
 [Learn Rust](https://github.com/BlockchainSpot/LearnRust)
 
-## bon à savoir :
+## Bon à savoir :
 
 Compilateur Cargo : 
 
