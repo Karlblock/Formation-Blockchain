@@ -23,9 +23,7 @@ Installation de Cargo : [CargoInstall](https://doc.rust-lang.org/cargo/getting-s
 
 ### Types : 
 
-Variables hold primitive data or references to data
-Variables are immutable by default
-rust is a block-scoped language
+Les variables contiennent des données primitives ou des références à des données Les variables sont immuables par défaut rust est un langage à portée de bloc
 
 ```rust
 pub fn run() {
@@ -49,13 +47,14 @@ pub fn run() {
 ### Variable :
 
 Primitive Types ->
-Intergers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128, (number of bits they take in memory)
-floasts: f32, f64
-Boolean (bool)
-Tuples
-Arrays 
 
-Rust is a stativallyu typed language, witch means that it must know the types of all variables ot compile time, however, the compiler can usually infer what type we want to use based on the value and how we use it.
+    Intergers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128, (number of bits they take in memory)
+    floasts: f32, f64
+    Boolean (bool)
+    Tuples
+    Arrays 
+
+Rust est un langage typé statistiquement, ce qui signifie qu'il doit connaître les types de toutes les variables au moment de la compilation, cependant, le compilateur peut généralement déduire quel type nous voulons utiliser en fonction de la valeur et de la façon dont nous l'utilisons.
 
 
 *   mains.rs
