@@ -1,6 +1,6 @@
 # Apprendre le langage rust 
 
-### Lien utile :
+## Lien utile :
 
 Docuement Rust en Francais :
 -   [Rust book FR](https://jimskapt.github.io/rust-book-fr/)
@@ -10,8 +10,7 @@ Docuement Rust en Francais :
 
 [Learn Rust](https://github.com/BlockchainSpot/LearnRust)
 
-
-### A savoir
+## A savoir
 
 Compilateur Cargo : 
 
@@ -22,7 +21,7 @@ Installation de Cargo : [CargoInstall](https://doc.rust-lang.org/cargo/getting-s
 ``
 
 
-#### Types : 
+### Types : 
 
 Variables hold primitive data or references to data
 Variables are immutable by default
@@ -47,7 +46,7 @@ pub fn run() {
 }
 ```
 
-#### Variable :
+### Variable :
 
 Primitive Types ->
 Intergers: u8, i8, u16, i16, u32, i32, u64, i64, u128, i128, (number of bits they take in memory)
