@@ -22,7 +22,7 @@ Installation de Cargo : [CargoInstall](https://doc.rust-lang.org/cargo/getting-s
 ``
 
 
-#### Types 
+#### Types : 
 
 Variables hold primitive data or references to data
 Variables are immutable by default
