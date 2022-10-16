@@ -77,7 +77,7 @@ fn main() {
 
 pub fn run() {
 
-        // print to console
+    // print to console
     println!("Hello, world");
 
     println!("{} id from {}", "Brad", "Mass");
