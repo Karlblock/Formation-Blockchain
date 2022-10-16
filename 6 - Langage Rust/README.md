@@ -141,7 +141,6 @@ pub fn run() {
 
 }
 ```
-
 ### Tuples :
 
 *   tuples.rs
@@ -159,6 +158,8 @@ pub fn run(){
 ```
 
 ### Array :
+
+*   arrays.rs
 
 
 ```rust
