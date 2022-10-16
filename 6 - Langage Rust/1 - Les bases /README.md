@@ -149,7 +149,6 @@ pub fn run(){
 
 *   arrays.rs
 
-
 ```rust
 // Arrays - Fixed list where elements are the same data types
 
