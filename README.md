@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 # 👨‍💻👩‍💻 Road To Be Blockchain Developper 👨‍💻👩‍💻:
 
 ## Présentation :
@@ -92,8 +91,8 @@ list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
 Vous pouvez me retrouver sur le : 
 
 [Discord](https://discord.gg/VGhMvUmBhm) 
-[Telegram](https://t.me/blockchainspotOfficial)
 
+[Telegram](https://t.me/blockchainspotOfficial)
 
 ---- ## Tips Sport ##
 
@@ -102,7 +101,7 @@ Vous pouvez me retrouver sur le :
 🙏🙏 ERC20 : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
 
      🐈‍⬛🐈‍⬛ catwoman.near 🐈‍⬛🐈‍⬛
-     
+
 ----- ## Tips Spot ##
 
 #blockchain #github #rust #formation #C #crypto #dev #futur
