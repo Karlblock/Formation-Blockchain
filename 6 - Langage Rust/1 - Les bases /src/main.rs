@@ -3,8 +3,11 @@
 // mod types;
 // mod strings;
 // mod tuples;
-
-mod arrays;
+// mod arrays;
+// mod vectors;
+// mod conditionnals;
+mod loops;
+mod functions;
 
 fn main() {
     // print::run();
@@ -12,5 +15,9 @@ fn main() {
     // types::run();
     // strings::run();
     // tuples::run();
-    arrays::run();
+    // arrays::run();
+    // vectors::run();
+    // conditionnals::run();
+    // loops::run();
+    functions::run();
 }

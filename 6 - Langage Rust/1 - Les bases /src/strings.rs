@@ -1,10 +1,10 @@
 
 // Primiive str = Immutable fixed-lenght string somewhere in memory
-// String = Growable, hea^p-allocated data structure - use when you need to modify or own string data 
+// String = Growable, heap-allocated data structure - use when you need to modify or own string data 
 
 pub fn run() {
 
-    let mut hello = String::from("Hello");
+    let mut hello = String::from("Hello ");
 
     // Get lenght
     println!("Length: {}", hello.len());
@@ -22,10 +22,10 @@ pub fn run() {
     println!(" Is Empty: {}", hello.is_empty());
 
     //Contains
-    println!("Contains 'World' {}",hello.contains("World "));
+    println!("Contains 'World' {}",hello.contains("World"));
 
     //Replace 
-    println!("Replace: {}", hello.replace("World ", "There"));
+    println!("Replace: {}", hello.replace("World", "There"));
 
     // Loop through string by whitespace :
     for word in hello.split_whitespace() {
@@ -40,9 +40,10 @@ pub fn run() {
 
     // Assertion testing
 
-    assert_eq!(3, s.len());
+    assert_eq!(2, s.len());
     assert_eq!(10, s.capacity());
 
     println!("{}", s);
 
+println!("{}", hello);
 }
