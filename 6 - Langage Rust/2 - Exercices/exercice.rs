@@ -1,5 +1,4 @@
-
-pub fn run() {
+ fn main() {
 
     // print hello world dans la console 
 
@@ -22,15 +21,6 @@ pub fn run() {
 
     //Basic match
     println!("10 + 10 = {}", 10 + 10);
-
-}
-```
-
-
-
-```rust 
-
-pub fn run() {
 
     //faire un variable string hello
     
@@ -62,32 +52,30 @@ pub fn run() {
     }
     println!("{}", hello);
 
-}
-
-pub fn run(){
-
     //
     let person: (&str, &str, i8) = ("Brad","Mass", 37);
 
     println!("{} is from {} and is {}", person.0, person.1, person.2);
 
-
-
-// use::std::mem;
-
-pub fn run() {
     // creer un tableau nommé numbers avec un type interger 32 de taille 4 avec 4 valeurs 10 11 40 30;
     
 
+
+
     //changer la valeur de la position 2 et mettre 100 et afficher ce nombre dans un print
+
+
 
 
     // affiche la taille du tableau dans un print
 
 
+
+
     // utilisez la librairis standard avec la function mem::size_of_val() pour affiche la taille en bite du tableau  
 
 
+    
     // Get Slice
     let slice: &[i32] = &numbers[1..3];
     println!("Slice: {:?}", slice);

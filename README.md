@@ -76,7 +76,6 @@ Créer son environnement de travail
 
 - [CS50 (EN)](https://cs50.harvard.edu/x/2022/notes/0/)
 - [cosmwasm(Fr)(EN)](https://docs.cosmwasm.com/fr/dev-academy/intro)
-list=PLBV4f2pTYexqgdiVpLOWlF-E5sTLPimot)
 - [willitscale (EN)](https://github.com/willitscale)
 - [Blockchain et les Maths (FR)](https://www.youtube.com/watch?v=SccvFbyDaUI&t=784)
 - [Blockchain ](https://fr.wikipedia.org/wiki/Blockchain)
