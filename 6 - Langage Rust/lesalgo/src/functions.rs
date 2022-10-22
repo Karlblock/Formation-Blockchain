@@ -5,3 +5,5 @@ pub fn run() {
 }
 
 fn greeting(greet: &str, name: &str) {
+    println!("{} {}", greet, name);
+}
