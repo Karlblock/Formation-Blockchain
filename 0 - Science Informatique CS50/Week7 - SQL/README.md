@@ -644,7 +644,7 @@ Modifiez votre code comme suit :
 
 *   Maintenant, toujours en considérant le code ci-dessus, vous vous demandez peut-être ce que font les ?points d'interrogation ci-dessus. L'un des problèmes qui peuvent survenir dans les applications réelles de SQL est ce qu'on appelle une attaque par injection . Une attaque par injection est l'endroit où un acteur malveillant pourrait entrer du code SQL malveillant.
 
-Par exemple, considérez un écran de connexion comme suit :
+*   Par exemple, considérez un écran de connexion comme suit :
 
 ![ mot de passe](https://cs50.harvard.edu/extension/2022/fall/notes/7/cs50Week7Slide051.png)
 
