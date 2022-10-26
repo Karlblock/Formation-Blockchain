@@ -195,7 +195,7 @@ Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresse
 
 *   Il est utile de penser à **list** et **tmp** comme les deux signes qui pointent vers un morceau de mémoire. Comme dans l'exemple ci-dessus, **list** à un moment pointé vers un tableau de taille 3. À la fin, **list** on lui a dit de pointer vers un morceau de mémoire de taille 4. Techniquement, à la fin du code ci-dessus, **tmp** les deux **list**  pointaient vers le même bloc de mémoire.
 
-*   **C** est livré avec une fonction très utile appelée **realloc** qui réaffectera la mémoire pour vous. r**ealloc** prend deux arguments. Tout d'abord, il vous demande de spécifier le tableau que vous essayez de copier. Deuxièmement, il vous demande de spécifier la taille à laquelle vous souhaitez que le tableau final soit. Modifiez votre code comme suit :
+*   **C** est livré avec une fonction très utile appelée **realloc** qui réaffectera la mémoire pour vous. **realloc** prend deux arguments. Tout d'abord, il vous demande de spécifier le tableau que vous essayez de copier. Deuxièmement, il vous demande de spécifier la taille à laquelle vous souhaitez que le tableau final soit. Modifiez votre code comme suit :
 
 ```c
   // Implements a list of numbers with an array of dynamic size using realloc
