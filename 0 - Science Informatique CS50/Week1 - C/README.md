@@ -574,11 +574,11 @@ Remarquez que nous avons maintenant trois fonctions. Tout d'abord, nous avons la
 
 *   Les opérateurs font référence aux opérations mathématiques prises en charge par votre compilateur. En C, ces opérateurs mathématiques incluent :
 
-    *   +pour plus
-    *   -pour la soustraction
-    *   *pour la multiplication
-    *   /pour division
-    *   %pour le reste
+    *   + pour plus
+    *   - pour la soustraction
+    *   * pour la multiplication
+    *   / pour division
+    *   % pour le reste
 
 *   Les types font référence aux données pouvant être stockées dans une variable. Par exemple, a charest conçu pour accueillir un seul caractère comme aou 2.
 Les types sont très importants car chaque type a des limites spécifiques. Par exemple, en raison des limites de la mémoire, la valeur la plus élevée de an intpeut être 4294967296.
