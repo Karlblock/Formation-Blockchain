@@ -67,7 +67,7 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 ```
 
-*   Notez qu'un tableau appelé people est de type person. C'est CAPACITYà quelle hauteur la pile pourrait être. L'entier sizeest le niveau de remplissage réel de la pile, quelle que soit sa capacité .
+*   Notez qu'un tableau appelé people est de type person.  la valeur CAPACITY est à quelle hauteur la pile pourrait être. L'entier size est le niveau de remplissage réel de la pile, quelle que soit sa capacité .
 
 *   Vous pouvez imaginer que le code ci-dessus a une limitation. Étant donné que la capacité du tableau est toujours prédéterminée dans ce code. Par conséquent, la pile peut toujours être surdimensionnée. Vous pourriez imaginer n'utiliser qu'une seule place dans la pile sur 5000.
 

@@ -82,7 +82,7 @@ Remarquez que le point-virgule a disparu.
 
 *   En C, vous vous souvenez peut-être de ce code :
 
-``` c
+```py
   // get_string and printf with %s
 
   #include <cs50.h>
@@ -225,7 +225,7 @@ Les fonctions suivantes seront particulièrement utiles :
 
 *   En C, vous vous souvenez peut-être d'un programme comme celui-ci :
 
-```c
+```py
   // Conditionals, Boolean expressions, relational operators
 
   #include <cs50.h>
@@ -286,7 +286,7 @@ Python préfère counter += 1incrémenter de un, perdant la possibilité trouvé
 
 *   Les boucles en Python sont très similaires au C. Vous vous souviendrez peut-être du code suivant en C :
 
-```c
+```py
   // Demonstrates while loop
 
   #include <stdio.h>
@@ -323,7 +323,7 @@ Python préfère counter += 1incrémenter de un, perdant la possibilité trouvé
 ```
 De même, on pourrait exprimer le code ci-dessus comme suit :
 
-```py
+```c
 
   # Abstraction with parameterization
 
@@ -347,7 +347,7 @@ Notez qu'une fonction est utilisée pour résumer le miaulement.
 
 *   Nous pouvons implémenter une calculatrice simple comme nous l'avons fait en C. Tapez code calculator.pydans la fenêtre du terminal et écrivez le code comme suit :
 
-```py
+```c
   # Addition with int [using get_int]
 
   from cs50 import get_int
@@ -366,7 +366,7 @@ Remarquez comment la bibliothèque CS50 est importée. Ensuite, xet y sont recue
 
 *   Il est possible d'enlever les roues stabilisatrices de la librairie CS50. Modifiez votre code comme suit :
 
-```py   
+```c  
 
   # Addition with int [using input]
 
@@ -378,13 +378,14 @@ Remarquez comment la bibliothèque CS50 est importée. Ensuite, xet y sont recue
 
   # Perform addition
   print(x + y)
+
 ```
 
 Remarquez comment l'exécution du code ci-dessus entraîne un comportement étrange du programme. Pourquoi pourrait-il en être ainsi?
 
 *   Vous avez peut-être deviné que l'interprète a compris xet yêtre des chaînes. Vous pouvez corriger votre code en utilisant la intfonction comme suit :
 
-```py
+```c
   # Addition with int [using input]
 
   # Prompt user for x
@@ -400,7 +401,8 @@ Remarquez comment l'exécution du code ci-dessus entraîne un comportement étra
 Remarquez comment l'entrée pour xet yest transmise à la intfonction qui la convertit en entier.
 
 *   Nous pouvons étendre les capacités de notre calculatrice. Modifiez votre code comme suit :
-```py
+
+```c
   # Division with integers, demonstration lack of truncation
 
   # Prompt user for x
@@ -417,7 +419,8 @@ Remarquez comment l'entrée pour xet yest transmise à la intfonction qui la con
 Notez que l'exécution de ce code donne une valeur, mais que si vous voyiez plus de chiffres après .333333, vous verriez que nous sommes confrontés à une imprécision en virgule flottante .
 
 *   Nous pouvons révéler cette imprécision en modifiant légèrement nos codes :
-```py
+
+```c
 
   # Floating-point imprecision
 
@@ -440,7 +443,7 @@ Notez que ce code révèle l'imprécision. Python est toujours confronté à ce 
 
 *   En C, nous avons rencontré des difficultés lorsque nous avons voulu comparer deux valeurs. Considérez le code suivant :
 
-```py
+```c
   // Conditionals, Boolean expressions, relational operators
 
   #include <cs50.h>
