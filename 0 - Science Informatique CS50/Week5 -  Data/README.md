@@ -95,7 +95,7 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 ![trois boîtes avec 1 2 3 parmi plein d'autres éléments de mémoire](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide022.png)
 
-*   Imaginez que vous souhaitiez stocker une quatrième valeur 4dans notre tableau ? Ce qu'il faudrait, c'est allouer une nouvelle zone de mémoire et déplacer l'ancien tableau vers un nouveau.
+*   Imaginez que vous souhaitiez stocker une quatrième valeur 4 dans notre tableau ? Ce qu'il faudrait, c'est allouer une nouvelle zone de mémoire et déplacer l'ancien tableau vers un nouveau.
 
 ![e](https://cs50.harvard.edu/extension/2022/fall/notes/5/cs50Week5Slide025.png)
 
@@ -105,7 +105,7 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 *   L'un des inconvénients de cette approche est qu'elle est mal conçue : chaque fois que nous ajoutons un nombre, nous devons copier le tableau élément par élément.
 
-*   Ne serait-ce pas bien si nous pouvions mettre l' 4ailleurs en mémoire ? Par définition, ce ne serait plus un tableau car 4il ne serait plus en mémoire contiguë.
+*   Ne serait-ce pas bien si nous pouvions mettre le 4 ailleurs en mémoire ? Par définition, ce ne serait plus un tableau car 4il ne serait plus en mémoire contiguë.
 
 *   Dans votre terminal, tapez code list.cet écrivez le code comme suit :
 
