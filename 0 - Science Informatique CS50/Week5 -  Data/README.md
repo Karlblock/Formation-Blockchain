@@ -105,7 +105,7 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 *   L'un des inconvénients de cette approche est qu'elle est mal conçue : chaque fois que nous ajoutons un nombre, nous devons copier le tableau élément par élément.
 
-*   Ne serait-ce pas bien si nous pouvions mettre le 4 ailleurs en mémoire ? Par définition, ce ne serait plus un tableau car 4il ne serait plus en mémoire contiguë.
+*   Ne serait-ce pas bien si nous pouvions mettre le 4 ailleurs en mémoire ? Par définition, ce ne serait plus un tableau car le 4  serait plus en mémoire contiguë.
 
 *   Dans votre terminal, tapez code list.cet écrivez le code comme suit :
 
