@@ -191,11 +191,11 @@ Notez que ce qui précède ressemble beaucoup à ce que nous avons appris plus t
       return 0;
 ```
 
-*   Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresses mémoire peuvent être affectées aux valeurs 1, 2et 3. Ensuite, une liste de taille quatre est créée. Ensuite, la liste est copiée du premier au second. La valeur de 4est ajoutée à la tmpliste. Le bloc de mémoire sur lequel listpointe n'étant plus utilisé, il est libéré à l'aide de la commande free(list). Enfin, le compilateur est invité à pointer le listpointeur vers le bloc de mémoire tmpvers lequel il pointe. Le contenu de listest imprimé puis libéré.
+Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresses mémoire peuvent être affectées aux valeurs 1, 2 et 3. Ensuite, une **liste** de taille quatre est créée. Ensuite, la **liste** est copiée du premier au second. La valeur de 4est ajoutée à la tmpliste. Le bloc de mémoire sur lequel **list** pointe n'étant plus utilisé, il est libéré à l'aide de la commande **free(list)**. Enfin, le compilateur est invité à pointer la **listpointeur** vers le bloc de mémoire **tmp** vers lequel il pointe. Le contenu de **list** est imprimé puis libéré.
 
 *   Il est utile de penser à listet tmpcomme les deux signes qui pointent vers un morceau de mémoire. Comme dans l'exemple ci-dessus, listà un moment pointé vers un tableau de taille 3. À la fin, liston lui a dit de pointer vers un morceau de mémoire de taille 4. Techniquement, à la fin du code ci-dessus, tmples listdeux pointaient vers le même bloc de mémoire.
 
-*   C'est livré avec une fonction très utile appelée reallocqui réaffectera la mémoire pour vous. reallocprend deux arguments. Tout d'abord, il vous demande de spécifier le tableau que vous essayez de copier. Deuxièmement, il vous demande de spécifier la taille à laquelle vous souhaitez que le tableau final soit. Modifiez votre code comme suit :
+*   **C** est livré avec une fonction très utile appelée **realloc** qui réaffectera la mémoire pour vous. r**ealloc** prend deux arguments. Tout d'abord, il vous demande de spécifier le tableau que vous essayez de copier. Deuxièmement, il vous demande de spécifier la taille à laquelle vous souhaitez que le tableau final soit. Modifiez votre code comme suit :
 
 ```c
   // Implements a list of numbers with an array of dynamic size using realloc
@@ -241,7 +241,7 @@ Notez que ce qui précède ressemble beaucoup à ce que nous avons appris plus t
   }
 ```
 
-*   Notez que int *tmp = realloc(list, 4 * sizeof(int))crée une liste d'entiers de taille quatre. Ensuite, il copie les valeurs de listdans ce nouveau tableau. Enfin, un pointeur nommé tmppointe sur l'emplacement mémoire de ce nouveau tableau. La copie est gérée par realloc. Une fois cette copie effectuée, la mémoire à l'emplacement de listest libérée. Ensuite, le pointeur appelé listest pointé à l'emplacement de tmp, où se trouve le nouveau tableau.
+Notez que int *tmp = realloc(list, 4 * sizeof(int))crée une liste d'entiers de taille quatre. Ensuite, il copie les valeurs de listdans ce nouveau tableau. Enfin, un pointeur nommé tmppointe sur l'emplacement mémoire de ce nouveau tableau. La copie est gérée par realloc. Une fois cette copie effectuée, la mémoire à l'emplacement de listest libérée. Ensuite, le pointeur appelé listest pointé à l'emplacement de tmp, où se trouve le nouveau tableau.
 
 *   Vous pouvez imaginer à quel point l'utilisation reallocd'une file d'attente ou d'une pile pourrait être utile. À mesure que la quantité de données augmente, reallocpeut être utilisé pour augmenter ou réduire la pile ou la file d'attente.
 
