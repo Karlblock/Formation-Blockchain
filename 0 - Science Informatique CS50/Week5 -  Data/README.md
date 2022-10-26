@@ -191,7 +191,7 @@ Notez que ce qui précède ressemble beaucoup à ce que nous avons appris plus t
       return 0;
 ```
 
-Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresses mémoire peuvent être affectées aux valeurs 1, 2 et 3. Ensuite, une **liste** de taille quatre est créée. Ensuite, la **liste** est copiée du premier au second. La valeur de 4est ajoutée à la tmpliste. Le bloc de mémoire sur lequel **list** pointe n'étant plus utilisé, il est libéré à l'aide de la commande **free(list)**. Enfin, le compilateur est invité à pointer la **listpointeur** vers le bloc de mémoire **tmp** vers lequel il pointe. Le contenu de **list** est imprimé puis libéré.
+Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresses mémoire peuvent être affectées aux valeurs 1, 2 et 3. Ensuite, une **liste** de taille quatre est créée. Ensuite, la **liste** est copiée du premier au second. La valeur de 4 est ajoutée à la **tmp** liste. Le bloc de mémoire sur lequel **list** pointe n'étant plus utilisé, il est libéré à l'aide de la commande **free(list)**. Enfin, le compilateur est invité à pointer la **listpointeur** vers le bloc de mémoire **tmp** vers lequel il pointe. Le contenu de **list** est imprimé puis libéré.
 
 *   Il est utile de penser à listet tmpcomme les deux signes qui pointent vers un morceau de mémoire. Comme dans l'exemple ci-dessus, listà un moment pointé vers un tableau de taille 3. À la fin, liston lui a dit de pointer vers un morceau de mémoire de taille 4. Techniquement, à la fin du code ci-dessus, tmples listdeux pointaient vers le même bloc de mémoire.
 
