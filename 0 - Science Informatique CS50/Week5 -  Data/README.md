@@ -107,7 +107,7 @@ Dans le code, vous pouvez imaginer une pile comme suit :
 
 *   Ne serait-ce pas bien si nous pouvions mettre le 4 ailleurs en mémoire ? Par définition, ce ne serait plus un tableau car le 4  serait plus en mémoire contiguë.
 
-*   Dans votre terminal, tapez code list.cet écrivez le code comme suit :
+*   Dans votre terminal, tapez code list.c et écrivez le code comme suit :
 
 ```c
 
