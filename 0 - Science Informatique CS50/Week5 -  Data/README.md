@@ -241,9 +241,9 @@ Notez qu'une liste d'entiers de taille trois est créée. Ensuite, trois adresse
   }
 ```
 
-Notez que int *tmp = realloc(list, 4 * sizeof(int))crée une liste d'entiers de taille quatre. Ensuite, il copie les valeurs de listdans ce nouveau tableau. Enfin, un pointeur nommé tmppointe sur l'emplacement mémoire de ce nouveau tableau. La copie est gérée par realloc. Une fois cette copie effectuée, la mémoire à l'emplacement de listest libérée. Ensuite, le pointeur appelé listest pointé à l'emplacement de tmp, où se trouve le nouveau tableau.
+Notez que **int *tmp = realloc(list, 4 * sizeof(int))** crée une liste d'entiers de taille quatre. Ensuite, il copie les valeurs de **list** dans ce nouveau tableau. Enfin, un pointeur nommé **tmp** pointe sur l'emplacement mémoire de ce nouveau tableau. La copie est gérée par **realloc**. Une fois cette copie effectuée, la mémoire à l'emplacement de **list** est libérée. Ensuite, le pointeur appelé **list** est pointé à l'emplacement de **tmp**, où se trouve le nouveau tableau.
 
-*   Vous pouvez imaginer à quel point l'utilisation reallocd'une file d'attente ou d'une pile pourrait être utile. À mesure que la quantité de données augmente, reallocpeut être utilisé pour augmenter ou réduire la pile ou la file d'attente.
+*   Vous pouvez imaginer à quel point l'utilisation **realloc** d'une file d'attente ou d'une pile pourrait être utile. À mesure que la quantité de données augmente, **realloc** peut être utilisé pour augmenter ou réduire la pile ou la file d'attente.
 
 ---
 
