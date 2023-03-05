@@ -75,7 +75,7 @@
 Aujourd'hui, vous constaterez que le processus d'écriture et de compilation du code a été simplifié.
 Par exemple, le code ci-dessus sera rendu en Python comme :
 
-  # A program that says hello to the world
+  # Un program qui dit Hello World 
 
   print("hello, world")
 Remarquez que le point-virgule a disparu.
