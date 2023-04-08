@@ -23,10 +23,13 @@ Retrouvez l'introduction de CS50 :
 
 - Notes [Semaine 4 Memory](https://github.com/BlockchainSpot/Formation-Blockchain/blob/main/0%20-%20Computer%20Science%20CS50/Week4/README.md)
 
-
 - Notes [Semaine 5 Data](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
 
 - Notes [Semaine 6 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week6%20-%20Python)
+
+- Notes [Semaine 7 SQL](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week6%20-%20Python)
+
+- Notes [Semaine 6 Html](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week6%20-%20Python)
 
 ---
 
