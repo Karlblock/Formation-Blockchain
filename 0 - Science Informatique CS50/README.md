@@ -31,6 +31,15 @@ Retrouvez l'introduction de CS50 :
 
 - Notes [Semaine 6 Html](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week6%20-%20Python)
 
+- Notes [Semaine 7 SQL](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week7%20-%20SQL)
+
+- Notes [Semaine 8 Html](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week8%20-%20Html)
+
+- Notes [Semaine 9 Flask](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week8%20-%20Html)
+
+- Video [Cybersecu](https://www.youtube.com/watch?v=Kuy4cEXpXEE&list=PLhQjrBD2T380F_inVRXMIHCqLaNUd7bN4&index=10)
+
+
 ---
 
 ## Contributing
