@@ -27,8 +27,8 @@ _Disclaimer : Je ne suis pas √† l'origine de l'ensemble des informations compil√
 
 Des bases algorthymiques et en anglais sont un plus : 
 
--   [scrimba](https://scrimba.com/dashboard?tab=enrolled)
--   [udemy](https://www.udemy.com/)
+-   [Scrimba](https://scrimba.com/dashboard?tab=enrolled)
+-   [Udemy](https://www.udemy.com/)
 
 ---
 
