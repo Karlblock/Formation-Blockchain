@@ -16,8 +16,8 @@ Je vous invite à suivre ma propre auto-formation pour devenir développeur bloc
 
 Afin de partager en temps réel mes journées vous pouvez me rejoindre sur les plateformes :
 
- - [discord](https://discord.gg/VGhMvUmBhm) 
- - [twitch](https://www.twitch.tv/karlbl0ck)
+ - [Le Discord communautaire de blockchainspot](https://discord.gg/VGhMvUmBhm) 
+ - [Le Twitch pour se détendre et discuter en live](https://www.twitch.tv/karlbl0ck)
 
 _Disclaimer : Je ne suis pas à l'origine de l'ensemble des informations compilées ici ! merci à tous pour la contribution faite pour l'écosystem._
 
