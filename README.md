@@ -4,7 +4,7 @@
 #   [Bitcoin](https://bitcoin.org/bitcoin.pdf) : A Peer-to-Peer Electronic Cash System
 
 
-## Présentation :
+## Par où commencer :
 
 Je pense que l'aventure commence avec la lecture du [WhitePaper](https://bitcoin.org/bitcoin.pdf) de Bitcoin ! *C'est cool, j'ai déjà compris 30%  de bitcoin !* 
 
