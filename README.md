@@ -93,14 +93,13 @@ Vous pouvez me retrouver sur le :
 
 [Telegram](https://t.me/blockchainspotOfficial)
 
----- ## Tips Sport ##
+ ## Tips Sport ##
 
 ☕ [Buy me a Coffee if you like my work](https://www.buymeacoffee.com/karlblock)
 
-    BTC Wallet :  
+     BTC Wallet :  
 
-     🐈‍⬛🐈‍⬛ cosmos1fa73g7khc6ahzc4nhw2n2h70j0s0pjjx8z39f6 🐈‍⬛🐈‍⬛
+     Cosmos Wallet :     🐈‍⬛🐈‍⬛ cosmos1fa73g7khc6ahzc4nhw2n2h70j0s0pjjx8z39f6 🐈‍⬛🐈‍⬛
 
------ ## Tips Spot ##
 
 #blockchain #github #rust #formation #C #crypto #dev #futur
