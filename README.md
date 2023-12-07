@@ -95,11 +95,11 @@ Vous pouvez me retrouver sur le :
 
 ---- ## Tips Sport ##
 
-☕ [Buy me a Coffee if you like my work](https://www.buymeacoffee.com/dashboard)
+☕ [Buy me a Coffee if you like my work](https://www.buymeacoffee.com/karlblock)
 
-🙏🙏 ERC20 : 0x108b3393102cc1A231fBAbb8bf426f4c3DD7dfF8 🙏🙏
+    BTC Wallet :  
 
-     🐈‍⬛🐈‍⬛ catwoman.near 🐈‍⬛🐈‍⬛
+     🐈‍⬛🐈‍⬛ cosmos1fa73g7khc6ahzc4nhw2n2h70j0s0pjjx8z39f6 🐈‍⬛🐈‍⬛
 
 ----- ## Tips Spot ##
 
