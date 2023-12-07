@@ -54,6 +54,8 @@ Des bases algorthymiques et en anglais sont un plus :
 
 -  [Semaine 8 Html](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week8%20-%20Html)
 
+-  [Semaine 9 Flask](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week8%20-%20Html)
+
 ### Langage & Cryptographie : 
 
 - [Cryptographie](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/2%20-%20Cryptography)
