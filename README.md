@@ -32,7 +32,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 ---
 
-## 👨‍💻👩‍💻 L'aventure commence ici 👨‍💻👩‍💻  :
+## 👨‍💻👩‍💻 L'aventure commence ici 👨‍💻👩‍💻 :
 
 ### Comprendre la science information avec CS50 : 
 
@@ -56,7 +56,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 ### Devops & DevSecOps :
 
-Créer son environnement de travail
+ _Devops c'est délivrer avec méthode et éfficacité_ 
 
 ### Apprendre Rust 
 
