@@ -10,7 +10,7 @@ Je pense que l'aventure commence avec la lecture du [WhitePaper](https://bitcoin
 
 Quelles sont les étapes pour être en mesure de reproduire et de comprendre le code de Bitcoin ? ``Let's go team ?``
 
-`Pour le plaisir, lisez-le avant et tout au long de la formation ! ` => [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
+`Tips : lisez-le avant et tout au long de la formation ! ` -> [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 
 Je vous invite à suivre ma propre auto-formation pour devenir développeur blockchain. J'ai entrepris d'apprendre autant que possible dans ce domaine. Et ce n'est pas comme si le secteur n'évoluait pas constamment... 
 
