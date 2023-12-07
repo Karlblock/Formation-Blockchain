@@ -50,6 +50,10 @@ Des bases algorthymiques et en anglais sont un plus :
 
 -  [Semaine 6 Python](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week5%20-%20%20Data)
 
+-  [Semaine 7 SQL](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week7%20-%20SQL)
+
+-  [Semaine 8 Html](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/0%20-%20Science%20Informatique%20CS50/Week8%20-%20Html)
+
 ### Langage & Cryptographie : 
 
 - [Cryptographie](https://github.com/BlockchainSpot/Formation-Blockchain/tree/main/2%20-%20Cryptography)
