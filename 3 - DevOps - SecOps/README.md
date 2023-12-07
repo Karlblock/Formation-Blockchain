@@ -4,7 +4,7 @@
 
 ##### La Méthode #####
 
-<Délivrer avec methode et éfficacité>
+-> Délivrer avec methode et éfficacité
 
 ## Section 1 ##
 
