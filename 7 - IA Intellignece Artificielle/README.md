@@ -19,14 +19,14 @@
 
 ## Marchine Learning 
 
--   Data
--   training
--   algo
--   fonction de cout
--   validation
--   inférence
--   surajustement
--   sousajustemen
--   ensemble learning
--   huperparametre
--   data étiquetté ( tags )
+- [ ] Data
+- [ ] training
+- [ ] algo
+- [ ]  fonction de cout
+- [ ]  validation
+- [ ]   inférence
+- [ ]  surajustement
+- [ ]  sousajustemen
+- [ ]  ensemble learning
+- [ ]  huperparametre
+- [ ]  data étiquetté ( tags )
