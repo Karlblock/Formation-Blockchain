@@ -96,7 +96,7 @@ Des bases algorthymiques et en anglais sont un plus :
 
 - & more more more !
 
-Vous pouvez me retrouver sur le : 
+Vous pouvez me retrouver sur : 
 
 [Discord](https://discord.gg/VGhMvUmBhm) 
 
