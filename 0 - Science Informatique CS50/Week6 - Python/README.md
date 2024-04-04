@@ -125,7 +125,7 @@ Remarquez comment les accolades permettent à la printfonction d'interpoler le a
 
 *   Les types de données en python n'ont pas besoin d'être explicitement déclarés. Par exemple, vous avez vu comment answerci-dessus est une chaîne, mais nous n'avons pas eu à dire à l'interpréteur que c'était le cas : il savait tout seul.
 
-*   En Python, les types couramment utilisés incluent :
+*   En Python, les types sont couramment utilisés incluent :
 
 ```
   bool
