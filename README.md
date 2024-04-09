@@ -12,7 +12,7 @@ Quelles sont les étapes pour être en mesure de reproduire et de comprendre le 
 
 `Tips : A lire avant et tout au long de la formation ! ` -> [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 
-Je vous invite à suivre ma propre auto-formation pour devenir développeur blockchain. J'ai entrepris d'apprendre autant que possible dans ce domaine. Et ce n'est pas comme si le secteur n'évoluait pas constamment... 
+Je vous invite à suivre ma propre auto-formation pour devenir développeur. J'ai entrepris d'apprendre autant que possible dans ce domaine. Et ce n'est pas comme si le secteur n'évoluait pas constamment... 
 
 Afin de partager en temps réel mes journées vous pouvez me rejoindre sur les plateformes :
 
@@ -105,9 +105,7 @@ Vous pouvez me retrouver sur :
  ## Tips Sport ##
 
 ☕ [Buy me a Coffee if you like my work](https://www.buymeacoffee.com/karlblock)
-
-     BTC Wallet :  
-
+ 
      Cosmos Wallet :     🐈‍⬛🐈‍⬛ cosmos1fa73g7khc6ahzc4nhw2n2h70j0s0pjjx8z39f6 🐈‍⬛🐈‍⬛
 
 
