@@ -106,7 +106,7 @@ Vous pouvez me retrouver sur :
 
 ☕ [Buy me a Coffee if you like my work](https://www.buymeacoffee.com/karlblock)
  
-     Cosmos Wallet :     🐈‍⬛🐈‍⬛ cosmos1fa73g7khc6ahzc4nhw2n2h70j0s0pjjx8z39f6 🐈‍⬛🐈‍⬛
+     Cosmos Wallet : 🐈‍⬛🐈‍⬛ cosmos1fa73g7khc6ahzc4nhw2n2h70j0s0pjjx8z39f6 🐈‍⬛🐈‍⬛
 
 
 #blockchain #github #rust #formation #C #crypto #dev #futur
