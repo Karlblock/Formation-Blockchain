@@ -12,3 +12,4 @@ https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530
 
 https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164
 
+https://cryptopals.com/
