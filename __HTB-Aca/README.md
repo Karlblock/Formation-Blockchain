@@ -802,6 +802,25 @@ Pratiquer les cmdlet de manipulation de base de registre
 |test-NetConnection	| Permet de diagnostic vérifications à exécuter sur une connexion. Il prend en charge ping, tcp, traçage d'itinéraire, et plus encore.|
 
 
+*   Outil PS Network :
+  
+[Test-NetConnection](https://learn.microsoft.com/en-us/powershell/module/nettcpip/test-netconnection?view=windowsserver2022-ps)
+
+*   Activer SSH : 
+    (1)`` Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'``
+    (2)``Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0``
+    (3)``Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'``
+    (4) ``Start-Service sshd``  
+    (5) ``Set-Service -Name sshd -StartupType 'Automatic'`` 
+    (6) ``ssh user@ip``
+    (7) ``powershell``
+    (8) ``test-netconnection`` 
+
+
+
+
+
+
 
 
 
