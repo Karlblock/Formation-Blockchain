@@ -763,9 +763,21 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 
 
+###     Networking Management from The CLI
 
 
-
+| Protocole | Description |
+| --- | --- |
+| SMB | PME fournit aux hôtes Windows la possibilité de partager des ressources, des fichiers et un moyen standard d'authentification entre les hôtes pour déterminer si l'accès aux ressources est autorisé. Pour les autres distributions, SAMBA est l'option open-source. |
+| Netbios | NetBios elle-même n'est pas directement un service ou un protocole, mais un mécanisme de connexion et de conversation largement utilisé dans les réseaux. C'était le mécanisme de transport original pour SMB, mais cela a changé depuis. Maintenant, il sert de mécanisme d'identification alternatif lorsque DNS échoue. Peut également être appelé NBT-NS (NetBIOS name service). |
+| LDAP | LDAP est un open-source protocole multiplateforme utilisé pour authentication et authorization avec divers services d'annuaire. C'est ainsi que de nombreux appareils différents dans les réseaux modernes peuvent communiquer avec de grands services de structure d'annuaire tels que Active Directory. |
+| LLMNR | LLMNR fournit un service de résolution de noms basé sur DNS et fonctionne si DNS n'est pas disponible ou ne fonctionne pas. Ce protocole est un protocole de multidiffusion et, en tant que tel, ne fonctionne que sur les liens locaux (dans un domaine de diffusion normal, pas à travers la couche trois liens). |
+| DNS | DNS est une norme de dénomination commune utilisée sur Internet et dans la plupart des types de réseaux modernes. DNS nous permet de référencer les hôtes par un nom unique au lieu de leur adresse IP. Voici comment nous pouvons référencer un site Web par "WWW.google.com" au lieu de "8.8.8.8". En interne, c'est ainsi que nous demandons des ressources et un accès à un réseau. |
+| HTTP/HTTPS | HTTP/S HTTP et HTTPS sont la façon non sécurisée et sécurisée dont nous demandons et utilisons des ressources sur Internet. Ces protocoles sont utilisés pour accéder et utiliser des ressources telles que les serveurs Web, envoyer et recevoir des données de sources distantes, et bien plus encore. |
+| Kerberos | Kerberos est un protocole d'authentification au niveau du réseau. Dans les temps modernes, nous sommes plus susceptibles de le voir lorsqu'il s'agit de l'authentification Active Directory lorsque les clients demandent des tickets pour l'autorisation d'utiliser des ressources de domaine. |
+| WinRM | WinRM Est une implémentation du protocole WS-Management. Il peut être utilisé pour gérer les fonctionnalités matérielles et logicielles des hôtes. Il est principalement utilisé dans l'administration IT mais peut également être utilisé pour l'énumération des hôtes et comme moteur de script. |
+| RDP | RDP est une implémentation Windows d'un protocole de services d'interface utilisateur réseau qui fournit aux utilisateurs une interface graphique pour accéder aux hôtes via une connexion réseau. Cela permet une utilisation complète de l'interface utilisateur pour inclure le passage de l'entrée du clavier et de la souris à l'hôte distant. |
+| SSH | SSH est un protocole sécurisé qui peut être utilisé pour l'accès sécurisé à l'hôte, le transfert de fichiers et la communication générale entre les hôtes du réseau. Il fournit un moyen d'accéder en toute sécurité aux hôtes et services sur des réseaux non sécurisés. |
 
 
 
