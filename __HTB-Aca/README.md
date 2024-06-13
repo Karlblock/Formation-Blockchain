@@ -783,6 +783,8 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 
 ####    Net Cmdlets
+--------------------
+
 | Cmdlet    |   Description |
 | --- | --- |
 |Get-NetIPInterface|	Récupérer tout visible adaptateur réseau properties.|
