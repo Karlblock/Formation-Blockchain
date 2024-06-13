@@ -672,6 +672,65 @@ Get-LocalGroupMember -Name "Remote Desktop Users"
 Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online
 Get-Module -Name ActiveDirectory -ListAvailable 
 
+Command	Alias	Description
+Get-Item	gi	Retrieve an object (could be a file, folder, registry object, etc.)
+Get-ChildItem	ls / dir / gci	Lists out the content of a folder or registry hive.
+New-Item	md / mkdir / ni	Create new objects. ( can be files, folders, symlinks, registry entries, and more)
+Set-Item	si	Modify the property values of an object.
+Copy-Item	copy / cp / ci	Make a duplicate of the item.
+Rename-Item	ren / rni	Changes the object name.
+Remove-Item	rm / del / rmdir	Deletes the object.
+Get-Content	cat / type	Displays the content within a file or object.
+Add-Content	ac	Append content to a file.
+Set-Content	sc	overwrite any content in a file with new data.
+Clear-Content	clc	Clear the content of the files without deleting the file itself.
+Compare-Object	diff / compare	Compare two or more objects against each other. This includes the object itself and the content within.
+
+
+Exemple pour recherche un fichier : 
+
+`Get-Childitem –Path C:\Users\ -File -Recurse -ErrorAction SilentlyContinue | where {($_.Name -like "*.txt")}`
+
+### Working with Services
+
+``get-help *-Service``
+
+Faire une enquete sur le statue des process ( exemple personne qui se plaind d'un souci de défénse de ses process de sécurité sur windows )
+
+` Get-Service | ft DisplayName,Status`
+
+`` Get-Service | measure``
+
+`Get-Service | where DisplayName -like '*Defender*' | ft DisplayName,ServiceName,Status`
+
+`get-service -ComputerName {HOST}-ICL-DC`
+
+`invoke-command`
+
+### Working with Registry
+
+`Get-ChildItem C:\Windows\System32\config\`
+
+`Get-Item -Path Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run | Select-Object -ExpandProperty Property`
+
+`Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion -Recurse`
+
+`Get-ItemProperty -Path Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run`
+
+Rechercher la chaine passowrd dans le registre HKCU
+`REG QUERY HKCU /F "Password" /t REG_SZ /S /K`
+
+*   Reg query: Nous appelons Reg.exe et spécifions que nous voulons interroger les données.
+*   HKCU: Cette partie définit le chemin à rechercher. Dans ce cas, nous examinons tout HKey_Current_User.
+*   /f "password": /f définit le modèle que nous recherchons. Dans ce cas, nous recherchons "Mot de passe".
+*   /t REG_SZ: /t définit le type de valeur à rechercher. Si nous ne spécifions pas, la requête reg  recherchera chaque type.
+*   /s: /s dit de rechercher toutes les sous-clés et valeurs de manière récursive.
+*   /k: /k se limite à rechercher uniquement les noms de clés.
+
+
+
+
+
 
 
 
