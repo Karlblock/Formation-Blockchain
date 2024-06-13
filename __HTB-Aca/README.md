@@ -756,7 +756,9 @@ Pratiquer les cmdlet de manipulation de base de registre
     `Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625 '}`
 
 *   Event critical :
+   
     `Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object `
+
     ` Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object -ExpandProperty Message`
 
 
