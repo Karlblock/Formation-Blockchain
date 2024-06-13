@@ -28,18 +28,18 @@ https://cryptopals.com/ -->
 
 ## Backup and Restore :
 
-*   outil de Sauvegarde  :
+*   Outil de Sauvegarde  :
     -   Rsync
     -   Deja Dup
     -   Duplicity
 
-*   outil de cryptage des données 
+*   Outil de cryptage des données 
     -   GnyPG
     -   eCryptfs
     -   LUKS
 
 
-    Rsync : 
+    *   Rsync : 
     `rsync -av /path/to/mydirectory user@backup_server:/path/to/backup/directory`
 
     *   On peut crypter le transfert rsync avec ssh : `sync -avz -e ssh /path/to/mydirectory user@backup_server:/path/to/backup/directory`
@@ -48,9 +48,11 @@ https://cryptopals.com/ -->
 
 ## File system Management :
 
-*   ext2 system de gestion de base
-*   btrfs ( convient au besoin instantanée) 
-*   NTFS besoin de compatibilité avec WINDOWS
+|Type | description|
+|-----|-----|
+|ext2| system de gestion de base|
+|btrfs| ( convient au besoin instantanée)| 
+|NTFS |besoin de compatibilité avec WINDOWS|
 
 *   outil de partionnement :
     -   fdisk
