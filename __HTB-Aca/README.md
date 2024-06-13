@@ -726,6 +726,41 @@ Rechercher la chaine passowrd dans le registre HKCU
 *   /t REG_SZ: /t définit le type de valeur à rechercher. Si nous ne spécifions pas, la requête reg  recherchera chaque type.
 *   /s: /s dit de rechercher toutes les sous-clés et valeurs de manière récursive.
 *   /k: /k se limite à rechercher uniquement les noms de clés.
+*   
+
+Pratiquer les cmdlet de manipulation de base de registre
+
+### working withe Event log
+
+*   CMDLET `wevutil`
+
+    ``wevtutil el``
+    ``ls C:\Windows\System32\winevt\logs``
+
+    ``wevtutil gl "Windows PowerShell"``
+
+    ``wevtutil gli "Windows PowerShell"``
+
+    ``wevtutil qe Security /c:5 /rd:true /f:text``
+
+    ``wevtutil epl System C:\system_export.evtx``
+
+*   liste les jounaux : 
+
+    ``Get-WinEvent -ListLog *``
+
+    `Get-WinEvent -ListLog Security`
+
+*   login Failure :
+   
+    `Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625 '}`
+
+*   Event critical :
+    `Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object `
+    ` Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object -ExpandProperty Message`
+
+
+
 
 
 
