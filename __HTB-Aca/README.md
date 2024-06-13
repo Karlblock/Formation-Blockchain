@@ -794,7 +794,7 @@ Pratiquer les cmdlet de manipulation de base de registre
 |Set-NetAdapter|	Définissez les propriétés de base de l'adaptateur sur Layer-2 niveau tel que VLAN id, description et MAC-Address.|
 |Set-NetIPInterface|	Modifie le settings de un interface pour inclure l'état DHCP, MTU, et d'autres mesures.|
 |New-NetIPAddress|	Crée et configure un IP address.|
-|Set-NetIPAddress	Modifie le configuration d'une carte réseau.|
+|Set-NetIPAddress|	Modifie le configuration d'une carte réseau.|
 |Disable-NetAdapter|	Utilisé pour disable interfaces d'adaptateur réseau.|
 |Enable-NetAdapter|	Utilisé pour rallumer les adaptateurs réseau et allow connexions réseau.|
 |Restart-NetAdapter|	Utilisé pour redémarrer un adaptateur. Il peut être utile d'aider à pousser changes fait à l'adaptateur settings.|
