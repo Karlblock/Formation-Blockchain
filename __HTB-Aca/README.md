@@ -788,10 +788,10 @@ Pratiquer les cmdlet de manipulation de base de registre
 | Cmdlet    |   Description |
 | --- | --- |
 |Get-NetIPInterface|	Récupérer tout visible adaptateur réseau properties.|
-|Get-NetIPAddress	Récupère le IP configurations de chaque adaptateur. Semblable à IPConfig.|
-|Get-NetNeighbor	Récupère le neighbor entries depuis le cache. Semblable à arp -a.|
-|Get-Netroute	Il va imprimer le courant route table. Semblable à IPRoute.|
-|Set-NetAdapter	Définissez les propriétés de base de l'adaptateur sur Layer-2 niveau tel que VLAN id, description et MAC-Address.|
+|Get-NetIPAddress|	Récupère le IP configurations de chaque adaptateur. Semblable à IPConfig.|
+|Get-NetNeighbor|	Récupère le neighbor entries depuis le cache. Semblable à arp -a.|
+|Get-Netroute	|Il va imprimer le courant route table. Semblable à IPRoute.|
+|Set-NetAdapter|	Définissez les propriétés de base de l'adaptateur sur Layer-2 niveau tel que VLAN id, description et MAC-Address.|
 |Set-NetIPInterface|	Modifie le settings de un interface pour inclure l'état DHCP, MTU, et d'autres mesures.|
 |New-NetIPAddress|	Crée et configure un IP address.|
 |Set-NetIPAddress	Modifie le configuration d'une carte réseau.|
