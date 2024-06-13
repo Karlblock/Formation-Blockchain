@@ -720,17 +720,19 @@ Faire une enquete sur le statue des process ( exemple personne qui se plaind d'u
 Rechercher la chaine passowrd dans le registre HKCU
 `REG QUERY HKCU /F "Password" /t REG_SZ /S /K`
 
-*   Reg query: Nous appelons Reg.exe et spécifions que nous voulons interroger les données.
-*   HKCU: Cette partie définit le chemin à rechercher. Dans ce cas, nous examinons tout HKey_Current_User.
-*   /f "password": /f définit le modèle que nous recherchons. Dans ce cas, nous recherchons "Mot de passe".
-*   /t REG_SZ: /t définit le type de valeur à rechercher. Si nous ne spécifions pas, la requête reg  recherchera chaque type.
-*   /s: /s dit de rechercher toutes les sous-clés et valeurs de manière récursive.
-*   /k: /k se limite à rechercher uniquement les noms de clés.
-*   
+| Commande | Description |
+| --- | --- |
+| Reg query | Nous appelons Reg.exe et spécifions que nous voulons interroger les données. |
+| HKCU | Cette partie définit le chemin à rechercher. Dans ce cas, nous examinons tout HKey_Current_User. |
+| /f "password" | /f définit le modèle que nous recherchons. Dans ce cas, nous recherchons "Mot de passe". |
+| /t REG_SZ | /t définit le type de valeur à rechercher. Si nous ne spécifions pas, la requête reg recherchera chaque type. |
+| /s | /s dit de rechercher toutes les sous-clés et valeurs de manière récursive. |
+| /k | /k se limite à rechercher uniquement les noms de clés. |
+
 
 Pratiquer les cmdlet de manipulation de base de registre
 
-### working withe Event log
+### Working withe Event log
 
 *   CMDLET `wevutil`
 
