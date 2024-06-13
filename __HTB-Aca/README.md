@@ -768,7 +768,7 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 | Protocole | Description |
 | --- | --- |
-| SMB | PME fournit aux hôtes Windows la possibilité de partager des ressources, des fichiers et un moyen standard d'authentification entre les hôtes pour déterminer si l'accès aux ressources est autorisé. Pour les autres distributions, SAMBA est l'option open-source. |
+| SMB | SMB fournit aux hôtes Windows la possibilité de partager des ressources, des fichiers et un moyen standard d'authentification entre les hôtes pour déterminer si l'accès aux ressources est autorisé. Pour les autres distributions, SAMBA est l'option open-source. |
 | Netbios | NetBios elle-même n'est pas directement un service ou un protocole, mais un mécanisme de connexion et de conversation largement utilisé dans les réseaux. C'était le mécanisme de transport original pour SMB, mais cela a changé depuis. Maintenant, il sert de mécanisme d'identification alternatif lorsque DNS échoue. Peut également être appelé NBT-NS (NetBIOS name service). |
 | LDAP | LDAP est un open-source protocole multiplateforme utilisé pour authentication et authorization avec divers services d'annuaire. C'est ainsi que de nombreux appareils différents dans les réseaux modernes peuvent communiquer avec de grands services de structure d'annuaire tels que Active Directory. |
 | LLMNR | LLMNR fournit un service de résolution de noms basé sur DNS et fonctionne si DNS n'est pas disponible ou ne fonctionne pas. Ce protocole est un protocole de multidiffusion et, en tant que tel, ne fonctionne que sur les liens locaux (dans un domaine de diffusion normal, pas à travers la couche trois liens). |
