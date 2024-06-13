@@ -798,7 +798,7 @@ Pratiquer les cmdlet de manipulation de base de registre
 |Disable-NetAdapter|	Utilisé pour disable interfaces d'adaptateur réseau.|
 |Enable-NetAdapter|	Utilisé pour rallumer les adaptateurs réseau et allow connexions réseau.|
 |Restart-NetAdapter|	Utilisé pour redémarrer un adaptateur. Il peut être utile d'aider à pousser changes fait à l'adaptateur settings.|
-|test-NetConnection	Permet de diagnostic vérifications à exécuter sur une connexion. Il prend en charge ping, tcp, traçage d'itinéraire, et plus encore.|
+|test-NetConnection	| Permet de diagnostic vérifications à exécuter sur une connexion. Il prend en charge ping, tcp, traçage d'itinéraire, et plus encore.|
 
 
 
