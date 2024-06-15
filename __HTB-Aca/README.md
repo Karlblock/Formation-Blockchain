@@ -826,10 +826,13 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 #### le web est powershell
 
-`Get-Help Invoke-Webrequest`
-`Invoke-WebRequest -Uri "https://web.ics.purdue.edu/~gchopra/class/public/pages/webdesign/05_simple.html" -Method GET | Get-Member`
+```console
 
-``Invoke-WebRequest -Uri "https://charles.siepen.fr" -Method GET | fl images``
+Get-Help Invoke-Webrequest
+Invoke-WebRequest -Uri "https://web.ics.purdue.edu/~gchopra/class/public/pages/webdesign/05_simple.html" Method GET | Get-Member
+Invoke-WebRequest -Uri "https://charles.siepen.fr" -Method GET | fl images
+
+```
 
 
 #### script powershell et automatisation
