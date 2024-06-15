@@ -831,42 +831,40 @@ wevtutil epl System C:\system_export.evtx
 
 *   Activer SSH : 
 
-(1):
+
 ```shell  
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 ```
 
-(2):
 ```shell 
 Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
 ```
 
-(3):
+
 ```shell 
 Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
 ```
 
-(4):
+
 ```shell 
 Start-Service sshd
 ```
 
-(5):
+
 ```shell
  Set-Service -Name sshd -StartupType 'Automatic'
  ``` 
 
-(6):
 ```shell 
 ssh user@ip
 ```
 
-(7):
+
 ```shell 
 powershell
 ```
 
-(8):
+
 ```shell 
 test-netconnection
 ```
