@@ -826,7 +826,7 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 #### le web est powershell :
 
-```bat
+```ps
 
 Get-Help Invoke-Webrequest
 Invoke-WebRequest -Uri "https://web.ics.purdue.edu/~gchopra/class/public/pages/webdesign/05_simple.html" Method GET | Get-Member
