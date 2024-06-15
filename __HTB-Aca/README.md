@@ -814,9 +814,9 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 (3):``Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'``
 
-(4):``shell
+(4):```shell
 Start-Service sshd
-``  
+```
 
 (5):``Set-Service -Name sshd -StartupType 'Automatic'`` 
 
