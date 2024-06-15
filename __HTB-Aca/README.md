@@ -1,7 +1,5 @@
 <!-- 10K to be an Master 
 
-``Ressource``
-
 https://github.com/darklab8/fl-darkstat
 
 https://www.amazon.fr/Code-Complete-Second-Steve-McConnell/dp/0735619670
@@ -279,35 +277,35 @@ Rufus
 
 `LogLevel VERBOSE`  Gives the verbosity level that is used when logging messages from SSH daemon.
 
-``PermitRootLogin no``	Specifies whether root can log in using SSH.
+``` PermitRootLogin no``` 	Specifies whether root can log in using SSH.
 
-``MaxAuthTries 3``	Specifies the maximum number of authentication attempts permitted per connection.
+``` MaxAuthTries 3``` 	Specifies the maximum number of authentication attempts permitted per connection.
 
-``MaxSessions 5``	Specifies the maximum number of open shell, login, or subsystem (e.g., SFTP) sessions allowed per network connection.
+``` MaxSessions 5``` 	Specifies the maximum number of open shell, login, or subsystem (e.g., SFTP) sessions allowed per network connection.
 
-``HostbasedAuthentication no``	Specifies whether rhosts or /etc/hosts.equiv authentication together with successful public key client host authentication is allowed (host-based authentication).
+``` HostbasedAuthentication no``` 	Specifies whether rhosts or /etc/hosts.equiv authentication together with successful public key client host authentication is allowed (host-based authentication).
 
-``PermitEmptyPasswords no``	When password authentication is allowed, it specifies whether the server allows login to accounts with empty password strings.
+``` PermitEmptyPasswords no``` 	When password authentication is allowed, it specifies whether the server allows login to accounts with empty password strings.
 
-``ChallengeResponseAuthentication yes``	Specifies whether challenge-response authentication is allowed.
+``` ChallengeResponseAuthentication yes``` 	Specifies whether challenge-response authentication is allowed.
 
-``UsePAM yes``	Specifies if PAM modules should be used for authentification.
+``` UsePAM yes``` 	Specifies if PAM modules should be used for authentification.
 
-``X11Forwarding no``	Specifies whether X11 forwarding is permitted.
+``` X11Forwarding no``` 	Specifies whether X11 forwarding is permitted.
 
-``PrintMotd no``	Specifies whether SSH daemon should print /etc/motd when a user logs in interactively.
+``` PrintMotd no``` 	Specifies whether SSH daemon should print /etc/motd when a user logs in interactively.
 
-``ClientAliveInterval 600	``Sets a timeout interval in seconds, after which if no data has been received from the client, the SSH daemon will send a message through the encrypted channel to request a response from the client.
+``` ClientAliveInterval 600	``` Sets a timeout interval in seconds, after which if no data has been received from the client, the SSH daemon will send a message through the encrypted channel to request a response from the client.
 
-``ClientAliveCountMax 0``	Sets the number of client alive messages which may be sent without SSH daemon receiving any messages back from the client.
+```ClientAliveCountMax 0``` 	Sets the number of client alive messages which may be sent without SSH daemon receiving any messages back from the client.
 
-``AllowUsers <username>`` This keyword can be followed by a list of user name patterns, separated by spaces. If specified, login is allowed only for user names that match one of the patterns.
+``` AllowUsers <username>```  This keyword can be followed by a list of user name patterns, separated by spaces. If specified, login is allowed only for user names that match one of the patterns.
 
-``Protocol 2``	Specifies the usage of the newer protocol which is more secure.
+``` Protocol 2``` 	Specifies the usage of the newer protocol which is more secure.
 
-``AuthenticationMethods publickey,keyboard-interactive``	Specifies the authentication methods that must be successfully completed for a user to be granted access.
+``` AuthenticationMethods publickey,keyboard-interactive``` 	Specifies the authentication methods that must be successfully completed for a user to be granted access.
 
-``PasswordAuthentication no``	Specifies whether password authentication is allowed.
+``` PasswordAuthentication no``` 	Specifies whether password authentication is allowed.
 
 **OTP on VPS :**
 [https://www.linuxbabe.com/debian/ssh-two-factor-authentication-debian](SSH_2FA)
@@ -315,7 +313,7 @@ Rufus
 
 # Windows Fondamental :
 
-``Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber``
+``` Get-WmiObject -Class win32_OperatingSystem | select Version,BuildNumber``` 
 
 **techno de prise à disctance :**
 
@@ -389,47 +387,47 @@ Les services Windows sont gérés via le système Service Control Manager (SCM),
 
 `lsass.exe` est le processus responsable de l'application de la stratégie de sécurité sur les systèmes Windows
 
-``xfreerdp /v:<target IP address> /u:htb-student /p:<password> `` RDP à cible de laboratoire
+``` xfreerdp /v:<target IP address> /u:htb-student /p:<password> ```  RDP à cible de laboratoire
 
-`` Get-WmiObject -Class win32_OperatingSystem``	Obtenir des informations sur le système d'exploitation
+```  Get-WmiObject -Class win32_OperatingSystem``` 	Obtenir des informations sur le système d'exploitation
 
-``dir c:\ /a ``	Afficher tous les fichiers et répertoires dans le répertoire racine c:\
+``` dir c:\ /a ``` 	Afficher tous les fichiers et répertoires dans le répertoire racine c:\
 
-``tree <directory>``	Affichage graphique de la structure de répertoire d'un chemin
+``` tree <directory>``` 	Affichage graphique de la structure de répertoire d'un chemin
 
-``tree c:\ /f | more`` Parcourez les résultats de la tree commande page par page
+``` tree c:\ /f | more```  Parcourez les résultats de la tree commande page par page
 
-``icacls <directory> ``	Afficher les autorisations définies sur un répertoire
+``` icacls <directory> ``` 	Afficher les autorisations définies sur un répertoire
 
-``icacls c:\users /grant joe:f``	Accorder à un utilisateur des autorisations complètes sur un répertoire
+``` icacls c:\users /grant joe:f``` 	Accorder à un utilisateur des autorisations complètes sur un répertoire
 
-``icacls c:\users /remove joe `` Supprimer les autorisations d'un utilisateur sur un répertoire
+``` icacls c:\users /remove joe ```  Supprimer les autorisations d'un utilisateur sur un répertoire
 
 `Get-Service`	PowerShellcmdlet pour afficher les services en cours d'exécution
 
-``help <command>``	Afficher le menu d'aide pour une commande spécifique
+``` help <command>``` 	Afficher le menu d'aide pour une commande spécifique
 
-``get-alias``	Liste PowerShell alias
+``` get-alias``` 	Liste PowerShell alias
 
-``New-Alias -Name "Show-Files" Get-ChildItem``	Créer un nouveau PowerShell alias
+``` New-Alias -Name "Show-Files" Get-ChildItem``` 	Créer un nouveau PowerShell alias
 
-``Get-Module | select Name,ExportedCommands | fl``	Voir importé PowerShell modules et leurs commandes associées
+``` Get-Module | select Name,ExportedCommands | fl``` 	Voir importé PowerShell modules et leurs commandes associées
 
-``Get-ExecutionPolicy -List``	Voir le PowerShell politique d'exécution
+``` Get-ExecutionPolicy -List``` 	Voir le PowerShell politique d'exécution
 
-``Set-ExecutionPolicy Bypass -Scope Process``	Définissez le PowerShell stratégie d'exécution à contourner 
+``` Set-ExecutionPolicy Bypass -Scope Process``` 	Définissez le PowerShell stratégie d'exécution à contourner 
 pour la session en cours
-``wmic os list brief``	Obtenez des informations sur le système d'exploitation avec wmic
+``` wmic os list brief``` 	Obtenez des informations sur le système d'exploitation avec wmic
 
-``Invoke-WmiMethod``	Appeler des méthodes de WMI objets
+``` Invoke-WmiMethod``` 	Appeler des méthodes de WMI objets
 
-``whoami /user``	Voir le SID des utilisateurs actuels
+``` whoami /user``` 	Voir le SID des utilisateurs actuels
 
-``reg query <key>``	Afficher des informations sur une clé de registre
+``` reg query <key>``` 	Afficher des informations sur une clé de registre
 
-``Get-MpComputerStatus``	Vérifiez qui Defender les paramètres de protection sont activés
+``` Get-MpComputerStatus``` 	Vérifiez qui Defender les paramètres de protection sont activés
 
-``sconfig``	Charger le menu Configuration du serveur dans Windows Server Core
+``` sconfig``` 	Charger le menu Configuration du serveur dans Windows Server Core
 
 ### Permissions de Service :
 
@@ -447,10 +445,10 @@ Comptes de service intégrés notables dans Windows:
 
 -   LocalSyste
  
- ``Les descripteurs`` de sécurité identifient le propriétaire d'object’s et un groupe primaire contenant un Discretionary Access Control List (DACL) et a System Access Control List (SACL')
+ ``` Les descripteurs```  de sécurité identifient le propriétaire d'object’s et un groupe primaire contenant un Discretionary Access Control List (DACL) et a System Access Control List (SACL')
 
 **Security Descriptor Definition Language (SDDL') :**
-`` D:(A;;CCLCSWRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)``
+```  D:(A;;CCLCSWRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)``` 
 
 D: - les caractères en cours sont des autorisations DACL
 AU: - définit le principe de sécurité Utilisateurs authentifiés
@@ -464,7 +462,7 @@ RC - READ_CONTROL est le nom complet, et il va interroger le descripteur de séc
 
 Autorisation via powershell avec Get-ACL : 
 
-``Get-ACL -Path HKLM:\System\CurrentControlSet\Services\wuauserv | Format-List``
+``` Get-ACL -Path HKLM:\System\CurrentControlSet\Services\wuauserv | Format-List``` 
 
 
 ### Windows Sessions : 
@@ -495,23 +493,23 @@ Get-ExecutionPolicy -List
 
 **WMI est un sous-système de PowerShell**
 
-``WMI service``	Le processus Windows Management Instrumentation, qui s'exécute automatiquement au démarrage et sert d'intermédiaire entre les fournisseurs WMI, le référentiel WMI et la gestion des applications.
+``` WMI service``` 	Le processus Windows Management Instrumentation, qui s'exécute automatiquement au démarrage et sert d'intermédiaire entre les fournisseurs WMI, le référentiel WMI et la gestion des applications.
 
-``Objets gérés``	Tout composant logique ou physique pouvant être géré par WMI.
+``` Objets gérés``` 	Tout composant logique ou physique pouvant être géré par WMI.
 
-``WMI fournisseurs``	Objets qui surveillent les événements/données liés à un objet spécifique.
+``` WMI fournisseurs``` 	Objets qui surveillent les événements/données liés à un objet spécifique.
 
-``Classes``	Ceux-ci sont utilisés par les fournisseurs WMI pour transmettre des données au service WMI.
+``` Classes``` 	Ceux-ci sont utilisés par les fournisseurs WMI pour transmettre des données au service WMI.
 
-``Méthodes``	Ceux-ci sont attachés à des classes et permettent d'effectuer des actions. Par exemple, des méthodes peuvent être utilisées pour démarrer/arrêter des processus sur des machines distantes.
+``` Méthodes``` 	Ceux-ci sont attachés à des classes et permettent d'effectuer des actions. Par exemple, des méthodes peuvent être utilisées pour démarrer/arrêter des processus sur des machines distantes.
 
-``WMI dépôt``	Une base de données qui stocke toutes les données statiques liées à WMI.
+``` WMI dépôt``` 	Une base de données qui stocke toutes les données statiques liées à WMI.
 
-``CIM Gestionnaire d'Objets``	Le système qui demande des données aux fournisseurs WMI et les renvoie à l'application qui le demande.
+``` CIM Gestionnaire d'Objets```sell 	Le système qui demande des données aux fournisseurs WMI et les renvoie à l'application qui le demande.
 
-``API WMI API``	Permet aux applications d'accéder à l'infrastructure WMI.
+``` API WMI API``` 	Permet aux applications d'accéder à l'infrastructure WMI.
 
-``WMI Consommateur``	Envoie des requêtes aux objets via le CIM Object Manager.
+``` WMI Consommateur``` 	Envoie des requêtes aux objets via le CIM Object Manager.
 
 
 Certaines des utilisations pour WMI sont:
@@ -525,12 +523,16 @@ Certaines des utilisations pour WMI sont:
 -   Configuration de la journalisation
 
 SSID des user : 
-  `wmic useraccount get name,sid`
-  `wmic group get name,sid`
-  ``Get-Wmiobject -Class Win32_UserAccount``
-  `Get-Wmiobject -Class Win32_Group`
 
-Login from Parrot Os : 
+```shell
+wmic useraccount get name,sid
+wmic group get name,sid
+Get-Wmiobject -Class Win32_UserAccount
+Get-Wmiobject -Class Win32_Group
+```
+
+Login from Parrot Os :
+
 `xfreerdp /v:STMIP /u:USER /p:PASSWORD /dynamic-resolution`
 `xfreerdp /v:10.129.217.240 /u:htb-student /p:HTB_@cademy_stdnt! /dynamic-resolution`
 # INTRODUCTION TO WINDOWS COMMAND LINE
@@ -694,13 +696,17 @@ Exemple pour recherche un fichier :
 
 ### Working with Services
 
-``get-help *-Service``
+```shell
+ get-help *-Service
+```
 
 Faire une enquete sur le statue des process ( exemple personne qui se plaind d'un souci de défénse de ses process de sécurité sur windows )
 
 ` Get-Service | ft DisplayName,Status`
 
-`` Get-Service | measure``
+```shell
+  Get-Service | measure
+```
 
 `Get-Service | where DisplayName -like '*Defender*' | ft DisplayName,ServiceName,Status`
 
@@ -735,22 +741,35 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 ### Working withe Event log
 
-*   CMDLET `wevutil`
+*  
+```shell 
+wevtutil el
+``` 
 
-    ``wevtutil el``
-    ``ls C:\Windows\System32\winevt\logs``
+```shell 
+ls C:\Windows\System32\winevt\logs
+```
 
-    ``wevtutil gl "Windows PowerShell"``
+```shell 
+wevtutil gl "Windows PowerShell"
+```
 
-    ``wevtutil gli "Windows PowerShell"``
+```shell 
+wevtutil gli "Windows PowerShell"
+```
 
-    ``wevtutil qe Security /c:5 /rd:true /f:text``
+```shell 
+wevtutil qe Security /c:5 /rd:true /f:text
+```
 
-    ``wevtutil epl System C:\system_export.evtx``
+```shell 
+wevtutil epl System C:\system_export.evtx
+```
 
 *   liste les jounaux : 
 
-    ``Get-WinEvent -ListLog *``
+```shell
+  Get-WinEvent -ListLog *
 
     `Get-WinEvent -ListLog Security`
 
@@ -763,7 +782,7 @@ Pratiquer les cmdlet de manipulation de base de registre
     `Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object `
 
     ` Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object -ExpandProperty Message`
-
+```
 
 
 ###     Networking Management from The CLI
@@ -808,28 +827,49 @@ Pratiquer les cmdlet de manipulation de base de registre
 
 *   Activer SSH : 
 
-(1):`` Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'``
+(1):
+```shell  
+Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
+```
 
-(2):``Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0``
+(2):
+```shell 
+Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0
+```
 
-(3):``Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'``
+(3):
+```shell 
+Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
+```
 
 (4):
 ```shell 
 Start-Service sshd
 ```
 
-(5):``Set-Service -Name sshd -StartupType 'Automatic'`` 
+(5):
+```shell
+ Set-Service -Name sshd -StartupType 'Automatic'
+ ``` 
 
-(6):``ssh user@ip``
+(6):
+```shell 
+ssh user@ip
+```
 
-(7):``powershell``
+(7):
+```shell 
+powershell
+```
 
-(8):``test-netconnection`` 
+(8):
+```shell 
+test-netconnection
+```
 
 #### le web est powershell :
 
-```ps
+```shell 
 
 Get-Help Invoke-Webrequest
 Invoke-WebRequest -Uri "https://web.ics.purdue.edu/~gchopra/class/public/pages/webdesign/05_simple.html" Method GET | Get-Member
