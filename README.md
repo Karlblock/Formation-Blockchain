@@ -92,7 +92,8 @@ Des bases algorthymiques et en anglais sont un plus :
 - [WhitePaper de Bitcoin](https://bitcoin.org/bitcoin.pdf)
 - [Ethereum ](https://fr.wikipedia.org/wiki/Ethereum)
 - [Rust ](https://www.udemy.com/course/programmer-en-rust)
-- [go ](https://www.udemy.com/course/le-langage-go-formation-complete/) 
+- [go ](https://www.udemy.com/course/le-langage-go-formation-complete/)
+- [HTB Academy](https://academy.hackthebox.com/)
 
 - & more more more !
 
