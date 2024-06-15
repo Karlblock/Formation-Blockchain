@@ -881,12 +881,15 @@ Invoke-WebRequest -Uri "https://charles.siepen.fr" -Method GET | fl images
 
 #### script powershell et automatisation
 
+-<PowerShell Extensions
 |Extension|	Description| 
 |----|----|
 |ps1	|Le *.ps1 l'extension de fichier représente les scripts PowerShell exécutables.|
 |psm1|	Le *.psm1 l'extension de fichier représente un fichier de module PowerShell. Il définit ce qu'est le module et ce qu'il contient.|
 |psd1|	Le *.psd1 est un fichier de données PowerShell détaillant le contenu d'un module PowerShell dans une table de paires clé/valeur.|
 
+
+#####   Créer un module powerShell :
 
 
 
