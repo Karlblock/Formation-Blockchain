@@ -771,17 +771,21 @@ wevtutil epl System C:\system_export.evtx
 ```shell
   Get-WinEvent -ListLog *
 
-    `Get-WinEvent -ListLog Security`
+    Get-WinEvent -ListLog Security
+```
 
+```shell
 *   login Failure :
    
     `Get-WinEvent -FilterHashTable @{LogName='Security';ID='4625 '}`
+```
 
+```shell
 *   Event critical :
    
-    `Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object `
+    Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object 
 
-    ` Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object -ExpandProperty Message`
+    Get-WinEvent -FilterHashTable @{LogName='System';Level='1'} | select-object -ExpandProperty Message
 ```
 
 
@@ -877,7 +881,6 @@ Invoke-WebRequest -Uri "https://charles.siepen.fr" -Method GET | fl images
 
 ```
 
-
 #### script powershell et automatisation
 
 |Extension|	Description| 
@@ -885,6 +888,10 @@ Invoke-WebRequest -Uri "https://charles.siepen.fr" -Method GET | fl images
 |ps1	|Le *.ps1 l'extension de fichier représente les scripts PowerShell exécutables.|
 |psm1|	Le *.psm1 l'extension de fichier représente un fichier de module PowerShell. Il définit ce qu'est le module et ce qu'il contient.|
 |psd1|	Le *.psd1 est un fichier de données PowerShell détaillant le contenu d'un module PowerShell dans une table de paires clé/valeur.|
+
+
+
+
 
 
 
