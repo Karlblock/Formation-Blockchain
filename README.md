@@ -97,6 +97,7 @@ Des bases algorthymiques et en anglais sont un plus :
 - [Rust](https://www.udemy.com/course/programmer-en-rust)
 - [go](https://www.udemy.com/course/le-langage-go-formation-complete/)
 - [HTB Academy](https://academy.hackthebox.com/)
+- [leepCode](https://leetcode.com/)
 
 - & more more more !
 
