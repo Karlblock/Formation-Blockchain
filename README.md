@@ -4,6 +4,8 @@
 
 ## Par où commencer
 
+Déja si vous voulez me remercier vous pouvez vous inscrire sur [Hackthebox](https://referral.hackthebox.com/mz8x97E) en cliquant sur le lien.
+
 Je pense que l'aventure commence avec la lecture du [WhitePaper](https://bitcoin.org/bitcoin.pdf) de Bitcoin ! *C'est cool, j'ai déjà compris 30%  de bitcoin !*
 
 Quelles sont les étapes pour être en mesure de comprendre et pourquoi pas apporter nos idées qui sait jusqu'à ou nous seront dans la compréhension  le code de Bitcoin ? ``Let's go team ?``
