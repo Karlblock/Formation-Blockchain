@@ -53,6 +53,7 @@ git push origin ma-branche
 
 ---
 
+- [DarkMoon](https://github.com/ASCIT31/Dark-Moon) : plateforme open source française de test d'intrusion autonome pilotée par IA, à héberger soi même, pour s'exercer à la sécurité offensive sur le web, les API, l'Active Directory et Kubernetes.
 ## Ressources
 
 - [CS50 Harvard](https://cs50.harvard.edu/x/2024/)
